@@ -262,8 +262,6 @@ class Header extends React.Component {
                                         </svg>
                                         <svg
                                             className="logo-new logo-new--desktop"
-                                            width="148px"
-                                            height="38px"
                                             viewBox="0 0 148 38"
                                             version="1.1"
                                         >
