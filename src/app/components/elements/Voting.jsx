@@ -97,16 +97,6 @@ class Voting extends React.Component {
                 net_vesting_shares,
                 flag,
             } = this.props;
-            if (net_vesting_shares > VOTE_WEIGHT_DROPDOWN_THRESHOLD) {
-                localStorage.setItem(
-                    'voteWeight' +
-                        (up ? '' : 'Down') +
-                        '-' +
-                        username +
-                        (is_comment ? '-comment' : ''),
-                    weight
-                );
-            }
             // already voted Up, remove the vote
             const calculatedWeight = up
                 ? myVote > 0 ? 0 : weight
@@ -136,20 +126,6 @@ class Voting extends React.Component {
         };
         this.toggleWeightUpOrDown = up => {
             const { username, is_comment } = this.props;
-            // Upon opening dialog, read last used weight (this works accross tabs)
-            if (!this.state.showWeight) {
-                localStorage.removeItem('vote_weight'); // deprecated. remove this      line after 8/31
-                const saved_weight = localStorage.getItem(
-                    'voteWeight' +
-                        (up ? '' : 'Down') +
-                        '-' +
-                        username +
-                        (is_comment ? '-comment' : '')
-                );
-                this.setState({
-                    weight: saved_weight ? parseInt(saved_weight, 10) : 10000,
-                });
-            }
             this.setState({ showWeight: !this.state.showWeight });
         };
     }
