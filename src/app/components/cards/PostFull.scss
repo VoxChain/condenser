@@ -121,9 +121,11 @@
         fill: themed('textColorSecondary');
     }
   }
-  .Voting {
-    //padding-right: 1rem;
-    //margin-right: 1rem;
+  a {
+    font-size: 94%;
+    font-weight: 600;
+    @extend .link;
+    @extend .link--secondary;
   }
   .VerticalMenu > li > a {
     @include themify($themes) {
