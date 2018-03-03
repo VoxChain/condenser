@@ -240,7 +240,7 @@
         "faq": "常见问题",
         "chat": "Steemit聊天",
         "app_center": "Steemit应用中心",
-        "api_docs": "Steemit API文档",
+        "api_docs": "Vox API文档",
         "whitepaper": "Steem白皮书",
         "intro_tagline": "妙笔生金",
         "intro_paragraph":
@@ -340,7 +340,7 @@
         "request_already_submitted_contact_support":
             "您的请求已经提交，我们正在处理。请联系%(SUPPORT_EMAIL)s以获得您的请求的状态。",
         "recover_account_intro":
-            "有时候，Steemit 的拥有者钥匙可能会被盗用。被盗帐户恢复给予合法的帐户所有者30天，从小偷更改其所有者密钥的时候恢复其帐户。盗用帐户恢复只能在%(APP_URL)s上使用，如果帐户所有者已经明确列出 %(APP_NAME)s作为其帐户受信任者，并遵守了 %(APP_NAME)s 的服务条款。",
+            "有时候，Vox 的拥有者钥匙可能会被盗用。被盗帐户恢复给予合法的帐户所有者30天，从小偷更改其所有者密钥的时候恢复其帐户。盗用帐户恢复只能在%(APP_URL)s上使用，如果帐户所有者已经明确列出 %(APP_NAME)s作为其帐户受信任者，并遵守了 %(APP_NAME)s 的服务条款。",
         "login_with_facebook_or_reddit_media_to_verify_identity":
             "请登录Facebook或Reddit以验证你的身份",
         "login_with_social_media_to_verify_identity":

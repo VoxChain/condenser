@@ -5,7 +5,7 @@ class Tos extends React.Component {
         return (
             <div className="Tos row">
                 <div className="column">
-                    <h1>Steemit Terms of Service</h1>
+                    <h1>Vox Terms of Service</h1>
                     <p className="c0">
                         <span className="c1 c2">
                             Last Updated April 28, 2016
@@ -13,46 +13,45 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Welcome to Steemit! These Terms of Service (&ldquo;
+                            Welcome to Vox! These Terms of Service (&ldquo;
                         </span>
                         <span className="c1 c2">Terms</span>
                         <span className="c1">
                             &rdquo;) apply to your access to and use of
-                            Steemit.com and any other products or services that
-                            link to these Terms (&ldquo;
+                            Vox.community and any other products or services
+                            that link to these Terms (&ldquo;
                         </span>
-                        <span className="c1 c2">Steemit</span>
+                        <span className="c1 c2">Vox</span>
                         <span className="c1">
-                            &rdquo;). Steemit is provided by Steemit, Inc.
-                            (&ldquo;
+                            &rdquo;). Vox is provided by Vox, Inc. (&ldquo;
                         </span>
-                        <span className="c1 c2">Steemit</span>
+                        <span className="c1 c2">Vox</span>
                         <span className="c1">&rdquo;, &ldquo;</span>
                         <span className="c1 c2">we</span>
                         <span className="c1">&rdquo; or &ldquo;</span>
                         <span className="c1 c2">us</span>
                         <span className="c1">
-                            &rdquo;). By accessing or using Steemit, you agree
-                            to be bound by these Terms. If you do not agree to
-                            these Terms, including the mandatory arbitration
-                            provision and class action waiver in Section 14, do
-                            not access or use Steemit. If we make changes to
-                            these Terms, we will provide notice of those changes
-                            by updating the &ldquo;
+                            &rdquo;). By accessing or using Vox, you agree to be
+                            bound by these Terms. If you do not agree to these
+                            Terms, including the mandatory arbitration provision
+                            and class action waiver in Section 14, do not access
+                            or use Vox. If we make changes to these Terms, we
+                            will provide notice of those changes by updating the
+                            &ldquo;
                         </span>
                         <span className="c1 c2">Last Updated</span>
                         <span className="c1">
-                            &rdquo; date above or posting notice on Steemit.
-                            Your continued use of Steemit will confirm your
-                            acceptance of the changes.
+                            &rdquo; date above or posting notice on Vox. Your
+                            continued use of Vox will confirm your acceptance of
+                            the changes.
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1 h">
                             You understand and agree that these Terms apply
-                            solely to your access to, and use of, Steemit and
-                            that, when you use other Steemit services such as
-                            Steemit.com or Steemitgifts.com, the terms and
+                            solely to your access to, and use of, Vox and that,
+                            when you use other Vox services such as
+                            Vox.community or Steemitgifts.com, the terms and
                             policies particular to those services apply.
                         </span>
                     </p>
@@ -71,14 +70,13 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Steemit is not targeted towards, nor intended for
-                            use by, anyone under the age of 13. You must be at
-                            least 13 years of age to access or use Steemit. If
-                            you are between 13 and 18 years of age (or the age
-                            of legal majority where you reside), you may only
-                            access or use Steemit under the supervision of a
-                            parent or legal guardian who agrees to be bound by
-                            these Terms.
+                            Vox is not targeted towards, nor intended for use
+                            by, anyone under the age of 13. You must be at least
+                            13 years of age to access or use Vox. If you are
+                            between 13 and 18 years of age (or the age of legal
+                            majority where you reside), you may only access or
+                            use Vox under the supervision of a parent or legal
+                            guardian who agrees to be bound by these Terms.
                         </span>
                     </p>
                     <p className="c0">
@@ -88,42 +86,41 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Steemit contains data, text, photographs, images,
-                            video, audio, graphics, articles, comments,
-                            software, code, scripts and other content supplied
-                            by us, the Steem blockchain or our licensors, which
-                            we call{' '}
+                            Vox contains data, text, photographs, images, video,
+                            audio, graphics, articles, comments, software, code,
+                            scripts and other content supplied by us, the
+                            VoxChain blockchain or our licensors, which we call{' '}
                         </span>
                         <span className="c1 c2">
-                            &ldquo;Steemit Content.&rdquo;
+                            &ldquo;Vox Content.&rdquo;
                         </span>
                         <span className="c1">
-                            &nbsp;Steemit Content is protected by intellectual
+                            &nbsp;Vox Content is protected by intellectual
                             property laws, including copyright and other
                             proprietary rights of the United States and foreign
                             countries. Except as explicitly stated in these
-                            Terms, Steemit does not grant any express or implied
-                            rights to use Steemit Content.
+                            Terms, Vox does not grant any express or implied
+                            rights to use Vox Content.
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1">
                             You are granted a limited, nonexclusive,
                             non-transferable, and non-sublicensable license to
-                            access and use Steemit and Steemit Content for your
+                            access and use Vox and Vox Content for your
                             personal, non-commercial use. This license is
                             subject to these Terms and does not include any
                             right to: (a) distribute, publicly perform or
-                            publicly display any Steemit Content; (b) modify or
-                            otherwise make any derivative uses of Steemit or
-                            Steemit Content, or any portion thereof; (c) use any
-                            data mining, robots or similar data gathering or
-                            extraction methods; and (d) use Steemit or Steemit
-                            Content other than for their intended purposes. Any
-                            use of Steemit or Steemit Content other than as
-                            authorized in these Terms is strictly prohibited and
-                            will terminate the license granted herein. This
-                            license is revocable at any time.
+                            publicly display any Vox Content; (b) modify or
+                            otherwise make any derivative uses of Vox or Vox
+                            Content, or any portion thereof; (c) use any data
+                            mining, robots or similar data gathering or
+                            extraction methods; and (d) use Vox or Vox Content
+                            other than for their intended purposes. Any use of
+                            Vox or Vox Content other than as authorized in these
+                            Terms is strictly prohibited and will terminate the
+                            license granted herein. This license is revocable at
+                            any time.
                         </span>
                     </p>
                     <p className="c0">
@@ -131,8 +128,8 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Steemit is intended for a general audience and, as a
-                            result, some Steemit Content may discuss or depict
+                            Vox is intended for a general audience and, as a
+                            result, some Vox Content may discuss or depict
                             adult-oriented topics. We realize that this content
                             may not be appropriate or desirable for some of our
                             readers depending on their current location, age,
@@ -144,12 +141,12 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Marking Steemit Content as NSFW does not prevent you
+                            Marking Vox Content as NSFW does not prevent you
                             from being able to access this content but, instead,
                             helps you make informed decisions about the type of
-                            content you view on Steemit. You understand and
-                            agree that you access content marked as NSFW at your
-                            own risk.
+                            content you view on Vox. You understand and agree
+                            that you access content marked as NSFW at your own
+                            risk.
                         </span>
                     </p>
                     <p className="c0">
@@ -157,33 +154,32 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            &ldquo;Steem,&rdquo; &ldquo; Steemit,&rdquo; the
-                            Steemit logo and any other product or service names,
-                            logos or slogans that may appear on Steemit are
-                            trademarks of Steemit and may not be copied,
-                            imitated or used, in whole or in part, without our
-                            prior written permission. You may not use any
-                            metatags or other &ldquo; hidden text&rdquo;
-                            utilizing &ldquo;Steemit&rdquo; or any other name,
-                            trademark or product or service name of Steemit
-                            without our prior written permission. In addition,
-                            the look and feel of Steemit, including, without
-                            limitation, all page headers, custom graphics,
-                            button icons and scripts, constitute the service
-                            mark, trademark or trade dress of Steemit and may
-                            not be copied, imitated or used, in whole or in
-                            part, without our prior written permission. All
-                            other trademarks, registered trademarks, product
-                            names and company names or logos mentioned or used
-                            on Steemit are the property of their respective
-                            owners and may not be copied, imitated or used, in
-                            whole or in part, without the permission of the
-                            applicable trademark holder. Reference to any
+                            &ldquo;VoxChain,&rdquo; &ldquo; Vox,&rdquo; the Vox
+                            logo and any other product or service names, logos
+                            or slogans that may appear on Vox are trademarks of
+                            Vox and may not be copied, imitated or used, in
+                            whole or in part, without our prior written
+                            permission. You may not use any metatags or other
+                            &ldquo; hidden text&rdquo; utilizing
+                            &ldquo;Vox&rdquo; or any other name, trademark or
+                            product or service name of Vox without our prior
+                            written permission. In addition, the look and feel
+                            of Vox, including, without limitation, all page
+                            headers, custom graphics, button icons and scripts,
+                            constitute the service mark, trademark or trade
+                            dress of Vox and may not be copied, imitated or
+                            used, in whole or in part, without our prior written
+                            permission. All other trademarks, registered
+                            trademarks, product names and company names or logos
+                            mentioned or used on Vox are the property of their
+                            respective owners and may not be copied, imitated or
+                            used, in whole or in part, without the permission of
+                            the applicable trademark holder. Reference to any
                             products, services, processes or other information
                             by name, trademark, manufacturer, supplier or
                             otherwise does not constitute or imply endorsement,
                             sponsorship or recommendation by
-                            Steemit.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Vox.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </span>
                     </p>
                     <p className="c0">
@@ -203,11 +199,10 @@ class Tos extends React.Component {
                             third parties may obtain unauthorized access to
                             information stored within your Account, including,
                             but not limited to your Private Key (as defined
-                            below at 10.2.). You accept and acknowledge that
-                            Steemit will not be responsible for any
-                            communication failures, disruptions, errors,
-                            distortions or delays you may experience when using
-                            the Services, however
+                            below at 10.2.). You accept and acknowledge that Vox
+                            will not be responsible for any communication
+                            failures, disruptions, errors, distortions or delays
+                            you may experience when using the Services, however
                             caused.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </span>
                     </p>
@@ -284,13 +279,13 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1 h">
-                            7. Agreement to Hold Steemit Harmless
+                            7. Agreement to Hold Vox Harmless
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            7.1. &nbsp;You agree to hold harmless Steemit (and
-                            each of our officers, directors, members, employees,
+                            7.1. &nbsp;You agree to hold harmless Vox (and each
+                            of our officers, directors, members, employees,
                             agents and affiliates) from any claim, demand,
                             action, damage, loss, cost or expense, including
                             without limitation reasonable legal fees, arising
@@ -366,9 +361,9 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            9.1. &nbsp;You need not use a Steemit Account. If
-                            you wish to use an Account, you must create an
-                            Account with Steemit to access the Services (&ldquo;
+                            9.1. &nbsp;You need not use a Vox Account. If you
+                            wish to use an Account, you must create an Account
+                            with Vox to access the Services (&ldquo;
                             Account&rdquo;). When you create an Account, you are
                             strongly advised to take the following precautions,
                             as failure to do so may result in loss of access to,
@@ -398,7 +393,7 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1 h">
-                            10. The Steemit
+                            10. The Vox
                             Services&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </span>
                     </p>
@@ -409,7 +404,7 @@ class Tos extends React.Component {
                             otherwise local) software that (a) generates and
                             stores STEEM ACCOUNT Addresses and encrypted Private
                             Keys (defined below), and (b) Facilitates the
-                            submission of STEEM transaction data to the Steem
+                            submission of STEEM transaction data to the VoxChain
                             network without requiring you to access the STEEM
                             command line
                             interface.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -420,23 +415,23 @@ class Tos extends React.Component {
                             10.2. &nbsp;Account Names and Private Keys. When you
                             create an Account, the Services generate and store a
                             cryptographic private and public key pair that you
-                            may use to send and receive STEEM and Steem Dollars
-                            via the Steem network.. The Private Key uniquely
-                            matches the Account Name and must be used in
-                            connection with the Account Name to authorize the
-                            transfer of STEEM and Steem Dollars from that
+                            may use to send and receive STEEM and VoxChain
+                            Dollars via the VoxChain network.. The Private Key
+                            uniquely matches the Account Name and must be used
+                            in connection with the Account Name to authorize the
+                            transfer of STEEM and VoxChain Dollars from that
                             Account. You are solely responsible for maintaining
                             the security of your Private Key and any password
                             phrase associated with your wallet. You must keep
                             your Account, password phrase and Private Key access
                             information secure. Failure to do so may result in
-                            the loss of control of Steem, Steem Power and Steem
-                            Dollars associated with the Wallet.
+                            the loss of control of VoxChain, VoxChain Power and
+                            VoxChain Dollars associated with the Wallet.
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            10.3. &nbsp;No Password Retrieval. Steemit does not
+                            10.3. &nbsp;No Password Retrieval. Vox does not
                             receive or store your Account password, nor the
                             unencrypted keys and addresses. Therefore, we cannot
                             assist you with Account password retrieval. Our
@@ -448,7 +443,7 @@ class Tos extends React.Component {
                             password. If you have not safely stored a backup of
                             any Account Names and password pairs maintained in
                             your Account, you accept and acknowledge that any
-                            STEEM, Steem Dollars and Steem Power you have
+                            STEEM, VoxChain Dollars and VoxChain Power you have
                             associated with such Account will become
                             inaccessible if you do not have your Account
                             password.
@@ -457,22 +452,22 @@ class Tos extends React.Component {
                     <p className="c0">
                         <span className="c1">
                             10.4. &nbsp;Transactions. In order to be completed,
-                            all proposed Steem transactions must be confirmed
-                            and recorded in the Steem public ledger via the
-                            Steem distributed consensus network (a peer-to-peer
-                            economic network that operates on a cryptographic
-                            protocol), which is not owned, controlled or
-                            operated by Steemit. The Steem Network is operated
-                            by a decentralized network of independent third
-                            parties. Blockchain has no control over the Steem
-                            network and therefore cannot and does not ensure
-                            that any transaction details you submit via the
-                            Services will be confirmed via the Steem network.
-                            You acknowledge and agree that the transaction
-                            details you submit via the Services may not be
-                            completed, or may be substantially delayed, by the
-                            Steem network. You may use the Services to submit
-                            these details to the
+                            all proposed VoxChain transactions must be confirmed
+                            and recorded in the VoxChain public ledger via the
+                            VoxChain distributed consensus network (a
+                            peer-to-peer economic network that operates on a
+                            cryptographic protocol), which is not owned,
+                            controlled or operated by Vox. The VoxChain Network
+                            is operated by a decentralized network of
+                            independent third parties. Blockchain has no control
+                            over the VoxChain network and therefore cannot and
+                            does not ensure that any transaction details you
+                            submit via the Services will be confirmed via the
+                            VoxChain network. You acknowledge and agree that the
+                            transaction details you submit via the Services may
+                            not be completed, or may be substantially delayed,
+                            by the VoxChain network. You may use the Services to
+                            submit these details to the
                             network.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </span>
@@ -480,17 +475,18 @@ class Tos extends React.Component {
                     <p className="c0">
                         <span className="c1">
                             10.5. &nbsp;No Storage or Transmission of STEEM,
-                            Steem Dollars or Steem Power. Steem, in any of its
-                            forms (STEEM, Steem Dollars and Steem Power) is an
-                            intangible, digital asset. They exist only by virtue
-                            of the ownership record maintained in the Steem
-                            network. The Service does not store, send or receive
-                            Steem. Any transfer of title that might occur in any
-                            STEEM, Steem Dollars or Steem Power occurs on the
-                            decentralized ledger within the Steem network and
-                            not within the Services. We do not guarantee that
-                            the Service can effect the transfer of title or
-                            right in any Steem, Steem Dollars or Steem Power.
+                            VoxChain Dollars or VoxChain Power. VoxChain, in any
+                            of its forms (STEEM, VoxChain Dollars and VoxChain
+                            Power) is an intangible, digital asset. They exist
+                            only by virtue of the ownership record maintained in
+                            the VoxChain network. The Service does not store,
+                            send or receive VoxChain. Any transfer of title that
+                            might occur in any STEEM, VoxChain Dollars or
+                            VoxChain Power occurs on the decentralized ledger
+                            within the VoxChain network and not within the
+                            Services. We do not guarantee that the Service can
+                            effect the transfer of title or right in any
+                            VoxChain, VoxChain Dollars or VoxChain Power.
                         </span>
                     </p>
                     <p className="c0">
@@ -498,8 +494,8 @@ class Tos extends React.Component {
                             10.6. &nbsp;Relationship. Nothing in these Terms is
                             intended to nor shall create any partnership, joint
                             venture, agency, consultancy or trusteeship, you and
-                            Steemit being with respect to one another
-                            independent contractors.
+                            Vox being with respect to one another independent
+                            contractors.
                         </span>
                     </p>
                     <p className="c0">
@@ -507,9 +503,9 @@ class Tos extends React.Component {
                             10.7. &nbsp;Accuracy of Information. You represent
                             and warrant that any information you provide via the
                             Services is accurate and complete. You accept and
-                            acknowledge that Steemit is not responsible for any
+                            acknowledge that Vox is not responsible for any
                             errors or omissions that you make in connection with
-                            any Steem transaction initiated via the Services,
+                            any VoxChain transaction initiated via the Services,
                             for instance, if you mistype an Account Name or
                             otherwise provide incorrect information. We strongly
                             encourage you to review your transaction details
@@ -519,12 +515,13 @@ class Tos extends React.Component {
                     <p className="c0">
                         <span className="c1">
                             10.8. &nbsp;No Cancellations or Modifications. Once
-                            transaction details have been submitted to the Steem
-                            network via the Services, The Services cannot assist
-                            you to cancel or otherwise modify your transaction
-                            details. Steemit has no control over the Steem
-                            Network and does not have the ability to facilitate
-                            any cancellation or modification requests.
+                            transaction details have been submitted to the
+                            VoxChain network via the Services, The Services
+                            cannot assist you to cancel or otherwise modify your
+                            transaction details. Vox has no control over the
+                            VoxChain Network and does not have the ability to
+                            facilitate any cancellation or modification
+                            requests.
                         </span>
                     </p>
                     <p className="c0">
@@ -534,42 +531,42 @@ class Tos extends React.Component {
                             transactions you for which you have submitted
                             transaction details via the Services, and it is your
                             responsibility to report and remit the correct tax
-                            to the appropriate tax authority. You agree that
-                            Steemit is not responsible for determining whether
-                            taxes apply to your Steem transactions or for
+                            to the appropriate tax authority. You agree that Vox
+                            is not responsible for determining whether taxes
+                            apply to your VoxChain transactions or for
                             collecting, reporting, withholding or remitting any
-                            taxes arising from any Steem
+                            taxes arising from any VoxChain
                             transactions.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1 h">
-                            11. Fees for Using the Steemit Services
+                            11. Fees for Using the Vox Services
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            11.1. Company Fees Creating an Account. Steemit does
-                            not currently charge fees for any Services, however
-                            we reserve the right to do so in future, and in such
+                            11.1. Company Fees Creating an Account. Vox does not
+                            currently charge fees for any Services, however we
+                            reserve the right to do so in future, and in such
                             case any applicable fees will be displayed prior to
                             you using any Service to which a fee applies.
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1 h">
-                            12. No Right To Cancel And/Or Reverse Steem
+                            12. No Right To Cancel And/Or Reverse VoxChain
                             Transactions
                         </span>
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            14.1. If you use a Service to which Steem, Steem
-                            Dollars or Steem Power is transacted, you will not
-                            be able to change your mind once you have confirmed
-                            that you wish to proceed with the Service or
-                            transaction.
+                            14.1. If you use a Service to which VoxChain,
+                            VoxChain Dollars or VoxChain Power is transacted,
+                            you will not be able to change your mind once you
+                            have confirmed that you wish to proceed with the
+                            Service or transaction.
                         </span>
                     </p>
                     <p className="c0">
@@ -595,8 +592,8 @@ class Tos extends React.Component {
                         <span className="c1">
                             15.2. &nbsp;If you do not maintain a backup of your
                             Account data outside of the Services, you will be
-                            may not be able to access Steem, Steem Dollars and
-                            Steem Power associated with any Account Name
+                            may not be able to access VoxChain, VoxChain Dollars
+                            and VoxChain Power associated with any Account Name
                             maintained in your Account in the event that we
                             discontinue or deprecate the Services.
                         </span>
@@ -705,11 +702,11 @@ class Tos extends React.Component {
                     </p>
                     <p className="c6">
                         <span className="c1">
-                            17.1.10. &nbsp;Reverse engineer any aspect of
-                            Steemit or do anything that might discover source
-                            code or bypass or circumvent measures employed to
-                            prevent or limit access to any Steemit Content, area
-                            or code of Steemit.
+                            17.1.10. &nbsp;Reverse engineer any aspect of Vox or
+                            do anything that might discover source code or
+                            bypass or circumvent measures employed to prevent or
+                            limit access to any Vox Content, area or code of
+                            Vox.
                         </span>
                     </p>
                     <p className="c6 c9">
@@ -722,22 +719,22 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Steemit may include links and other content owned or
+                            Vox may include links and other content owned or
                             operated by third parties, including advertisements
                             and social &ldquo; widgets&rdquo; (we call these
                             &ldquo;
                         </span>
                         <span className="c1 c2">Third-Party Content</span>
                         <span className="c1">
-                            &ldquo;). You agree that Steemit is not responsible
-                            or liable for Third-Party Content and that you
-                            access and use Third-Party Content at your own risk.
-                            Your interactions with Third-Party Content are
-                            solely between you and the third party providing the
-                            content. When you leave Steemit, you should
-                            understand that these Terms no longer govern and
-                            that the terms and policies of those third-party
-                            sites or services will then apply.
+                            &ldquo;). You agree that Vox is not responsible or
+                            liable for Third-Party Content and that you access
+                            and use Third-Party Content at your own risk. Your
+                            interactions with Third-Party Content are solely
+                            between you and the third party providing the
+                            content. When you leave Vox, you should understand
+                            that these Terms no longer govern and that the terms
+                            and policies of those third-party sites or services
+                            will then apply.
                         </span>
                     </p>
                     <p className="c6 c9">
@@ -749,21 +746,21 @@ class Tos extends React.Component {
                     <p className="c0">
                         <span className="c1">
                             You may submit questions, comments, feedback,
-                            suggestions, and other information regarding Steemit
-                            (we call this &ldquo;
+                            suggestions, and other information regarding Vox (we
+                            call this &ldquo;
                         </span>
                         <span className="c1 c2">Feedback</span>
                         <span className="c1">
                             &ldquo;). You acknowledge and agree that Feedback is
                             non-confidential and will become the sole property
-                            of Steemit. Steemit shall own exclusive rights,
-                            including, without limitation, all intellectual
-                            property rights, in and to such Feedback and is
-                            entitled to the unrestricted use and dissemination
-                            of this Feedback for any purpose, without
-                            acknowledgment or compensation to you. You agree to
-                            execute any documentation required by Steemit to
-                            confirm such assignment to Steemit.
+                            of Vox. Vox shall own exclusive rights, including,
+                            without limitation, all intellectual property
+                            rights, in and to such Feedback and is entitled to
+                            the unrestricted use and dissemination of this
+                            Feedback for any purpose, without acknowledgment or
+                            compensation to you. You agree to execute any
+                            documentation required by Vox to confirm such
+                            assignment to Vox.
                         </span>
                     </p>
                     <p className="c0">
@@ -771,12 +768,12 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Steemit respects the intellectual property of others
-                            by not reading infringed content from the Steem
+                            Vox respects the intellectual property of others by
+                            not reading infringed content from the VoxChain
                             blockchain. If you believe that your work has been
                             copied in a way that constitutes copyright
-                            infringement, you may notify Steemit&rsquo; s
-                            Designated Agent by contacting:
+                            infringement, you may notify Vox&rsquo; s Designated
+                            Agent by contacting:
                         </span>
                     </p>
                     <p className="c0">
@@ -798,10 +795,10 @@ class Tos extends React.Component {
                             in your notification that the material or activity
                             is infringing, you may be liable for any damages,
                             including costs and attorneys&rsquo; fees, incurred
-                            by Steemit or the alleged infringer, as the result
-                            of Steemit&rsquo;s relying upon such
-                            misrepresentation in removing or disabling access to
-                            the material or activity claimed to be infringing.
+                            by Vox or the alleged infringer, as the result of
+                            Vox&rsquo;s relying upon such misrepresentation in
+                            removing or disabling access to the material or
+                            activity claimed to be infringing.
                         </span>
                     </p>
                     <p className="c0">
@@ -869,18 +866,16 @@ class Tos extends React.Component {
                         </span>
                     </p>
                     <p className="c0">
-                        <span className="c1 h">
-                            23. Modifications to Steemit
-                        </span>
+                        <span className="c1 h">23. Modifications to Vox</span>
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Steemit reserves the right to modify or discontinue,
-                            temporarily or permanently, Steemit, or any features
-                            or portions of Steemit, without prior notice. You
-                            agree that Steemit will not be liable for any
-                            modification, suspension or discontinuance of
-                            Steemit, or any part of Steemit.
+                            Vox reserves the right to modify or discontinue,
+                            temporarily or permanently, Vox, or any features or
+                            portions of Vox, without prior notice. You agree
+                            that Vox will not be liable for any modification,
+                            suspension or discontinuance of Vox, or any part of
+                            Vox.
                         </span>
                     </p>
                     <p className="c0">
@@ -904,14 +899,14 @@ class Tos extends React.Component {
                             seeks injunctive or other equitable relief for the
                             alleged unlawful use of copyrights, trademarks,
                             trade names, logos, trade secrets or patents, you
-                            and Steemit: (a) waive your right to have any and
-                            all disputes or Claims arising from these Terms or
-                            Steemit (collectively, &ldquo;
+                            and Vox: (a) waive your right to have any and all
+                            disputes or Claims arising from these Terms or Vox
+                            (collectively, &ldquo;
                         </span>
                         <span className="c1 c2">Disputes</span>
                         <span className="c1">
                             &ldquo;) resolved in a court; and (b) waive your
-                            right to a jury trial. Instead, you and Steemit will
+                            right to a jury trial. Instead, you and Vox will
                             arbitrate Disputes through binding arbitration
                             (which is the referral of a Dispute to one or more
                             persons charged with reviewing the Dispute and
@@ -951,13 +946,13 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            You and Steemit agree that these Terms affect
-                            interstate commerce and that the enforceability of
-                            this Section 14 shall be governed by, construed and
-                            enforced, both substantively and procedurally, by
-                            the Federal Arbitration Act, 9 U.S.C. &sect; 1 et
-                            seq. (the &ldquo;FAA&rdquo;) to the maximum extent
-                            permitted by applicable law.
+                            You and Vox agree that these Terms affect interstate
+                            commerce and that the enforceability of this Section
+                            14 shall be governed by, construed and enforced,
+                            both substantively and procedurally, by the Federal
+                            Arbitration Act, 9 U.S.C. &sect; 1 et seq. (the
+                            &ldquo;FAA&rdquo;) to the maximum extent permitted
+                            by applicable law.
                         </span>
                     </p>
                     <p className="c0">
@@ -965,42 +960,42 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            You and Steemit agree that you will notify each
-                            other in writing of any Dispute within thirty (30)
-                            days of when it arises so that the parties can
-                            attempt, in good faith, to resolve the Dispute
-                            informally. Notice to Steemit shall be provided by
-                            filling out the form available at
-                            https://steemit.com/contact/ or sending an email to{' '}
+                            You and Vox agree that you will notify each other in
+                            writing of any Dispute within thirty (30) days of
+                            when it arises so that the parties can attempt, in
+                            good faith, to resolve the Dispute informally.
+                            Notice to Vox shall be provided by filling out the
+                            form available at https://steemit.com/contact/ or
+                            sending an email to{' '}
                         </span>
-                        <span className="c4">contact@Steemit.com</span>
+                        <span className="c4">contact@Vox.community</span>
                         <span className="c1">
                             . Your notice must include: (1) your name, postal
                             address and email address; (2) a description of the
                             nature or basis of the Dispute; and (3) the specific
-                            relief that you are seeking. If you and Steemit
-                            cannot agree how to resolve the Dispute within
-                            thirty (30) days of Steemit receiving the notice,
-                            either you or Steemit may, as appropriate pursuant
-                            to this Section 14, commence an arbitration
-                            proceeding or file a claim in court. You and Steemit
-                            agree that any arbitration or claim must be
-                            commenced or filed within one (1) year after the
-                            Dispute arose; otherwise, you and Steemit agree that
-                            the claim is permanently barred (which means that
-                            you will no longer have the right to assert a claim
-                            regarding the Dispute). You and Steemit agree that:
-                            (a) any arbitration will occur in San Francisco
-                            County, California; (b) arbitration will be
-                            conducted confidentially by a single arbitrator in
-                            accordance with the rules of JAMS; and (c) the state
-                            or federal courts in California will have exclusive
-                            jurisdiction over the enforcement of an arbitration
-                            award and over any Dispute between the parties that
-                            is not subject to arbitration. You may also litigate
-                            a Dispute in small claims court located in the
-                            county where you reside if the Dispute meets the
-                            requirements to be heard in small claims court.
+                            relief that you are seeking. If you and Vox cannot
+                            agree how to resolve the Dispute within thirty (30)
+                            days of Vox receiving the notice, either you or Vox
+                            may, as appropriate pursuant to this Section 14,
+                            commence an arbitration proceeding or file a claim
+                            in court. You and Vox agree that any arbitration or
+                            claim must be commenced or filed within one (1) year
+                            after the Dispute arose; otherwise, you and Vox
+                            agree that the claim is permanently barred (which
+                            means that you will no longer have the right to
+                            assert a claim regarding the Dispute). You and Vox
+                            agree that: (a) any arbitration will occur in San
+                            Francisco County, California; (b) arbitration will
+                            be conducted confidentially by a single arbitrator
+                            in accordance with the rules of JAMS; and (c) the
+                            state or federal courts in California will have
+                            exclusive jurisdiction over the enforcement of an
+                            arbitration award and over any Dispute between the
+                            parties that is not subject to arbitration. You may
+                            also litigate a Dispute in small claims court
+                            located in the county where you reside if the
+                            Dispute meets the requirements to be heard in small
+                            claims court.
                         </span>
                     </p>
                     <p className="c0">
@@ -1071,20 +1066,20 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            These Terms and your access to and use of Steemit
-                            and the Steemit Content will be governed by, and
-                            construed in accordance with, the laws of
-                            California, without resort to its conflict of law
-                            provisions. To the extent the arbitration provision
-                            in Section 14 does not apply and the Dispute cannot
-                            be heard in small claims court, you agree that any
-                            action at law or in equity arising out of, or
-                            relating to, these Terms shall be filed only in the
-                            state and federal courts located in San Francisco
-                            County, California and you hereby irrevocably and
-                            unconditionally consent and submit to the exclusive
-                            jurisdiction of such courts over any suit, action or
-                            proceeding arising out of these Terms.
+                            These Terms and your access to and use of Vox and
+                            the Vox Content will be governed by, and construed
+                            in accordance with, the laws of California, without
+                            resort to its conflict of law provisions. To the
+                            extent the arbitration provision in Section 14 does
+                            not apply and the Dispute cannot be heard in small
+                            claims court, you agree that any action at law or in
+                            equity arising out of, or relating to, these Terms
+                            shall be filed only in the state and federal courts
+                            located in San Francisco County, California and you
+                            hereby irrevocably and unconditionally consent and
+                            submit to the exclusive jurisdiction of such courts
+                            over any suit, action or proceeding arising out of
+                            these Terms.
                         </span>
                     </p>
                     <p className="c0">
@@ -1092,10 +1087,10 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Steemit reserves the right, without notice and in
-                            our sole discretion, to terminate your license to
-                            access and use Steemit and to block or prevent your
-                            future access to, and use of, Steemit.
+                            Vox reserves the right, without notice and in our
+                            sole discretion, to terminate your license to access
+                            and use Vox and to block or prevent your future
+                            access to, and use of, Vox.
                         </span>
                     </p>
                     <p className="c0">
@@ -1118,8 +1113,7 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            Questions or comments about Steemit may be directed
-                            to{' '}
+                            Questions or comments about Vox may be directed to{' '}
                             <a href="mailto:contact@steemit.com">
                                 contact@steemit.com
                             </a>

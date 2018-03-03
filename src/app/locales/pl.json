@@ -178,7 +178,7 @@
         "vote_currently_exists_user_must_be_indicate_a_to_reject_witness":
             "głos oddany, użytkownik musi wskazać powód odrzucenia delegata",
         "only_one_APP_NAME_account_allowed_per_ip_address_every_10_minutes":
-            "Dozwolone jest tylko jedno konto Steem dla danego adresu IP w ciągu 10 minut",
+            "Dozwolone jest tylko jedno konto VoxChain dla danego adresu IP w ciągu 10 minut",
         "resteem_this_post": "Resteemuj ten post",
         "reblog": "Resteem",
         "write_your_story": "Napisz swoją historię",
@@ -232,7 +232,7 @@
         }
     },
     "navigation": {
-        "about": "O Steem",
+        "about": "O VoxChain",
         "explore": "Przeglądaj",
         "APP_NAME_whitepaper": "%(APP_NAME)s Whitepaper",
         "buy_LIQUID_TOKEN": "Kup %(LIQUID_TOKEN)s",
@@ -248,10 +248,10 @@
         "learn_more": "Dowiedz się więcej",
         "welcome": "Witaj",
         "faq": "FAQ",
-        "chat": "Steemit Chat",
-        "app_center": "Steemit App Center",
-        "api_docs": "Dokumentacja Steemit API",
-        "whitepaper": "Steem Whitepaper",
+        "chat": "Vox Chat",
+        "app_center": "Vox App Center",
+        "api_docs": "Dokumentacja Vox API",
+        "whitepaper": "VoxChain Whitepaper",
         "intro_tagline": "Pieniądze mają głos.",
         "intro_paragraph":
             "Twój głos ma wartość. Dołącz do społeczności, która płaci za publikowanie i głosowanie na wysokiej jakości treści."
@@ -534,7 +534,7 @@
         "converted_VESTING_TOKEN_can_be_sent_to_yourself_but_can_not_transfer_again":
             "Przekonwertowane jednostki %(VESTING_TOKEN)s możesz wysłać sobie lub komuś innemu ale nie możesz ich wysłać ponownie bez konwersji z powrotem do tokenów %(LIQUID_TOKEN)s.",
         "part_of_your_steem_power_is_currently_delegated":
-            "Część z Twoich jednostek wpływu STEEM POWER jest Ci oddelegowana. Delegowane jednostek to czasowe użyczenie dla zwiększenia wpływu lub by pomóc nowym użytkownikom platformy w korzystaniu ze Steemit. Kwota oddelegowanych jednostek może się zmieniać w czasie."
+            "Część z Twoich jednostek wpływu STEEM POWER jest Ci oddelegowana. Delegowane jednostek to czasowe użyczenie dla zwiększenia wpływu lub by pomóc nowym użytkownikom platformy w korzystaniu ze Vox. Kwota oddelegowanych jednostek może się zmieniać w czasie."
     },
     "promote_post_jsx": {
         "promote_post": "Promuj wpis",
@@ -548,7 +548,7 @@
     "about_jsx": {
         "about_app": "O %(APP_NAME)s",
         "about_app_details":
-            "%(APP_NAME)s jest platformą mediów społecznościowych gdzie wszyscy są opłacani za tworzenie i głosowanie na treści. Bazuje na solidnym systemie cyfrowych tokenów o nazwie Steem, który reprezentuje realną wartość żetonów cyfrowych, opierając się na płynności i wolnorynkowej wycenie.",
+            "%(APP_NAME)s jest platformą mediów społecznościowych gdzie wszyscy są opłacani za tworzenie i głosowanie na treści. Bazuje na solidnym systemie cyfrowych tokenów o nazwie VoxChain, który reprezentuje realną wartość żetonów cyfrowych, opierając się na płynności i wolnorynkowej wycenie.",
         "learn_more_at_app_url": "Dowiedz się więcej %(APP_URL)s",
         "resources": "Zasoby"
     },
@@ -642,7 +642,7 @@
         "password_update_succes":
             "Hasło %(accountName)s zostało zaktualizowane",
         "password_info":
-            "To hasło lub klucz prywatny zostało wprowadzone błędnie. Sprawdź poprawność zapisu. Wskazówka: Hasło lub klucz prywatny wygenerowany przez Steemit, nigdy nie będzie zawierał znaków: 0 (zero), O (duża litera o), I (duża litera i) i l (mała litera L).",
+            "To hasło lub klucz prywatny zostało wprowadzone błędnie. Sprawdź poprawność zapisu. Wskazówka: Hasło lub klucz prywatny wygenerowany przez Vox, nigdy nie będzie zawierał znaków: 0 (zero), O (duża litera o), I (duża litera i) i l (mała litera L).",
         "enter_your_username": "Podaj nazwę użytkownika",
         "password_or_wif": "Hasło lub WIF",
         "this_operation_requires_your_key_or_master_password":

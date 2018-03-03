@@ -180,7 +180,7 @@
         "vote_currently_exists_user_must_be_indicate_a_to_reject_witness":
             "vote currently exists, user must be indicate a desire to reject witness",
         "only_one_APP_NAME_account_allowed_per_ip_address_every_10_minutes":
-            "Only one Steem account allowed per IP address every 10 minutes",
+            "Only one VoxChain account allowed per IP address every 10 minutes",
         "resteem_this_post": "Resteem This Post",
         "reblog": "리스팀",
         "write_your_story": "내용을 입력하세요",
@@ -235,7 +235,7 @@
             "confirm":
                 "You are about to publish a STEEM private key or master password. You will probably lose control of the associated account and all its funds.",
             "warning":
-                "Legitimate users, including employees of Steemit Inc., will never ask you for a private key or master password.",
+                "Legitimate users, including employees of Vox Inc., will never ask you for a private key or master password.",
             "checkbox": "I understand"
         }
     },
@@ -561,7 +561,7 @@
     "about_jsx": {
         "about_app": "About %(APP_NAME)s",
         "about_app_details":
-            "%(APP_NAME)s is a social media platform where everyone gets paid for creating and curating content. It leverages a robust digital points system, called Steem, that supports real value for digital rewards through market price discovery and liquidity.",
+            "%(APP_NAME)s is a social media platform where everyone gets paid for creating and curating content. It leverages a robust digital points system, called VoxChain, that supports real value for digital rewards through market price discovery and liquidity.",
         "learn_more_at_app_url": "Learn more at %(APP_URL)s",
         "resources": "Resources"
     },

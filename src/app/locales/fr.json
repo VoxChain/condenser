@@ -183,7 +183,7 @@
         "vote_currently_exists_user_must_be_indicate_a_to_reject_witness":
             "un vote existe actuellement; l'utilisateur doit indiquer une raison pour rejeter le témoin",
         "only_one_APP_NAME_account_allowed_per_ip_address_every_10_minutes":
-            "Un seul compte Steem est permis par adresse IP toutes les 10 minutes",
+            "Un seul compte VoxChain est permis par adresse IP toutes les 10 minutes",
         "resteem_this_post": "Resteemer cet article",
         "reblog": "Resteem",
         "write_your_story": "Ecris ton histoire",
@@ -240,7 +240,7 @@
             "confirm":
                 "You are about to publish a STEEM private key or master password. You will probably lose control of the associated account and all its funds.",
             "warning":
-                "Legitimate users, including employees of Steemit Inc., will never ask you for a private key or master password.",
+                "Legitimate users, including employees of Vox Inc., will never ask you for a private key or master password.",
             "checkbox": "I understand"
         }
     },
@@ -261,12 +261,12 @@
         "learn_more": "En savoir plus",
         "welcome": "Bienvenue",
         "faq": "FAQ",
-        "shop": "The Steemit Shop",
-        "chat": "Salons de discussion Steemit",
-        "app_center": "Centre d'applications Steemit",
-        "api_docs": "Documentation API sur Steemit",
-        "whitepaper": "Livre blanc sur le Steem",
-        "bluepaper": "Steem Bluepaper",
+        "shop": "The Vox Shop",
+        "chat": "Salons de discussion Vox",
+        "app_center": "Centre d'applications Vox",
+        "api_docs": "Documentation API sur Vox",
+        "whitepaper": "Livre blanc sur le VoxChain",
+        "bluepaper": "VoxChain Bluepaper",
         "smt_whitepaper": "Livre blanc sur le SMT",
         "intro_tagline": "Présentations sur la monnaie",
         "intro_paragraph":
@@ -559,7 +559,7 @@
         "converted_VESTING_TOKEN_can_be_sent_to_yourself_but_can_not_transfer_again":
             "Les %(VESTING_TOKEN)s convertis peuvent être envoyés soit à vous, soit à quelqu'un d'autre, mais ne peuvent pas être transférés à nouveau sans être convertis en %(LIQUID_TOKEN)s.",
         "part_of_your_steem_power_is_currently_delegated":
-            "Une partie de votre influence, ou STEEM POWER, est actuellement déléguée. La délégation est un don pour augmenter l'influence ou pour encourager les nouveaux utilisateurs à effectuer des actions sur Steemit. Le montant délégué peut varier."
+            "Une partie de votre influence, ou STEEM POWER, est actuellement déléguée. La délégation est un don pour augmenter l'influence ou pour encourager les nouveaux utilisateurs à effectuer des actions sur Vox. Le montant délégué peut varier."
     },
     "promote_post_jsx": {
         "promote_post": "Promouvoir un article",
@@ -573,7 +573,7 @@
     "about_jsx": {
         "about_app": "A propos de %(APP_NAME)s",
         "about_app_details":
-            "%(APP_NAME)s est une plateforme de réseau social où les utilisateurs sont payés pour créer et effecter la curation du contenu. Elle influence un système de points digitaux, appelé Steem, qui ont une valeur réelle en fonction des prix du marché et des liquidités disponibles.",
+            "%(APP_NAME)s est une plateforme de réseau social où les utilisateurs sont payés pour créer et effecter la curation du contenu. Elle influence un système de points digitaux, appelé VoxChain, qui ont une valeur réelle en fonction des prix du marché et des liquidités disponibles.",
         "learn_more_at_app_url": "Plus d'informations à %(APP_URL)s",
         "resources": "Ressources"
     },
@@ -668,7 +668,7 @@
         "password_update_succes":
             "Le mot de passe pour%(accountName)sa été mis à jour avec succès.",
         "password_info":
-            "Ce mot de passe ou clé privée est incorrect. Il y a probablement une erreur d'écriture ou d'entrée des données. Indication : un mot de passe ou une clé privée générée par Steemit ne contiendra jamais aucun 0 (zéro), O (o majuscule), I (i majuscule) ou l (l minuscule).",
+            "Ce mot de passe ou clé privée est incorrect. Il y a probablement une erreur d'écriture ou d'entrée des données. Indication : un mot de passe ou une clé privée générée par Vox ne contiendra jamais aucun 0 (zéro), O (o majuscule), I (i majuscule) ou l (l minuscule).",
         "enter_your_username": "Entrez votre nom d'utilisateur",
         "password_or_wif": "Mot de passe ou WIF",
         "this_operation_requires_your_key_or_master_password":

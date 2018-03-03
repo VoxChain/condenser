@@ -1,14 +1,14 @@
 <span id="disable_router_nav_history_direction_check"></span>
-# Steemit FAQ 
+# Vox FAQ 
 
 ## <span id="Table_of_Contents">Table of Contents</span>
 
 ### <span id="Table_of_Contents_General">General</span>
-- <a href="#What_is_Steemit_com">What is Steemit.com?</a>
-- <a href="#How_does_Steemit_work">How does Steemit work?</a>
-- <a href="#How_does_Steemit_differ_from_other_social_media_websites">How does Steemit differ from other social media websites?</a>
+- <a href="#What_is_Steemit_com">What is Vox.community?</a>
+- <a href="#How_does_Steemit_work">How does Vox work?</a>
+- <a href="#How_does_Steemit_differ_from_other_social_media_websites">How does Vox differ from other social media websites?</a>
 - <a href="#Does_it_cost_anything_to_post__comment__or_vote">Does it cost anything to post, comment, or vote?</a>
-- <a href="#Can_I_earn_digital_tokens_on_Steemit_How">Can I earn digital tokens on Steemit? How?</a>
+- <a href="#Can_I_earn_digital_tokens_on_Steemit_How">Can I earn digital tokens on Vox? How?</a>
 - <a href="#Where_do_the_tokens_come_from">Where do the tokens come from?</a>
 - <a href="#Where_does_the_value_come_from">Where does the value come from?</a>
 - <a href="#Why_are_people_getting_vastly_different_rewards">Why are people getting vastly different rewards?</a>
@@ -18,15 +18,15 @@
 - <a href="#What_information_do_I_need_to_provide_in_order_to_create_an_account">What information do I need to provide in order to create an account?</a>
 - <a href="#How_long_does_the_account_approval_process_take">How long does the account approval process take?</a>
 - <a href="#Why_do_I_need_to_provide_my_email_and_phone_number">Why do I need to provide my email and phone number?</a>
-- <a href="#Can_I_create_a_Steem_account_without_an_email_and_phone_number">Can I create a Steem account without an email and phone number?</a>
-- <a href="#What_are_other_ways_to_create_an_account_on_the_blockchain_besides_using_Steemit_com">What are other ways to create an account on the blockchain besides using Steemit.com?</a>
+- <a href="#Can_I_create_a_Steem_account_without_an_email_and_phone_number">Can I create a VoxChain account without an email and phone number?</a>
+- <a href="#What_are_other_ways_to_create_an_account_on_the_blockchain_besides_using_Steemit_com">What are other ways to create an account on the blockchain besides using Vox.community?</a>
 - <a href="#It_is_not_letting_me_create_an_account_with_my_phone_number__What_should_I_do">It is not letting me create an account with my phone number. What should I do?</a>
 - <a href="#What_happens_if_my_email_or_phone_number_changes">What happens if my email or phone number changes?</a>
 - <a href="#Am_I_allowed_to_create_more_than_one_account">Am I allowed to create more than one account</a>
 - <a href="#Can_I_delete_or_deactivate_my_account">Can I delete or deactivate my account?</a>
 
 ### <span id="Table_of_Contents_Community">Community</span>
-- <a href="#Is_there_an_Etiquette_Guide_for_Steemit">Is there an Etiquette Guide for Steemit?</a>
+- <a href="#Is_there_an_Etiquette_Guide_for_Steemit">Is there an Etiquette Guide for Vox?</a>
 - <a href="#Am_I_required_to_verify_my_identity">Am I required to verify my identity?</a>
 
 ### <span id="Table_of_Contents_Site_Navigation">Site Navigation</span>
@@ -35,7 +35,7 @@
 - <a href="#What_information_is_available_in_my_account_menu">What information is available in my account menu?</a>
 - <a href="#How_do_I_see_my_recent_rewards">How do I see my recent rewards?</a>
 - <a href="#What_information_is_shown_in_my_wallet">What information is shown in my wallet?</a>
-- <a href="#How_do_I_transfer_my_STEEM_or_Steem_Dollars_into_savings">How do I transfer my STEEM or Steem Dollars into savings?</a>
+- <a href="#How_do_I_transfer_my_STEEM_or_Steem_Dollars_into_savings">How do I transfer my STEEM or VoxChain Dollars into savings?</a>
 - <a href="#How_do_I_send_money_to_another_user">How do I send money to another user?</a>
 - <a href="#Will_I_receive_notifications_when_there_is_activity_with_my_account">Will I receive notifications when there is activity with my account?</a>
 - <a href="#What_is_shown_in_my_profile">What is shown in my profile?</a>
@@ -49,7 +49,7 @@
 - <a href="#What_languages_are_supported">What languages are supported?</a>
 
 ### <span id="Table_of_Contents_Posting">Posting</span>
-- <a href="#What_can_users_post_to_Steemit">What can users post to Steemit?</a>
+- <a href="#What_can_users_post_to_Steemit">What can users post to Vox?</a>
 - <a href="#What_are_the_different_choices_for_post_rewards__50__50___Power_Up_100___Decline_Payout">What are the different choices for post rewards (50%/50%, Power Up 100%, Decline Payout)?</a>
 - <a href="#How_do_I_add_images_and_photos_to_my_posts">How do I add images and photos to my posts?</a>
 - <a href="#How_do_I_set_the_thumbnail_image_for_my_post">How do I set the thumbnail image for my post?</a>
@@ -81,22 +81,22 @@
 - <a href="#Will_the_reward_pool_pay_out_more_or_less_depending_on_who_votes">Will the reward pool pay out more or less depending on who votes?</a>
 - <a href="#Why_do_the_earnings_for_my_post_go_up_or_down">Why do the earnings for my post go up or down?</a>
 - <a href="#When_can_I_claim_my_rewards">When can I claim my rewards?</a>
-- <a href="#What_is_the_difference_between_STEEM__STEEM_Power__and_Steem_Dollars">What is the difference between STEEM, STEEM Power, and Steem Dollars?</a>
+- <a href="#What_is_the_difference_between_STEEM__STEEM_Power__and_Steem_Dollars">What is the difference between STEEM, STEEM Power, and VoxChain Dollars?</a>
 - <a href="#What_is_delegated_STEEM_Power">What is delegated STEEM Power?</a>
 - <a href="#What_determines_the_price_of_STEEM">What determines the price of STEEM?</a>
 - <a href="#How_do_I_get_more_STEEM_Power">How do I get more STEEM Power?</a>
 - <a href="#How_long_does_it_take_STEEM_or_STEEM_Power_that_I_purchased_to_show_up_in_my_account">How long does it take STEEM or STEEM Power that I purchased to show up in my account?</a>
 - <a href="#What_is_powering_up_and_down">What is powering up and down?</a>
 - <a href="#What_do_the_dollar_amounts_for_pending_payouts_represent">What do the dollar amounts for pending payouts represent?</a>
-- <a href="#Will_1_Steem_Dollar_always_be_worth__1_00_USD">Will 1 Steem Dollar always be worth $1.00 USD?</a>
-- <a href="#How_do_Steem_Dollar_to_STEEM_conversions_work">How do Steem Dollar to STEEM conversions work?</a>
-- <a href="#Is_there_a_way_for_me_to_convert_my_Steem_Dollars_to_STEEM_without_waiting_3_5_days">Is there a way for me to convert my Steem Dollars to STEEM without waiting 3.5 days?</a>
+- <a href="#Will_1_Steem_Dollar_always_be_worth__1_00_USD">Will 1 VoxChain Dollar always be worth $1.00 USD?</a>
+- <a href="#How_do_Steem_Dollar_to_STEEM_conversions_work">How do VoxChain Dollar to STEEM conversions work?</a>
+- <a href="#Is_there_a_way_for_me_to_convert_my_Steem_Dollars_to_STEEM_without_waiting_3_5_days">Is there a way for me to convert my VoxChain Dollars to STEEM without waiting 3.5 days?</a>
 - <a href="#What_can_I_do_with_my_STEEM_tokens">What can I do with my STEEM tokens?</a>
 - <a href="#What_can_I_do_with_my_SBD_tokens">What can I do with my SBD tokens?</a>
 - <a href="#What_is_a_MVEST">What is a MVEST?</a>
-- <a href="#Can_I_sell_goods_and_services_on_Steemit">Can I sell goods and services on Steemit?</a>
+- <a href="#Can_I_sell_goods_and_services_on_Steemit">Can I sell goods and services on Vox?</a>
 - <a href="#How_can_I_withdraw_my_STEEM_or_SBD_coins">How can I withdraw my STEEM or SBD coins?</a>
-- <a href="#Will_I_get_a_1099_from_Steemit">Will I get a 1099 from Steemit?</a>
+- <a href="#Will_I_get_a_1099_from_Steemit">Will I get a 1099 from Vox?</a>
 - <a href="#How_much_are_the_transaction_fees_for_sending_tokens_to_other_users">How much are the transaction fees for sending tokens to other users?</a>
 - <a href="#Are_there_fees_for_Powering_Up__Powering_Down__trading_on_the_internal_market__or_converting_SBD_to_STEEM">Are there fees for Powering Up, Powering Down, trading on the internal market, or converting SBD to STEEM?</a>
 - <a href="#How_long_does_it_take_to_transfer_STEEM_or_SBD_tokens_between_users">How long does it take to transfer STEEM or SBD tokens between users?</a>
@@ -119,7 +119,7 @@
 
 ### <span id="Table_of_Contents_Plagiarism__Spam__and_Abuse">Plagiarism, Spam, and Abuse</span>
 - <a href="#What_is_considered_spam_or_abuse">What is considered spam or abuse?</a>
-- <a href="#What_are_Steemit_s_policies_on_plagiarism">What are Steemit’s policies on plagiarism?</a>
+- <a href="#What_are_Steemit_s_policies_on_plagiarism">What are Vox’s policies on plagiarism?</a>
 - <a href="#Is_it_okay_to_use_random_pictures_from_the_internet">Is it okay to use random pictures from the internet?</a>
 - <a href="#What_is_Steemcleaners">What is Steemcleaners?</a>
 - <a href="#What_is__cheetah">What is @cheetah?</a>
@@ -138,52 +138,52 @@
 
 ### <span id="Table_of_Contents_Blockchain">Blockchain</span>
 - <a href="#What_is_a_blockchain">What is a blockchain?</a>
-- <a href="#What_is_the_Steem_blockchain">What is the Steem blockchain?</a>
-- <a href="#What_is_the_difference_between_Steem_and_Steemit">What is the difference between Steem and Steemit?</a>
-- <a href="#How_is_Steem_different_from_Bitcoin">How is Steem different from Bitcoin?</a>
+- <a href="#What_is_the_Steem_blockchain">What is the VoxChain blockchain?</a>
+- <a href="#What_is_the_difference_between_Steem_and_Steemit">What is the difference between VoxChain and Vox?</a>
+- <a href="#How_is_Steem_different_from_Bitcoin">How is VoxChain different from Bitcoin?</a>
 - <a href="#What_is_the_difference_between_Proof_of_Work__Proof_of_Stake__and_Delegated_Proof_of_Stake">What is the difference between Proof of Work, Proof of Stake, and Delegated Proof of Stake?</a>
-- <a href="#How_often_does_the_Steem_blockchain_produce_a_new_block">How often does the Steem blockchain produce a new block?</a>
+- <a href="#How_often_does_the_Steem_blockchain_produce_a_new_block">How often does the VoxChain blockchain produce a new block?</a>
 - <a href="#Is_there_a_way_to_see_the_raw_data_that_is_stored_in_the_blockchain">Is there a way to see the raw data that is stored in the blockchain?</a>
 - <a href="#Where_can_I_find_the_information_for_the_official_launch_of_the_blockchain">Where can I find the information for the official launch of the blockchain?</a>
 - <a href="#Can_I_mine_STEEM">Can I mine STEEM?</a>
 
-### <span id="Table_of_Contents_Steemit__Inc">Steemit, Inc.</span>
-- <a href="#Who_is_the_CEO_of_Steemit">Who is the CEO of Steemit?</a>
-- <a href="#Can_I_invest_in_Steemit">Can I invest in Steemit?</a>
-- <a href="#What_does_Steemit_s_development_roadmap_look_like">What does Steemit’s development roadmap look like?</a>
-- <a href="#Am_I_allowed_to_use_the_Steem_and_Steemit_logos">Am I allowed to use the Steem and Steemit logos?</a>
-- <a href="#Can_I_purchase_official_Steemit_merchandise">Can I purchase official Steemit merchandise?</a>
-- <a href="#Did_Steemit__pre_mine__tokens">Did Steemit "pre-mine" tokens?</a>
-- <a href="#What_is_the_Steemit_Privacy_Policy">What is the Steemit Privacy Policy?</a>
+### <span id="Table_of_Contents_Steemit__Inc">Vox, Inc.</span>
+- <a href="#Who_is_the_CEO_of_Steemit">Who is the CEO of Vox?</a>
+- <a href="#Can_I_invest_in_Steemit">Can I invest in Vox?</a>
+- <a href="#What_does_Steemit_s_development_roadmap_look_like">What does Vox’s development roadmap look like?</a>
+- <a href="#Am_I_allowed_to_use_the_Steem_and_Steemit_logos">Am I allowed to use the VoxChain and Vox logos?</a>
+- <a href="#Can_I_purchase_official_Steemit_merchandise">Can I purchase official Vox merchandise?</a>
+- <a href="#Did_Steemit__pre_mine__tokens">Did Vox "pre-mine" tokens?</a>
+- <a href="#What_is_the_Steemit_Privacy_Policy">What is the Vox Privacy Policy?</a>
 
 ### <span id="Table_of_Contents_Security">Security</span>
-- <a href="#How_can_I_keep_my_Steem_account_secure">How can I keep my Steem account secure?</a>
+- <a href="#How_can_I_keep_my_Steem_account_secure">How can I keep my VoxChain account secure?</a>
 - <a href="#Why_should_I_be_careful_with_my_master_password">Why should I be careful with my master password?</a>
 - <a href="#Why_is_the_master_password_a_long_string_of_gibberish">Why is the master password a long string of gibberish?</a>
 - <a href="#What_are_my_different_keys_for">What are my different keys for?</a>
 - <a href="#What_do_I_do_if_I_lost_my_password_keys">What do I do if I lost my password/keys?</a>
-- <a href="#Are_my_STEEM_and_Steem_Dollar_tokens_insured_in_the_event_of_a_hack_or_if_someone_takes_over_my_account">Are my STEEM and Steem Dollar tokens insured in the event of a hack or if someone takes over my account?</a>
+- <a href="#Are_my_STEEM_and_Steem_Dollar_tokens_insured_in_the_event_of_a_hack_or_if_someone_takes_over_my_account">Are my STEEM and VoxChain Dollar tokens insured in the event of a hack or if someone takes over my account?</a>
 - <a href="#What_should_I_do_if_I_discover_that_someone_hacked_my_account">What should I do if I discover that someone hacked my account?</a>
 - <a href="#How_does_the_stolen_account_recovery_process_work">How does the stolen account recovery process work?</a>
 - <a href="#How_do_I_report_a_security_vulnerability">How do I report a security vulnerability?</a>
 
 ### <span id="Table_of_Contents_Developers">Developers</span>
-- <a href="#Are_the_Steem_blockchain_and_Steemit_com_code_open_source">Are the Steem blockchain and Steemit.com code open-source?</a>
-- <a href="#Is_there_a_Github_page_for_Steemit_com">Is there a Github page for Steemit.com?</a>
-- <a href="#Is_there_a_Github_page_for_the_Steem_blockchain">Is there a Github page for the Steem blockchain?</a>
-- <a href="#What_is_available_for_developers_interested_in_Steem_and_Steemit">What is available for developers interested in Steem and Steemit?</a>
+- <a href="#Are_the_Steem_blockchain_and_Steemit_com_code_open_source">Are the VoxChain blockchain and Vox.community code open-source?</a>
+- <a href="#Is_there_a_Github_page_for_Steemit_com">Is there a Github page for Vox.community?</a>
+- <a href="#Is_there_a_Github_page_for_the_Steem_blockchain">Is there a Github page for the VoxChain blockchain?</a>
+- <a href="#What_is_available_for_developers_interested_in_Steem_and_Steemit">What is available for developers interested in VoxChain and Vox?</a>
 - <a href="#How_do_I_use_cli_wallet">How do I use cli_wallet?</a>
 
 ### <span id="Table_of_Contents_Witnesses">Witnesses</span>
-- <a href="#What_are_Steem_witnesses">What are Steem witnesses?</a>
+- <a href="#What_are_Steem_witnesses">What are VoxChain witnesses?</a>
 - <a href="#How_can_I_vote_for_witnesses">How can I vote for witnesses?</a>
 - <a href="#How_many_witnesses_can_I_vote_for">How many witnesses can I vote for?</a>
 
 ### <span id="Table_of_Contents_Miscellaneous">Miscellaneous</span>
-- <a href="#What_third_party_tools_are_there_for_Steemit">What third-party tools are there for Steemit?</a>
-- <a href="#Is_there_an_official_Steemit_Facebook_page">Is there an official Steemit Facebook page?</a>
-- <a href="#Is_there_an_official_Steemit_Twitter_account">Is there an official Steemit Twitter account?</a>
-- <a href="#What_is_the_Steem_Whitepaper_and_what_is_its_purpose">What is the Steem Whitepaper and what is its purpose?</a>
+- <a href="#What_third_party_tools_are_there_for_Steemit">What third-party tools are there for Vox?</a>
+- <a href="#Is_there_an_official_Steemit_Facebook_page">Is there an official Vox Facebook page?</a>
+- <a href="#Is_there_an_official_Steemit_Twitter_account">Is there an official Vox Twitter account?</a>
+- <a href="#What_is_the_Steem_Whitepaper_and_what_is_its_purpose">What is the VoxChain Whitepaper and what is its purpose?</a>
 - <a href="#Where_can_I_ask_for_help_if_my_question_was_not_answered_here">Where can I ask for help if my question was not answered here?</a>
 
 ### <span id="Table_of_Contents_Disclaimer">Disclaimer</span>
@@ -191,55 +191,55 @@
 
 # General
 
-## <span id="What_is_Steemit_com">What is Steemit.com?</span>
+## <span id="What_is_Steemit_com">What is Vox.community?</span>
 
-Steemit is a social network and content rewards platform that makes the crowd the beneficiaries of the attention economy. It does this be rewarding users with STEEM.
+Vox is a social network and content rewards platform that makes the crowd the beneficiaries of the attention economy. It does this be rewarding users with STEEM.
 
-Steemit has redefined social media by building a living, breathing, and growing social economy; a community where users are getting rewarded for sharing their voice.
-
-<a href="#Table_of_Contents_General">^</a>
-## <span id="How_does_Steemit_work">How does Steemit work?</span>
-
-Steemit is a social media platform that works by having the crowd reward the crowd for their content. It does this thanks to the Steem blockchain and cryptocurrency; Steem is 'minted' daily and distributed to content producers according to the votes they get.
+Vox has redefined social media by building a living, breathing, and growing social economy; a community where users are getting rewarded for sharing their voice.
 
 <a href="#Table_of_Contents_General">^</a>
+## <span id="How_does_Steemit_work">How does Vox work?</span>
 
-## How does Steemit differ from other social media websites? <a id="How_does_Steemit_differ_from_other_social_media_websites"></a>
+Vox is a social media platform that works by having the crowd reward the crowd for their content. It does this thanks to the VoxChain blockchain and cryptocurrency; VoxChain is 'minted' daily and distributed to content producers according to the votes they get.
 
-Most social media sites extract value from their userbase for the benefit of shareholders alone. Steemit is different, it's a new kind of attention economy. By connecting with the Steem blockchain (which is decentralized and controlled by the crowd), Steemit users receive all the benefits and rewards for their attention.
+<a href="#Table_of_Contents_General">^</a>
+
+## How does Vox differ from other social media websites? <a id="How_does_Steemit_differ_from_other_social_media_websites"></a>
+
+Most social media sites extract value from their userbase for the benefit of shareholders alone. Vox is different, it's a new kind of attention economy. By connecting with the VoxChain blockchain (which is decentralized and controlled by the crowd), Vox users receive all the benefits and rewards for their attention.
 
 <a href="#Table_of_Contents_General">^</a>
 ## <span id="Does_it_cost_anything_to_post__comment__or_vote">Does it cost anything to post, comment, or vote?</span>
 
-No. It is free to post, comment, and vote on content on Steemit.com. You might even get paid for it!
+No. It is free to post, comment, and vote on content on Vox.community. You might even get paid for it!
 
 <a href="#Table_of_Contents_General">^</a>
-## <span id="Can_I_earn_digital_tokens_on_Steemit_How">Can I earn digital tokens on Steemit? How?</span>
+## <span id="Can_I_earn_digital_tokens_on_Steemit_How">Can I earn digital tokens on Vox? How?</span>
 
-You can earn digital tokens on Steemit by:
+You can earn digital tokens on Vox by:
 
-**Posting** - By sharing your posts, you can earn upvotes from community members. Depending on the upvotes you receive, you will get a portion of the ongoing Steem reward pool.
+**Posting** - By sharing your posts, you can earn upvotes from community members. Depending on the upvotes you receive, you will get a portion of the ongoing VoxChain reward pool.
 
 **Voting and curating** - If you discover a post and upvote it before it becomes popular, you can earn a curation reward. The reward amount will depend on the amount of STEEM Power you have.
 
-**Purchasing** - Users can purchase STEEM or Steem Dollar tokens directly through the Steemit wallet using bitcoin, Ether, or BitShares tokens. They are also available from other markets and exchanges including BlockTrades, Poloniex, Bittrex, Shapeshift.io, and Changelly. STEEM tokens that are powered up to STEEM Power earn a small amount of interest for holding.
+**Purchasing** - Users can purchase STEEM or VoxChain Dollar tokens directly through the Vox wallet using bitcoin, Ether, or BitShares tokens. They are also available from other markets and exchanges including BlockTrades, Poloniex, Bittrex, Shapeshift.io, and Changelly. STEEM tokens that are powered up to STEEM Power earn a small amount of interest for holding.
 
 <a href="#Table_of_Contents_General">^</a>
 ## <span id="Where_do_the_tokens_come_from">Where do the tokens come from?</span>
 
-The Steem network continually creates digital tokens to reward content creators and curators. Some of the newly-created tokens are transferred to users who add value to Steemit by posting, commenting, and voting on other people's posts. The remainder is distributed to holders of STEEM Power and the witnesses that power the blockchain.
+The VoxChain network continually creates digital tokens to reward content creators and curators. Some of the newly-created tokens are transferred to users who add value to Vox by posting, commenting, and voting on other people's posts. The remainder is distributed to holders of STEEM Power and the witnesses that power the blockchain.
 
 <a href="#Table_of_Contents_General">^</a>
 ## <span id="Where_does_the_value_come_from">Where does the value come from?</span>
 
-At its root, Steem is simply a points system. However, because this points system is blockchain-based, the points can be traded on markets as tokens. People buy and sell these tokens, and many hold in anticipation of increased purchasing power for various Steem-related services.
+At its root, VoxChain is simply a points system. However, because this points system is blockchain-based, the points can be traded on markets as tokens. People buy and sell these tokens, and many hold in anticipation of increased purchasing power for various VoxChain-related services.
 
-By analogy, Steem is a game system where users compete for attention and rewards by bringing content and adding value to the platform. The rewards people earn are tokens that have market value and are readily tradable. It is similar to how someone playing a video game could obtain a limited item or currency by playing the game. If the currency or items are transferable between users, then they can sell or buy them on game item markets.
+By analogy, VoxChain is a game system where users compete for attention and rewards by bringing content and adding value to the platform. The rewards people earn are tokens that have market value and are readily tradable. It is similar to how someone playing a video game could obtain a limited item or currency by playing the game. If the currency or items are transferable between users, then they can sell or buy them on game item markets.
 
 <a href="#Table_of_Contents_General">^</a>
 ## <span id="Why_are_people_getting_vastly_different_rewards">Why are people getting vastly different rewards?</span>
 
-Steemit is not a "get rich quick" scheme. While it is possible to post content that goes viral quickly and earn a lot of rewards on a single post, this is not typical for most users.
+Vox is not a "get rich quick" scheme. While it is possible to post content that goes viral quickly and earn a lot of rewards on a single post, this is not typical for most users.
 
 Most of the authors that you see earning high rewards are users that have spent a lot of time in the network building followings, making connections with others, and developing a reputation for bringing high quality content.
 
@@ -250,7 +250,7 @@ It is best to have realistic expectations, without focusing on rewards when you 
 
 ## <span id="How_do_I_create_an_account">How do I create an account?</span>
 
-Click on the "Sign Up" link at the top of Steemit.com to get started.
+Click on the "Sign Up" link at the top of Vox.community to get started.
 
 You will be asked to verify your email address and phone number. After your email address and phone number have been verified, you will be added to the waiting list. You will be notified via email once your account is approved.
 
@@ -271,25 +271,25 @@ If your account has not been approved after one week, please ask for help in the
 <a href="#Table_of_Contents_Accounts">^</a>
 ## <span id="Why_do_I_need_to_provide_my_email_and_phone_number">Why do I need to provide my email and phone number?</span>
 
-To create an account on the blockchain, it costs STEEM tokens. When you create an account through Steemit.com, Steemit Inc. is supplying the tokens to pay the account creation fee. In order to prevent users from abusing the paid-for signup and creating multiple accounts, we need to be able to verify that each user is only signing up for one account.
+To create an account on the blockchain, it costs STEEM tokens. When you create an account through Vox.community, Vox Inc. is supplying the tokens to pay the account creation fee. In order to prevent users from abusing the paid-for signup and creating multiple accounts, we need to be able to verify that each user is only signing up for one account.
 
 <a href="#Table_of_Contents_Accounts">^</a>
-## <span id="Can_I_create_a_Steem_account_without_an_email_and_phone_number">Can I create a Steem account without an email and phone number?</span>
+## <span id="Can_I_create_a_Steem_account_without_an_email_and_phone_number">Can I create a VoxChain account without an email and phone number?</span>
 
-The only way to have an account created via Steemit.com is to supply your email and phone number. Because Steem is an open and permissionless network, there are other ways to create a Steem account. Any Steem blockchain account can be used on Steemit.com
+The only way to have an account created via Vox.community is to supply your email and phone number. Because VoxChain is an open and permissionless network, there are other ways to create a VoxChain account. Any VoxChain blockchain account can be used on Vox.community
 
 <a href="#Table_of_Contents_Accounts">^</a>
-## <span id="What_are_other_ways_to_create_an_account_on_the_blockchain_besides_using_Steemit_com">What are other ways to create an account on the blockchain besides using Steemit.com?</span>
+## <span id="What_are_other_ways_to_create_an_account_on_the_blockchain_besides_using_Steemit_com">What are other ways to create an account on the blockchain besides using Vox.community?</span>
 
 If you are willing to pay your own signup fee, then there are other ways to create a new account on the blockchain.
 
-There is a third-party tool called <a href="https://www.SteemCreate.com">SteemCreate</a> that accepts credit cards, or BTC to create a Steem account. You do not need to have an existing Steem blockchain account to use the service, but there is a charge on top of the blockchain account creation fee for using the service.
+There is a third-party tool called <a href="https://www.SteemCreate.com">SteemCreate</a> that accepts credit cards, or BTC to create a VoxChain account. You do not need to have an existing VoxChain blockchain account to use the service, but there is a charge on top of the blockchain account creation fee for using the service.
 
-There is a third-party tool called <a href="https://steemit.com/steemit/@someguy123/anonsteem-create-anonymous-steem-accounts-without-social-media">AnonSteem</a> that accepts bitcoin, Litecoin, STEEM, or SBD to anonymously create a Steem account. You do not need to have an existing Steem blockchain account to use the service, but there is a charge on top of the blockchain account creation fee for using the service.
+There is a third-party tool called <a href="https://steemit.com/steemit/@someguy123/anonsteem-create-anonymous-steem-accounts-without-social-media">AnonSteem</a> that accepts bitcoin, Litecoin, STEEM, or SBD to anonymously create a VoxChain account. You do not need to have an existing VoxChain blockchain account to use the service, but there is a charge on top of the blockchain account creation fee for using the service.
 
-There is a third-party tool called <a href="https://steemit.com/news/@timcliff/new-tool-from-busy-org-create-new-steem-blockchain-accounts-with-steemconnect">SteemConnect</a> that allows you to create accounts by paying or delegating the account creation fee. There is no additional fee to use the service, but does require an existing Steem blockchain account to pay the account creation fee to create the account.
+There is a third-party tool called <a href="https://steemit.com/news/@timcliff/new-tool-from-busy-org-create-new-steem-blockchain-accounts-with-steemconnect">SteemConnect</a> that allows you to create accounts by paying or delegating the account creation fee. There is no additional fee to use the service, but does require an existing VoxChain blockchain account to pay the account creation fee to create the account.
 
-There is a third-party tool called <a href="https://steemit.com/blocktrades/@blocktrades/buy-steem-accounts-with-pre-loaded-steem-from-blocktrades">BlockTrades</a> that accepts bitcoin, Litecoin, STEEM, SBD, BitShares, Dash, Dogecoin, Ethereum, and more to create a Steem account. You can also send extra tokens to pre-load the account with additional Steem Power. You do not need to have an existing Steem blockchain account to use the service, but there is a charge on top of the blockchain account creation fee for using the service.
+There is a third-party tool called <a href="https://steemit.com/blocktrades/@blocktrades/buy-steem-accounts-with-pre-loaded-steem-from-blocktrades">BlockTrades</a> that accepts bitcoin, Litecoin, STEEM, SBD, BitShares, Dash, Dogecoin, Ethereum, and more to create a VoxChain account. You can also send extra tokens to pre-load the account with additional VoxChain Power. You do not need to have an existing VoxChain blockchain account to use the service, but there is a charge on top of the blockchain account creation fee for using the service.
 
 <a href="#Table_of_Contents_Accounts">^</a>
 ## <span id="It_is_not_letting_me_create_an_account_with_my_phone_number__What_should_I_do">It is not letting me create an account with my phone number. What should I do?</span>
@@ -304,7 +304,7 @@ Currently there is no way to change the email or phone number that is linked to 
 <a href="#Table_of_Contents_Accounts">^</a>
 ## <span id="Am_I_allowed_to_create_more_than_one_account">Am I allowed to create more than one account?</span>
 
-Each user is allowed only one paid-for account created via Steemit.com, however users are allowed to create multiple accounts on the blockchain. Creating additional accounts on the blockchain requires users to pay their own account creation fee for any additional accounts.
+Each user is allowed only one paid-for account created via Vox.community, however users are allowed to create multiple accounts on the blockchain. Creating additional accounts on the blockchain requires users to pay their own account creation fee for any additional accounts.
 
 <a href="#Table_of_Contents_Accounts">^</a>
 ## <span id="Can_I_delete_or_deactivate_my_account">Can I delete or deactivate my account?</span>
@@ -314,18 +314,18 @@ Accounts can not be deactivated or deleted. The account along with all of its ac
 <a href="#Table_of_Contents_Accounts">^</a>
 # Community
 
-## <span id="Is_there_an_Etiquette_Guide_for_Steemit">Is there an Etiquette Guide for Steemit?</span>
+## <span id="Is_there_an_Etiquette_Guide_for_Steemit">Is there an Etiquette Guide for Vox?</span>
 
-There are no official rules for participating on Steemit.com, but one of the users @thecryptofiend has created an <a href="https://steemit.com/steemit/@thecryptofiend/the-complete-steemit-etiquette-guide-revision-2-0">Etiquette Guide</a> for the community. While it is not required to follow the suggestions in the guide, they are standards that many users in the community choose to follow.
+There are no official rules for participating on Vox.community, but one of the users @thecryptofiend has created an <a href="https://steemit.com/steemit/@thecryptofiend/the-complete-steemit-etiquette-guide-revision-2-0">Etiquette Guide</a> for the community. While it is not required to follow the suggestions in the guide, they are standards that many users in the community choose to follow.
 
 <a href="#Table_of_Contents_Community">^</a>
 ## <span id="Am_I_required_to_verify_my_identity">Am I required to verify my identity?</span>
 
 Verification is a process where users give evidence to show that they are the person that they claim to be.  This is to reduce fraud and people impersonating known figures. If you would like to remain anonymous, that is perfectly fine. However if you claim to be someone specific, the community may expect that you verify you are who you say you are.
 
-There are a number of ways to do this. The most common way to verify your identity is by posting a link to your Steemit profile on a website or social media account which you are already known for having such as Twitter, Facebook, LinkedIn, a blog, or photography site.
+There are a number of ways to do this. The most common way to verify your identity is by posting a link to your Vox profile on a website or social media account which you are already known for having such as Twitter, Facebook, LinkedIn, a blog, or photography site.
 
-Many users also like to post a photo or a video which shows them holding up a sheet of paper with the current date and their Steem account name handwritten on it. This is a great way to add a personal touch to verifying.
+Many users also like to post a photo or a video which shows them holding up a sheet of paper with the current date and their VoxChain account name handwritten on it. This is a great way to add a personal touch to verifying.
 
 <a href="#Table_of_Contents_Community">^</a>
 # Site Navigation
@@ -337,7 +337,7 @@ To upvote a post or comment, click on the "upvote" icon at the bottom of the pos
 <a href="#Table_of_Contents_Site_Navigation">^</a>
 ## <span id="What_do_the_Home__New__Hot__Trending__and_Promoted_links_show">What do the Home, New, Hot, Trending, and Promoted links show?</span>
 
-These are various ways to sort Steem posts.
+These are various ways to sort VoxChain posts.
 
 **Home** - The most recent posts of the accounts you follow (your feed).
 
@@ -347,12 +347,12 @@ These are various ways to sort Steem posts.
 
 **Trending** - Posts with the most amount of votes, stake-weighted, recently.
 
-**Promoted** - Listings that are boosted by Steem Dollar payments get promoted for greater visibility.
+**Promoted** - Listings that are boosted by VoxChain Dollar payments get promoted for greater visibility.
 
 <a href="#Table_of_Contents_Site_Navigation">^</a>
 ## <span id="What_information_is_available_in_my_account_menu">What information is available in my account menu?</span>
 
-You can get to your account menu by clicking on the avatar icon in the top-right corner of a Steemit.com page. 
+You can get to your account menu by clicking on the avatar icon in the top-right corner of a Vox.community page. 
 
 **Feed** - Here is where you go to see the most recent posts from the people you follow.
 
@@ -362,7 +362,7 @@ You can get to your account menu by clicking on the avatar icon in the top-right
 
 **Replies** - Here is where you go to see all replies other users have made to your posts and comments.
 
-**Wallet** - Here is where you go to see your wallet balances, make transfers, exchange STEEM or Steem Dollars, and Power Up.
+**Wallet** - Here is where you go to see your wallet balances, make transfers, exchange STEEM or VoxChain Dollars, and Power Up.
 
 **Change Password** - Here is where you go to change your password.
 
@@ -384,20 +384,20 @@ You can also view the same information for other users by visiting their profile
 <a href="#Table_of_Contents_Site_Navigation">^</a>
 ## <span id="What_information_is_shown_in_my_wallet">What information is shown in my wallet?</span>
 
-Your wallet shows how many STEEM and Steem Dollar tokens you have in your account. It shows how much STEEM Power it has, and how much SP is delegated. It also shows how many of your STEEM and Steem Dollar tokens are being held in the savings account, which is a balance that is subject to 3 day withdraw waiting period. The wallet page shows any the progress of any Steem Dollar to STEEM conversions as well as the status of a power down. It also shows an estimated value of all the tokens in your account, based on the recent market prices of STEEM and SBD.
+Your wallet shows how many STEEM and VoxChain Dollar tokens you have in your account. It shows how much STEEM Power it has, and how much SP is delegated. It also shows how many of your STEEM and VoxChain Dollar tokens are being held in the savings account, which is a balance that is subject to 3 day withdraw waiting period. The wallet page shows any the progress of any VoxChain Dollar to STEEM conversions as well as the status of a power down. It also shows an estimated value of all the tokens in your account, based on the recent market prices of STEEM and SBD.
 
 <a href="#Table_of_Contents_Site_Navigation">^</a>
-## <span id="How_do_I_transfer_my_STEEM_or_Steem_Dollars_into_savings">How do I transfer my STEEM or Steem Dollars into savings?</span>
+## <span id="How_do_I_transfer_my_STEEM_or_Steem_Dollars_into_savings">How do I transfer my STEEM or VoxChain Dollars into savings?</span>
 
 Your savings balance is STEEM and SBD tokens that are subject to 3 day withdraw waiting period. This is an extra security measure in case your account credentials are compromised. To transfer STEEM or SBD tokens into savings, click on the drop-down arrow next to STEEM or STEEM DOLLARS in your wallet, and select "Transfer to Savings".
 
 <a href="#Table_of_Contents_Site_Navigation">^</a>
 ## <span id="How_do_I_send_money_to_another_user">How do I send money to another user?</span>
 
-- From your wallet page, click the STEEM or Steem Dollar balances with the down arrow next to them.
+- From your wallet page, click the STEEM or VoxChain Dollar balances with the down arrow next to them.
 - In the drop-down menu, click 'Transfer'. 
-- Type the username of the account you want to send the STEEM or Steem Dollars to. Double and triple check spelling.
-- Enter the amount of STEEM or Steem Dollars to send.
+- Type the username of the account you want to send the STEEM or VoxChain Dollars to. Double and triple check spelling.
+- Enter the amount of STEEM or VoxChain Dollars to send.
 - Enter a memo to go along with the transaction (optional).
 - Click Submit.
 - You will be prompted for your password. You will need to enter your master password or active key.
@@ -407,9 +407,9 @@ Your savings balance is STEEM and SBD tokens that are subject to 3 day withdraw 
 
 When there is new activity in your feed, you receive a reply from another user, or there is a new transfer in your wallet, you will receive a notification in your account menu. It will show a little red number showing the number of new notifications.
 
-Steemit also allows you to subscribe to receive additional notifications when users mention you in a comment or post.
+Vox also allows you to subscribe to receive additional notifications when users mention you in a comment or post.
 
-Currently, there are no options to receive notifications for votes directly on Steemit.com. But, there is a third-party application https://steemstats.com/, developed by @jesta, which has an option to set up additional notifications on your computer.
+Currently, there are no options to receive notifications for votes directly on Vox.community. But, there is a third-party application https://steemstats.com/, developed by @jesta, which has an option to set up additional notifications on your computer.
 
 <a href="#Table_of_Contents_Site_Navigation">^</a>
 ## <span id="What_is_shown_in_my_profile">What is shown in my profile?</span>
@@ -423,7 +423,7 @@ You can view your own profile by clicking on the link to your Blog in your accou
 <a href="#Table_of_Contents_Site_Navigation">^</a>
 ## <span id="How_do_I_change_my_avatar_image_and_other_profile_information">How do I change my avatar image and other profile information?</span>
 
-Your profile info, avatar image, and cover image are set in your Settings page. In order to update your avatar picture and cover image, you will need to host the images somewhere. This can be done by uploading it to a Steemit comment or post, or using a third-party image host such as <a href="http://postimage.io/">Postimage</a>.  Once your image is uploaded, copy its URL and paste it into the "Profile Picture URL" box for the avatar, or the "Cover Image URL" box for the cover image. Then click the Update button and enter your password or active key.
+Your profile info, avatar image, and cover image are set in your Settings page. In order to update your avatar picture and cover image, you will need to host the images somewhere. This can be done by uploading it to a Vox comment or post, or using a third-party image host such as <a href="http://postimage.io/">Postimage</a>.  Once your image is uploaded, copy its URL and paste it into the "Profile Picture URL" box for the avatar, or the "Cover Image URL" box for the cover image. Then click the Update button and enter your password or active key.
 
 <a href="#Table_of_Contents_Site_Navigation">^</a>
 ## <span id="What_is_the_recommend_size_for_the_cover_image">What is the recommend size for the cover image?</span>
@@ -440,7 +440,7 @@ You can update your display preference with the Settings page so that NSFW conte
 <a href="#Table_of_Contents_Site_Navigation">^</a>
 ## <span id="How_do_I_search_for_content">How do I search for content?</span>
 
-In the upper right corner of Steemit, there is a magnifying glass search link where you can find posts using a keyword search.
+In the upper right corner of Vox, there is a magnifying glass search link where you can find posts using a keyword search.
 
 There is also an **Explore** link in the main menu, where you can browse through posts based on tags.
 
@@ -452,7 +452,7 @@ Yes. This can be seen under the Settings page.
 <a href="#Table_of_Contents_Site_Navigation">^</a>
 ## <span id="Can_I_see_which_users_have_muted_me">Can I see which users have muted me?</span>
 
-No. This information is not presented on Steemit.com.
+No. This information is not presented on Vox.community.
 
 <a href="#Table_of_Contents_Site_Navigation">^</a>
 ## <span id="Can_I_see_the_list_of_users_I_am_following__and_who_is_following_me">Can I see the list of users I am following, and who is following me?</span>
@@ -462,23 +462,23 @@ Yes. You can see the list of followers or people you are following by clicking o
 <a href="#Table_of_Contents_Site_Navigation">^</a>
 ## <span id="What_languages_are_supported">What languages are supported?</span>
 
-English is the most-used language used on the Steemit platform, but communities are forming that speak other languages.
+English is the most-used language used on the Vox platform, but communities are forming that speak other languages.
 
 <a href="#Table_of_Contents_Site_Navigation">^</a>
 # Posting
 
-## <span id="What_can_users_post_to_Steemit">What can users post to Steemit?</span>
+## <span id="What_can_users_post_to_Steemit">What can users post to Vox?</span>
 
-Steem is an open platform meant to host and welcome any legal content. Users can post anything they want, whether it be phrases, quotes, blogs, anecdotes, photos, videos, memes, songs, and more. Be creative!
+VoxChain is an open platform meant to host and welcome any legal content. Users can post anything they want, whether it be phrases, quotes, blogs, anecdotes, photos, videos, memes, songs, and more. Be creative!
 
 <a href="#Table_of_Contents_Posting">^</a>
 ## <span id="What_are_the_different_choices_for_post_rewards__50__50___Power_Up_100___Decline_Payout">What are the different choices for post rewards (50%/50%, Power Up 100%, Decline Payout)?</span>
 
-- **50%/50%** - This rewards in half STEEM Power, and half liquid STEEM / Steem Dollars. The ratio of liquid STEEM to Steem Dollars rewarded is based on network conditions at the time of payout. This is the default payout option.
+- **50%/50%** - This rewards in half STEEM Power, and half liquid STEEM / VoxChain Dollars. The ratio of liquid STEEM to VoxChain Dollars rewarded is based on network conditions at the time of payout. This is the default payout option.
 
 - **Power Up 100%** - This option rewards the post in 100% STEEM Power.
 
-- **Decline Payout** - Use this option to receive no post rewards. Votes will affect the post's position on the trending ranking but no rewards are paid from Steem's reward pool. Replies made to the post are still eligible for rewards.
+- **Decline Payout** - Use this option to receive no post rewards. Votes will affect the post's position on the trending ranking but no rewards are paid from VoxChain's reward pool. Replies made to the post are still eligible for rewards.
 
 <a href="#Table_of_Contents_Posting">^</a>
 ## <span id="How_do_I_add_images_and_photos_to_my_posts">How do I add images and photos to my posts?</span>
@@ -509,7 +509,7 @@ You can also read <a href="https://steemit.com/steemitguide/@algimantas/detailed
 <a href="#Table_of_Contents_Posting">^</a>
 ## <span id="Is_there_a_way_I_can_make_my_images_smaller">Is there a way I can make my images smaller?</span>
 
-Yes, but the picture must be resized before it is uploaded into the Steemit.com editor. This can be done in your favorite photo editing software, or online by uploading to a third-party website that features editing such as imgur.com.
+Yes, but the picture must be resized before it is uploaded into the Vox.community editor. This can be done in your favorite photo editing software, or online by uploading to a third-party website that features editing such as imgur.com.
 
 <a href="#Table_of_Contents_Posting">^</a>
 ## <span id="What_are_tags">What are tags?</span>
@@ -586,21 +586,21 @@ Language-specific groups include:
 <a href="#Table_of_Contents_Posting">^</a>
 ## <span id="Can_I_delete_something_I_posted">Can I delete something I posted?</span>
 
-The blockchain will always contain the full edit history of posts and comments, so it can never be completely deleted. If you would like to update a post so that users cannot see the content via Steemit.com, you can edit the post and replace it with blank content for as long as the post is active. After seven days, the post can no longer be edited.
+The blockchain will always contain the full edit history of posts and comments, so it can never be completely deleted. If you would like to update a post so that users cannot see the content via Vox.community, you can edit the post and replace it with blank content for as long as the post is active. After seven days, the post can no longer be edited.
 
 <a href="#Table_of_Contents_Posting">^</a>
 ## <span id="What_does__Promoting__a_post_do">What does "Promoting" a post do?</span>
 
-When you make a post, there is the option to promote it with Steem Dollars. It will then show up in the “Promoted” tab. The order that it appears in the list depends on how much the post was promoted for. Posts with a higher promoted amount will be higher than posts with less.
+When you make a post, there is the option to promote it with VoxChain Dollars. It will then show up in the “Promoted” tab. The order that it appears in the list depends on how much the post was promoted for. Posts with a higher promoted amount will be higher than posts with less.
 
-Steem Dollars spent to promote a post are paid to the account @null, which nobody owns or controls. Once a user transfers SBD to @null, the Steem blockchain removes them from the currency supply. Details can be found in this <a href="https://steemit.com/steemit/@steemitblog/introducing-promoted-content">official post</a>.
+VoxChain Dollars spent to promote a post are paid to the account @null, which nobody owns or controls. Once a user transfers SBD to @null, the VoxChain blockchain removes them from the currency supply. Details can be found in this <a href="https://steemit.com/steemit/@steemitblog/introducing-promoted-content">official post</a>.
 
 You can promote your own posts, or posts that you like from other users.
 
 <a href="#Table_of_Contents_Posting">^</a>
 ## <span id="How_do_I_promote_a_post">How do I promote a post?</span>
 
-At the bottom of each post is a button to "Promote". After clicking the button, type the number of Steem Dollars that you want to spend and click “PROMOTE”. The operation will require your master password or active key.
+At the bottom of each post is a button to "Promote". After clicking the button, type the number of VoxChain Dollars that you want to spend and click “PROMOTE”. The operation will require your master password or active key.
 
 <a href="#Table_of_Contents_Posting">^</a>
 # Comments
@@ -619,12 +619,12 @@ There is a 20 second wait time in between comments to limit spam.
 
 ## <span id="Where_do_the_new_STEEM_tokens_come_from">Where do the new STEEM tokens come from?</span>
 
-Blockchains like Steem and Bitcoin produce new tokens each time a block is produced. Unlike Bitcoin, where all of the new coins go to the block producers (called miners), the Steem blockchain allocates a majority of the new tokens to a reward fund. The reward fund gives users tokens for participating in the platform.
+Blockchains like VoxChain and Bitcoin produce new tokens each time a block is produced. Unlike Bitcoin, where all of the new coins go to the block producers (called miners), the VoxChain blockchain allocates a majority of the new tokens to a reward fund. The reward fund gives users tokens for participating in the platform.
 
 <a href="#Table_of_Contents_Economics">^</a>
 ## <span id="How_many_new_tokens_are_generated_by_the_blockchain">How many new tokens are generated by the blockchain?</span>
 
-Starting with the network's 16th hard fork in December 2016, Steem began creating new tokens at a yearly inflation rate of 9.5%. The inflation rate decreases at a rate of 0.01% every 250,000 blocks, or about 0.5% per year. The inflation will continue decreasing at this pace until the overall inflation rate reaches 0.95%. This will take about 20.5 years from the time hard fork 16 went into effect.
+Starting with the network's 16th hard fork in December 2016, VoxChain began creating new tokens at a yearly inflation rate of 9.5%. The inflation rate decreases at a rate of 0.01% every 250,000 blocks, or about 0.5% per year. The inflation will continue decreasing at this pace until the overall inflation rate reaches 0.95%. This will take about 20.5 years from the time hard fork 16 went into effect.
 
 <a href="#Table_of_Contents_Economics">^</a>
 ## <span id="How_are_the_new_tokens_distributed">How are the new tokens distributed?</span>
@@ -649,7 +649,7 @@ Up to 25% of a post's payout is awarded to curators (the people who upvoted the 
 
 There is a fixed amount of STEEM coins that gets added to the rewards pool each day. In the short term, the amount of coins that get paid out may be higher or lower depending on the amount of voting activity, but over time it will pay out the full amount of rewards regardless of who votes.
 
-Votes in Steem are stake-weighted. Therefore voters with more STEEM Power have a greater influence over the allocation than voters with less SP, but their votes do not increase the amount of rewards.
+Votes in VoxChain are stake-weighted. Therefore voters with more STEEM Power have a greater influence over the allocation than voters with less SP, but their votes do not increase the amount of rewards.
 
 <a href="#Table_of_Contents_Economics">^</a>
 ## <span id="Why_do_the_earnings_for_my_post_go_up_or_down">Why do the earnings for my post go up or down?</span>
@@ -671,20 +671,20 @@ The amount that is shown next to a post is a "**Potential Payout**". This is an 
 Posts and comments remain active for 7 days. When the period is over, you are able to claim their earned rewards. In your Wallet, click the Claim Rewards button to add the tokens to your account.
 
 <a href="#Table_of_Contents_Economics">^</a>
-## <span id="What_is_the_difference_between_STEEM__STEEM_Power__and_Steem_Dollars">What is the difference between STEEM, STEEM Power, and Steem Dollars?</span>
+## <span id="What_is_the_difference_between_STEEM__STEEM_Power__and_Steem_Dollars">What is the difference between STEEM, STEEM Power, and VoxChain Dollars?</span>
 
-**STEEM** - STEEM is the base liquid currency token in the platform. STEEM can be powered up into STEEM Power, traded for Steem Dollars, and transferred to other accounts. It is a cryptocurrency token, similar to bitcoin.
+**STEEM** - STEEM is the base liquid currency token in the platform. STEEM can be powered up into STEEM Power, traded for VoxChain Dollars, and transferred to other accounts. It is a cryptocurrency token, similar to bitcoin.
 
-**STEEM Power** - STEEM Power (abbreviated SP) is a measurement of how much influence a user has in the Steem network. The more STEEM Power a user holds, the more they can influence the value of posts and comments. STEEM Power is less liquid. If a user wishes to “Power Down” SP, they will receive equal distributions of the STEEM weekly, over a 13 week period.
+**STEEM Power** - STEEM Power (abbreviated SP) is a measurement of how much influence a user has in the VoxChain network. The more STEEM Power a user holds, the more they can influence the value of posts and comments. STEEM Power is less liquid. If a user wishes to “Power Down” SP, they will receive equal distributions of the STEEM weekly, over a 13 week period.
 
-**Steem Dollars** - Steem Dollars (commonly abbreviated SBD) are liquid stable-value currency tokens designed to be pegged to $1 USD. Steem Dollars can be traded with STEEM, and transferred to other accounts for commerce or exchange.  Steem Dollars may also be converted into STEEM in a process that takes 3.5 days. Steem Dollars can be used to buy things in marketplaces, such as PeerHub.com.
+**VoxChain Dollars** - VoxChain Dollars (commonly abbreviated SBD) are liquid stable-value currency tokens designed to be pegged to $1 USD. VoxChain Dollars can be traded with STEEM, and transferred to other accounts for commerce or exchange.  VoxChain Dollars may also be converted into STEEM in a process that takes 3.5 days. VoxChain Dollars can be used to buy things in marketplaces, such as PeerHub.com.
 
 <a href="#Table_of_Contents_Economics">^</a>
 ## <span id="What_is_delegated_STEEM_Power">What is delegated STEEM Power?</span>
 
 Users have the option to delegate STEEM Power to other users. When a user is delegated STEEM Power, their content votes and curation rewards are calculated as if it were their own STEEM Power. Users are not able to power down or cash out delegated STEEM Power, as it still belongs to the original owner.
 
-Most users will have a small amount of STEEM Power delegated to them by the Steemit account after creating an account via Steemit.com.
+Most users will have a small amount of STEEM Power delegated to them by the Vox account after creating an account via Vox.community.
 
 Delegated STEEM Power shows up in a user's wallet below their actual STEEM Power balance in parentheses.
 
@@ -696,32 +696,32 @@ The price of STEEM is based on the supply and demand of the token, determined by
 <a href="#Table_of_Contents_Economics">^</a>
 ## <span id="How_do_I_get_more_STEEM_Power">How do I get more STEEM Power?</span>
 
-With STEEM tokens in your wallet, click "Power Up" to turn them into STEEM Power. If you have Steem Dollars, you can convert them to STEEM from your wallet, and then power up the STEEM.
+With STEEM tokens in your wallet, click "Power Up" to turn them into STEEM Power. If you have VoxChain Dollars, you can convert them to STEEM from your wallet, and then power up the STEEM.
 
-If you don’t already have STEEM or Steem Dollars in your wallet, you can purchase them using bitcoin (BTC), ether (ETH), or BitShares (BTS) tokens. You may purchase BTC on various exchanges, such as Coinbase.com or Localbitcoins.com. 
+If you don’t already have STEEM or VoxChain Dollars in your wallet, you can purchase them using bitcoin (BTC), ether (ETH), or BitShares (BTS) tokens. You may purchase BTC on various exchanges, such as Coinbase.com or Localbitcoins.com. 
 
 To buy:
-- Click "Buy Steem" from the main menu in the top right corner of Steemit.com, or from your wallet.
+- Click "Buy VoxChain" from the main menu in the top right corner of Vox.community, or from your wallet.
 - Select the currency to deposit, and enter the amount of that currency you wish to use.
-- Enter your Steemit account name (without the @) for "Your receive address".
+- Enter your Vox account name (without the @) for "Your receive address".
 - Click the "Get Deposit Address" button.
 - Send the currency to the provided address.
 
-STEEM purchases made via Steemit.com are facilitated by <a href="https://blocktrades.us">BlockTrades</a>.
+STEEM purchases made via Vox.community are facilitated by <a href="https://blocktrades.us">BlockTrades</a>.
 
 bitcoin can also be exchanged for STEEM on external markets such as <a href="https://poloniex.com">Poloniex</a>, <a href="https://bittrex.com">Bittrex</a>, <a href="https://shapeshift.io">ShapeShift.io</a>, and <a href="https://changelly.com">Changelly</a>.
 
 <a href="#Table_of_Contents_Economics">^</a>
 ## <span id="How_long_does_it_take_STEEM_or_STEEM_Power_that_I_purchased_to_show_up_in_my_account">How long does it take STEEM or STEEM Power that I purchased to show up in my account?</span>
 
-Transactions on the Steem blockchain typically only take about three seconds to process, but when you are purchasing the STEEM tokens using bitcoin or some other token, then the transaction must wait for the transaction to be confirmed on the other network. This can often take several hours, and sometimes even days.    
+Transactions on the VoxChain blockchain typically only take about three seconds to process, but when you are purchasing the STEEM tokens using bitcoin or some other token, then the transaction must wait for the transaction to be confirmed on the other network. This can often take several hours, and sometimes even days.    
 
 If you paid using bitcoin, the third party website <a href="https://bitcoinfees.21.co/">bitcoinfees.21.co</a> can estimate the approximate wait time of the transaction based on the fees that were paid. The third party website <a href="https://blockchain.info/">blockchain.info</a> will lookup the fees that were paid on a specific blockchain transaction.
 
 <a href="#Table_of_Contents_Economics">^</a>
 ## <span id="What_is_powering_up_and_down">What is powering up and down?</span>
 
-**Powering up** - If you have STEEM tokens, you can Power Up to STEEM Power to get more voting influence on posts and comments. Having more STEEM Power also increases the amount of curation rewards and interest that you can earn. More SP also grants more influence on approving Steem witnesses.
+**Powering up** - If you have STEEM tokens, you can Power Up to STEEM Power to get more voting influence on posts and comments. Having more STEEM Power also increases the amount of curation rewards and interest that you can earn. More SP also grants more influence on approving VoxChain witnesses.
 
 **Powering down** - If you have STEEM Power, you can power down to turn it into liquid STEEM over a period of time. The system will transfer 1/13 of your STEEM Power to STEEM each week for about three months (13 weeks), starting 1 week from the time it is started. However, you will lose your influence in the network proportionally to how much is powered down, so think about it carefully. Power downs can be stopped at any time.
 
@@ -730,22 +730,22 @@ If you paid using bitcoin, the third party website <a href="https://bitcoinfees.
 
 The dollar amounts next to posts and comments are estimates of the potential payout that will occur when the payout period ends, based on the current voting activity and price of STEEM. These potential payout amounts may fluctuate up or down until the payout period ends.
 
-Payouts occur as a combination of STEEM Power and Steem Dollars. Sometimes the blockchain may substitute STEEM in place of the Steem Dollars based on market conditions.
+Payouts occur as a combination of STEEM Power and VoxChain Dollars. Sometimes the blockchain may substitute STEEM in place of the VoxChain Dollars based on market conditions.
 
-The blockchain estimates the dollar value of STEEM and STEEM Power based on the 3.5 day average price of STEEM reported by the witnesses. The blockchain assumes Steem Dollars are worth approximately one USD.
-
-<a href="#Table_of_Contents_Economics">^</a>
-## <span id="Will_1_Steem_Dollar_always_be_worth__1_00_USD">Will 1 Steem Dollar always be worth $1.00 USD?</span>
-
-The market value of a Steem Dollar is dictated by the supply and demand of the token. Therefore it is possible for 1 SBD to be worth more or less than 1 USD depending on market conditions. However, the network's SBD conversion feature serves as a mechanism to hold Steem Dollars within a small margin of the value of USD.
+The blockchain estimates the dollar value of STEEM and STEEM Power based on the 3.5 day average price of STEEM reported by the witnesses. The blockchain assumes VoxChain Dollars are worth approximately one USD.
 
 <a href="#Table_of_Contents_Economics">^</a>
-## <span id="How_do_Steem_Dollar_to_STEEM_conversions_work">How do Steem Dollar to STEEM conversions work?</span>
+## <span id="Will_1_Steem_Dollar_always_be_worth__1_00_USD">Will 1 VoxChain Dollar always be worth $1.00 USD?</span>
 
-If you convert Steem Dollars to STEEM on the Wallet page, the blockchain will process the transaction over a period of 3.5 days. At the end of the 3.5 days, the SBD will be gone and replaced by approximately $1 USD worth of STEEM tokens. The "approximately 1 USD worth of STEEM tokens" is based on the median STEEM price over the 3.5 days, using the price feeds from the Steem witnesses. Depending on price fluctuations during the 3.5 days it is possible to end up with more or less than $1 USD worth of STEEM per SBD at the end of the conversion.
+The market value of a VoxChain Dollar is dictated by the supply and demand of the token. Therefore it is possible for 1 SBD to be worth more or less than 1 USD depending on market conditions. However, the network's SBD conversion feature serves as a mechanism to hold VoxChain Dollars within a small margin of the value of USD.
 
 <a href="#Table_of_Contents_Economics">^</a>
-## <span id="Is_there_a_way_for_me_to_convert_my_Steem_Dollars_to_STEEM_without_waiting_3_5_days">Is there a way for me to convert my Steem Dollars to STEEM without waiting 3.5 days?</span>
+## <span id="How_do_Steem_Dollar_to_STEEM_conversions_work">How do VoxChain Dollar to STEEM conversions work?</span>
+
+If you convert VoxChain Dollars to STEEM on the Wallet page, the blockchain will process the transaction over a period of 3.5 days. At the end of the 3.5 days, the SBD will be gone and replaced by approximately $1 USD worth of STEEM tokens. The "approximately 1 USD worth of STEEM tokens" is based on the median STEEM price over the 3.5 days, using the price feeds from the VoxChain witnesses. Depending on price fluctuations during the 3.5 days it is possible to end up with more or less than $1 USD worth of STEEM per SBD at the end of the conversion.
+
+<a href="#Table_of_Contents_Economics">^</a>
+## <span id="Is_there_a_way_for_me_to_convert_my_Steem_Dollars_to_STEEM_without_waiting_3_5_days">Is there a way for me to convert my VoxChain Dollars to STEEM without waiting 3.5 days?</span>
 
 You can exchange them. Visit the internal Market, found in the main menu. There you can exchange your SBD for STEEM in real-time at whatever the current market price is.
 
@@ -774,40 +774,40 @@ Depending on market conditions, users may get more STEEM for their SBD by tradin
 A VEST is a unit of measurement for STEEM Power. A MVEST is one million VESTS. The amount of STEEM Power in one MVEST can be found on <a href="https://steemd.com/">steemd.com</a> as `steem_per_mvests`.
 
 <a href="#Table_of_Contents_Economics">^</a>
-## <span id="Can_I_sell_goods_and_services_on_Steemit">Can I sell goods and services on Steemit?</span>
+## <span id="Can_I_sell_goods_and_services_on_Steemit">Can I sell goods and services on Vox?</span>
 
-Other than making a post and making sales manually, there is no interface for selling items directly on Steemit.com. You can list goods on the third-party website <a href="https://www.peerhub.com">PeerHub.com</a>. Through PeerHub, you can accept payment in Steem Dollars or STEEM, and you have the option to advertise your items through Steemit posts.
+Other than making a post and making sales manually, there is no interface for selling items directly on Vox.community. You can list goods on the third-party website <a href="https://www.peerhub.com">PeerHub.com</a>. Through PeerHub, you can accept payment in VoxChain Dollars or STEEM, and you have the option to advertise your items through Vox posts.
 
 <a href="#Table_of_Contents_Economics">^</a>
 ## <span id="How_can_I_withdraw_my_STEEM_or_SBD_coins">How can I withdraw my STEEM or SBD coins?</span>
 
 STEEM and SBD tokens are readily tradable to bitcoin, which is readily tradable to the local currency of your choice. There is a link to "Sell" your STEEM and SBD tokens in your wallet, which uses the <a href="https://blocktrades.us/">BlockTrades</a> interface.
 
-There are several guides that have been posted by users in the community for using various external exchanges to withdraw STEEM and SBD tokens. Please read the <a href="#Disclaimer">disclaimer</a> before using any of these guides to withdraw your coins. The users, guides, and exchanges listed in the guides are not endorsed by Steemit, Inc. Use the guides below at your own risk. 
+There are several guides that have been posted by users in the community for using various external exchanges to withdraw STEEM and SBD tokens. Please read the <a href="#Disclaimer">disclaimer</a> before using any of these guides to withdraw your coins. The users, guides, and exchanges listed in the guides are not endorsed by Vox, Inc. Use the guides below at your own risk. 
 
 It is recommended that you withdraw a small amount first, to verify it works before withdrawing a larger amount.
 
-#### Sell Steem Dollars via Poloniex
+#### Sell VoxChain Dollars via Poloniex
 https://steemit.com/steemit/@ash/steemit-how-to-sell-steem-dollars-via-poloniex-newbie-friendly
 
-#### Withdraw Steem Dollars to a Bitcoin address
+#### Withdraw VoxChain Dollars to a Bitcoin address
 https://steemit.com/steem-help/@piedpiper/how-to-withdraw-your-steem-dollars-in-less-that-a-minute
 
-#### Convert Steem Dollars to a country’s currency and withdraw to a bank account
+#### Convert VoxChain Dollars to a country’s currency and withdraw to a bank account
 https://steemit.com/tutorial/@beanz/how-to-get-my-usdteemit-money-into-my-bank-account
 
 #### Convert STEEM to many other cryptocurrencies via ShapeShift
 https://steemit.com/steemit/@shapeshiftio/official-announcement-shapeshift-has-added-steem-to-the-exchange
 
 <a href="#Table_of_Contents_Economics">^</a>
-## <span id="Will_I_get_a_1099_from_Steemit">Will I get a 1099 from Steemit?</span>
+## <span id="Will_I_get_a_1099_from_Steemit">Will I get a 1099 from Vox?</span>
 
-No, you are not being paid by Steemit. The Steem network rewards you. It is your responsibility to determine what, if any, taxes apply to the transactions you make. Further, it is your responsibility to report and remit the correct tax to the appropriate tax authority. By creating an account, you agree that Steemit Inc is not responsible for determining whether taxes apply to your Steem transactions or for collecting, reporting, withholding, or remitting any taxes arising from any Steem transactions.
+No, you are not being paid by Vox. The VoxChain network rewards you. It is your responsibility to determine what, if any, taxes apply to the transactions you make. Further, it is your responsibility to report and remit the correct tax to the appropriate tax authority. By creating an account, you agree that Vox Inc is not responsible for determining whether taxes apply to your VoxChain transactions or for collecting, reporting, withholding, or remitting any taxes arising from any VoxChain transactions.
 
 <a href="#Table_of_Contents_Economics">^</a>
 ## <span id="How_much_are_the_transaction_fees_for_sending_tokens_to_other_users">How much are the transaction fees for sending tokens to other users?</span>
 
-There are never any fees for transfers within the Steem network. However, if you transfer Steem to an exchange and convert it to another currency, you will incur a small fee from the exchange.
+There are never any fees for transfers within the VoxChain network. However, if you transfer VoxChain to an exchange and convert it to another currency, you will incur a small fee from the exchange.
 
 <a href="#Table_of_Contents_Economics">^</a>
 ## <span id="Are_there_fees_for_Powering_Up__Powering_Down__trading_on_the_internal_market__or_converting_SBD_to_STEEM">Are there fees for Powering Up, Powering Down, trading on the internal market, or converting SBD to STEEM?</span>
@@ -889,7 +889,7 @@ Even though your vote may not have an immediate effect, when it gets added in al
 
 Yes. The more STEEM Power you have, the more influence your votes will have.
 
-The platform does not require that anybody purchase SP in order to participate, and there are many users who have earned a lot of STEEM Power without spending any of their own money. You have the option of purchasing more STEEM Power through your Steemit wallet.
+The platform does not require that anybody purchase SP in order to participate, and there are many users who have earned a lot of STEEM Power without spending any of their own money. You have the option of purchasing more STEEM Power through your Vox wallet.
 
 <a href="#Table_of_Contents_Voting_and_Curating">^</a>
 ## <span id="What_are_the_valid_reasons_for_downvoting">What are the valid reasons for downvoting?</span>
@@ -931,7 +931,7 @@ With the current implementation, there is no difference between a downvote and a
 - Scams or Fraudulent offers.
 
 <a href="#Table_of_Contents_Plagiarism__Spam__and_Abuse">^</a>
-## <span id="What_are_Steemit_s_policies_on_plagiarism">What are Steemit’s policies on plagiarism?</span>
+## <span id="What_are_Steemit_s_policies_on_plagiarism">What are Vox’s policies on plagiarism?</span>
 
 If you are posting plagiarized or copied content, you can get in legal trouble for violating copyright laws. Plagiarized posts and spam are seen as abuse and will be downvoted by community members. If you are posting or using someone else’s content, you must ensure that you have the rights to use the content, and properly reference the sources where you got the material from.
 
@@ -948,13 +948,13 @@ https://steemit.com/steem-help/@mindover/don-t-plagiarize-images-here-are-13-fre
 <a href="#Table_of_Contents_Plagiarism__Spam__and_Abuse">^</a>
 ## <span id="What_is_Steemcleaners">What is Steemcleaners?</span>
 
-Steemcleaners are a group of Steemians concerned with plagiarism, copy/paste, spam, scams and other forms of abuse on Steemit. 
+Steemcleaners are a group of Steemians concerned with plagiarism, copy/paste, spam, scams and other forms of abuse on Vox. 
 https://steemit.com/steemcleaners/@steemcleaners/announcing-steemcleaners-the-steemit-abuse-fighting-team
 
 <a href="#Table_of_Contents_Plagiarism__Spam__and_Abuse">^</a>
 ## <span id="What_is__cheetah">What is @cheetah?</span>
 
-@cheetah is a bot developed by @anyx that scours Steemit for copy/pasted content. Cheetah will not downvote copied content, but it alerts other users to look into it further.
+@cheetah is a bot developed by @anyx that scours Vox for copy/pasted content. Cheetah will not downvote copied content, but it alerts other users to look into it further.
 
 Abusive accounts (serial plagiarists or identity thieves, for example) will go on Cheetah’s blacklist. These users will get downvoted by @cheetah accounts when they post.
 
@@ -971,7 +971,7 @@ You can report any abusive content to the <a href="https://steemit.chat/channel/
 
 ## <span id="What_is_Reputation">What is Reputation?</span>
 
-Every user has a reputation score next to their name. The reputation score is one way Steemit measures the amount of value you have brought to the community. It is also a mechanism that is designed to help reduce abuse of the Steemit platform. 
+Every user has a reputation score next to their name. The reputation score is one way Vox measures the amount of value you have brought to the community. It is also a mechanism that is designed to help reduce abuse of the Vox platform. 
 
 Your reputation goes up when accounts vote on your content. Getting downvoted by someone with a higher reputation can push your reputation down and make your posts less visible.
 
@@ -990,7 +990,7 @@ https://steemit.com/steemit/@digitalnotvir/how-reputation-scores-are-calculated-
 <a href="#Table_of_Contents_Reputation">^</a>
 ## <span id="How_do_I_improve_my_reputation_score">How do I improve my reputation score?</span>
 
-Every time another user upvotes one of your posts or comments, it increases your reputation score. Users with a higher reputation than you will have more of a positive effect. The more STEEM Power that the voter has, the larger the effect is as well. The best way to earn upvotes is by adding value to the Steemit community.
+Every time another user upvotes one of your posts or comments, it increases your reputation score. Users with a higher reputation than you will have more of a positive effect. The more STEEM Power that the voter has, the larger the effect is as well. The best way to earn upvotes is by adding value to the Vox community.
 
 <a href="#Table_of_Contents_Reputation">^</a>
 ## <span id="What_causes_my_reputation_score_to_go_down">What causes my reputation score to go down?</span>
@@ -1003,11 +1003,11 @@ The only way for your reputation score to go down is to be downvoted by another 
 <a href="#Table_of_Contents_Reputation">^</a>
 ## <span id="Why_does_my_reputation_score_matter">Why does my reputation score matter?</span>
 
-A reputation score is one way Steemit measures the amount of value you have brought to the community. In real estate, they say there are three variables of the utmost importance: location, location, location. On Steemit, those things are: reputation, reputation, reputation. It’s not to say other variables aren’t important, but reputation will be an enormous factor in your level of success.
+A reputation score is one way Vox measures the amount of value you have brought to the community. In real estate, they say there are three variables of the utmost importance: location, location, location. On Vox, those things are: reputation, reputation, reputation. It’s not to say other variables aren’t important, but reputation will be an enormous factor in your level of success.
 
 Many Steemians glance at users’ reputation scores when deciding which articles to read because they know higher reputation scores means it is much more likely quality content. Furthermore, the higher your rep, the more effect your vote will have on the reputation of others.
 
-It is worth noting that if your reputation score goes below 0, Steemit will hide your posts and comments making it very difficult to gain monetary rewards and followers. This incentivizes online etiquette and respect for your fellow Steemians.
+It is worth noting that if your reputation score goes below 0, Vox will hide your posts and comments making it very difficult to gain monetary rewards and followers. This incentivizes online etiquette and respect for your fellow Steemians.
 
 <a href="#Table_of_Contents_Reputation">^</a>
 # Followers, Feeds, and Resteem
@@ -1019,7 +1019,7 @@ This is like reblogging or sharing posts on other platforms.  Once you resteem a
 <a href="#Table_of_Contents_Followers__Feeds_and_Resteem">^</a>
 ## <span id="Can_I_share_on_other_social_media">Can I share on other social media?</span>
 
-Yes you can use the share button to share on Facebook, Twitter or LinkedIn. You are welcome to post your Steemit links on other websites and social media sites.
+Yes you can use the share button to share on Facebook, Twitter or LinkedIn. You are welcome to post your Vox links on other websites and social media sites.
 
 <a href="#Table_of_Contents_Followers__Feeds_and_Resteem">^</a>
 # Blockchain
@@ -1029,23 +1029,23 @@ Yes you can use the share button to share on Facebook, Twitter or LinkedIn. You 
 A blockchain is a public ledger of all transactions ever executed. All of the transactions and data are stored in a distributed database. Each time the database is updated, all of updates are done together in a batch called a 'block'. Each time a new block is produced/added, it is appended on to all of the previous blocks - hence the name "blockchain".
 
 <a href="#Table_of_Contents_Blockchain">^</a>
-## <span id="What_is_the_Steem_blockchain">What is the Steem blockchain?</span>
+## <span id="What_is_the_Steem_blockchain">What is the VoxChain blockchain?</span>
 
-The Steem blockchain is the publicly accessible distributed database, which records all posts and votes, and distributes the rewards across the network. It is where all of the text content and voting data is stored, and it is where all of the reward calculations and payouts are performed.
-
-<a href="#Table_of_Contents_Blockchain">^</a>
-## <span id="What_is_the_difference_between_Steem_and_Steemit">What is the difference between Steem and Steemit?</span>
-
-Steem is the name of the blockchain that stores all of the data and transactions, and processes all of the events that take place. STEEM is also a name for the system’s value token (currency).
-
-Steemit is a front end web interface to interact with the blockchain, and view the blockchain data.
+The VoxChain blockchain is the publicly accessible distributed database, which records all posts and votes, and distributes the rewards across the network. It is where all of the text content and voting data is stored, and it is where all of the reward calculations and payouts are performed.
 
 <a href="#Table_of_Contents_Blockchain">^</a>
-## <span id="How_is_Steem_different_from_Bitcoin">How is Steem different from Bitcoin?</span>
+## <span id="What_is_the_difference_between_Steem_and_Steemit">What is the difference between VoxChain and Vox?</span>
 
-On a technical level, the two networks rely on the same model of a blockchain, but are built upon different technologies and codebase. Steem is based on a new state-of-the-art blockchain technology called Graphene, which uses "witnesses" instead of "miners" to produce blocks. 
+VoxChain is the name of the blockchain that stores all of the data and transactions, and processes all of the events that take place. STEEM is also a name for the system’s value token (currency).
 
-The "delegated proof of stake" model of using witnesses instead of miners allows for greater efficiency in block production. With BTC, 100% of the new coins that are created are allocated to block producers (miners). With the Steem blockchain, only 10% of the new coins are paid to block producers (witnesses). The other 90% of new STEEM coins are awarded to content producers, curators, and STEEM Power holders.
+Vox is a front end web interface to interact with the blockchain, and view the blockchain data.
+
+<a href="#Table_of_Contents_Blockchain">^</a>
+## <span id="How_is_Steem_different_from_Bitcoin">How is VoxChain different from Bitcoin?</span>
+
+On a technical level, the two networks rely on the same model of a blockchain, but are built upon different technologies and codebase. VoxChain is based on a new state-of-the-art blockchain technology called Graphene, which uses "witnesses" instead of "miners" to produce blocks. 
+
+The "delegated proof of stake" model of using witnesses instead of miners allows for greater efficiency in block production. With BTC, 100% of the new coins that are created are allocated to block producers (miners). With the VoxChain blockchain, only 10% of the new coins are paid to block producers (witnesses). The other 90% of new STEEM coins are awarded to content producers, curators, and STEEM Power holders.
 
 <a href="#Table_of_Contents_Blockchain">^</a>
 ## <span id="What_is_the_difference_between_Proof_of_Work__Proof_of_Stake__and_Delegated_Proof_of_Stake">What is the difference between Proof of Work, Proof of Stake, and Delegated Proof of Stake?</span>
@@ -1054,12 +1054,12 @@ The "delegated proof of stake" model of using witnesses instead of miners allows
 
 **Proof of stake** - Requires ownership, or stake, in the cryptocurrency. The more tokens you own, the more block creation power you have. Benefits: eliminates the need for expensive mining rigs, runs on a tiny fraction of the power, and it requires block producers to have a stake in the network.
 
-**Delegated proof of stake** - Block-creating accounts, called witnesses, are collectively approved by Steem stakeholders. Instead of relying on proof of work to find blocks, the Steem network actively schedules these accounts to improve the time between blocks to 3 seconds.
+**Delegated proof of stake** - Block-creating accounts, called witnesses, are collectively approved by VoxChain stakeholders. Instead of relying on proof of work to find blocks, the VoxChain network actively schedules these accounts to improve the time between blocks to 3 seconds.
 
 <a href="#Table_of_Contents_Blockchain">^</a>
-## <span id="How_often_does_the_Steem_blockchain_produce_a_new_block">How often does the Steem blockchain produce a new block?</span>
+## <span id="How_often_does_the_Steem_blockchain_produce_a_new_block">How often does the VoxChain blockchain produce a new block?</span>
 
-The Steem blockchain schedules witnesses to produce a new block every 3 seconds. 21 witness nodes produce 21 blocks in each 63-second round.
+The VoxChain blockchain schedules witnesses to produce a new block every 3 seconds. 21 witness nodes produce 21 blocks in each 63-second round.
 
 <a href="#Table_of_Contents_Blockchain">^</a>
 ## <span id="Is_there_a_way_to_see_the_raw_data_that_is_stored_in_the_blockchain">Is there a way to see the raw data that is stored in the blockchain?</span>
@@ -1069,62 +1069,62 @@ Yes. The blockchain data can be viewed in different ways with third-party tools 
 <a href="#Table_of_Contents_Blockchain">^</a>
 ## <span id="Where_can_I_find_the_information_for_the_official_launch_of_the_blockchain">Where can I find the information for the official launch of the blockchain?</span>
 
-The original launch of Steem was on March 23, 2016, announced on <a href="https://bitcointalk.org/index.php?topic=1408726.0">Bitcointalk.org</a>. There was a bug found in the original code though, and a majority of the stakeholders agreed that it would be easier to fix via a re-launch than a hardfork. The blockchain was reset and officially re-launched on March 24, 2016, via <a href="https://bitcointalk.org/index.php?topic=1410943.0">Bitcointalk.org</a>.
+The original launch of VoxChain was on March 23, 2016, announced on <a href="https://bitcointalk.org/index.php?topic=1408726.0">Bitcointalk.org</a>. There was a bug found in the original code though, and a majority of the stakeholders agreed that it would be easier to fix via a re-launch than a hardfork. The blockchain was reset and officially re-launched on March 24, 2016, via <a href="https://bitcointalk.org/index.php?topic=1410943.0">Bitcointalk.org</a>.
 
 <a href="#Table_of_Contents_Blockchain">^</a>
 ## <span id="Can_I_mine_STEEM">Can I mine STEEM?</span>
 
-No. Proof of work mining has been removed from Steem.
+No. Proof of work mining has been removed from VoxChain.
 
 <a href="#Table_of_Contents_Blockchain">^</a>
-# Steemit, Inc.
+# Vox, Inc.
 
-## <span id="Who_is_the_CEO_of_Steemit">Who is the CEO of Steemit?</span>
+## <span id="Who_is_the_CEO_of_Steemit">Who is the CEO of Vox?</span>
 
 Ned Scott, @ned
 https://www.linkedin.com/in/nedscott
 
 <a href="#Table_of_Contents_Steemit__Inc">^</a>
-## <span id="Can_I_invest_in_Steemit">Can I invest in Steemit?</span>
+## <span id="Can_I_invest_in_Steemit">Can I invest in Vox?</span>
 
-Steemit, Inc. is a privately held company and is not available for public investment.
+Vox, Inc. is a privately held company and is not available for public investment.
 
-Though not considered an investment, you can purchase STEEM tokens which can go up or down in value. You can power up these tokens into STEEM Power, which grants more influence in the Steem platform.
+Though not considered an investment, you can purchase STEEM tokens which can go up or down in value. You can power up these tokens into STEEM Power, which grants more influence in the VoxChain platform.
 
 <a href="#Table_of_Contents_Steemit__Inc">^</a>
-## <span id="What_does_Steemit_s_development_roadmap_look_like">What does Steemit’s development roadmap look like?</span>
+## <span id="What_does_Steemit_s_development_roadmap_look_like">What does Vox’s development roadmap look like?</span>
 
 You can view the 2017 Roadmap here:
 https://steemit.com/steemit/@steemitblog/steemit-2017-roadmap
 
 <a href="#Table_of_Contents_Steemit__Inc">^</a>
-## <span id="Am_I_allowed_to_use_the_Steem_and_Steemit_logos">Am I allowed to use the Steem and Steemit logos?</span>
+## <span id="Am_I_allowed_to_use_the_Steem_and_Steemit_logos">Am I allowed to use the VoxChain and Vox logos?</span>
 
-The Steemit brand and logo are protected by intellectual property laws, including copyright and other proprietary rights of the United States and other countries. The purpose is to allow Steemit to protect the brand and logo in ways that extend user safety. One may not make unauthorized commercial use of, reproduce, prepare derivative works, distribute copies, perform, or publicly display the Steemit logo or brand, except as permitted by the doctrine of fair use, or as authorized in writing by us.
+The Vox brand and logo are protected by intellectual property laws, including copyright and other proprietary rights of the United States and other countries. The purpose is to allow Vox to protect the brand and logo in ways that extend user safety. One may not make unauthorized commercial use of, reproduce, prepare derivative works, distribute copies, perform, or publicly display the Vox logo or brand, except as permitted by the doctrine of fair use, or as authorized in writing by us.
 
-[Section 107 of the Copyright Act](http://www.copyright.gov/title17/92chap1.html#107) provides the statutory framework for determining whether something is a fair use and identifies certain types of uses—such as criticism, comment, news reporting, teaching, scholarship, and research—as examples of activities that may qualify as fair use. **Steemit considers artistic variations of the Steemit logo that are used for non-commercial purposes, and are not used to harm Steemit users (i.e. through attraction to phishing sites), an instance of fair use.** 
+[Section 107 of the Copyright Act](http://www.copyright.gov/title17/92chap1.html#107) provides the statutory framework for determining whether something is a fair use and identifies certain types of uses—such as criticism, comment, news reporting, teaching, scholarship, and research—as examples of activities that may qualify as fair use. **Vox considers artistic variations of the Vox logo that are used for non-commercial purposes, and are not used to harm Vox users (i.e. through attraction to phishing sites), an instance of fair use.** 
 
-The blue Steem logo with the three S-shaped squiggles is licensed under Creative Commons CC0, meaning you’re free to copy, modify, or distribute (even for commercial purposes) without needing to ask permission or give attribution.
-
-<a href="#Table_of_Contents_Steemit__Inc">^</a>
-## <span id="Can_I_purchase_official_Steemit_merchandise">Can I purchase official Steemit merchandise?</span>
-
-Yes. Official Steemit merchandise can be purchased from [The Steemit Shop](https://thesteemitshop.com/).
+The blue VoxChain logo with the three S-shaped squiggles is licensed under Creative Commons CC0, meaning you’re free to copy, modify, or distribute (even for commercial purposes) without needing to ask permission or give attribution.
 
 <a href="#Table_of_Contents_Steemit__Inc">^</a>
-## <span id="Did_Steemit__pre_mine__tokens">Did Steemit "pre-mine" tokens?</span>
+## <span id="Can_I_purchase_official_Steemit_merchandise">Can I purchase official Vox merchandise?</span>
 
-The STEEM tokens mined by Steemit, Inc. were not "pre-mined". All mining took place after the coin was officially and publicly announced on <a href="https://bitcointalk.org/index.php?topic=1410943.0">Bitcointalk.org</a>.
+Yes. Official Vox merchandise can be purchased from [The Vox Shop](https://thesteemitshop.com/).
 
 <a href="#Table_of_Contents_Steemit__Inc">^</a>
-## <span id="What_is_the_Steemit_Privacy_Policy">What is the Steemit Privacy Policy?</span>
+## <span id="Did_Steemit__pre_mine__tokens">Did Vox "pre-mine" tokens?</span>
+
+The STEEM tokens mined by Vox, Inc. were not "pre-mined". All mining took place after the coin was officially and publicly announced on <a href="https://bitcointalk.org/index.php?topic=1410943.0">Bitcointalk.org</a>.
+
+<a href="#Table_of_Contents_Steemit__Inc">^</a>
+## <span id="What_is_the_Steemit_Privacy_Policy">What is the Vox Privacy Policy?</span>
 
 https://steemit.com/privacy.html
 
 <a href="#Table_of_Contents_Steemit__Inc">^</a>
 # Security
 
-## <span id="How_can_I_keep_my_Steem_account_secure">How can I keep my Steem account secure?</span>
+## <span id="How_can_I_keep_my_Steem_account_secure">How can I keep my VoxChain account secure?</span>
 
 <b>Save your master password and keep it somewhere safe.</b>
 
@@ -1135,7 +1135,7 @@ Only log into your account using the key with the appropriate permissions for wh
 
 Again, <b>save your master password</b> and keep it safe! If logging in with your post key, make sure you don't overwrite or misplace your original master password.
 
-It is not recommended to share your password or keys with any third party site. Steemit Inc. is developing a login application that can be used on third party Steem front ends.
+It is not recommended to share your password or keys with any third party site. Vox Inc. is developing a login application that can be used on third party VoxChain front ends.
 
 <a href="#Table_of_Contents_Security">^</a>
 ## <span id="Why_should_I_be_careful_with_my_master_password">Why should I be careful with my master password?</span>
@@ -1150,9 +1150,9 @@ The password has to be long and random for maximum account security.
 <a href="#Table_of_Contents_Security">^</a>
 ## <span id="What_are_my_different_keys_for">What are my different keys for?</span>
 
-**Posting key** - The posting key allows accounts to post, comment, edit, vote, resteem, and follow or mute other accounts. Most users should be logging into Steemit every day with the posting key. You are more likely to have your password or key compromised the more you use it so a limited posting key exists to restrict the damage that a compromised account key would cause.
+**Posting key** - The posting key allows accounts to post, comment, edit, vote, resteem, and follow or mute other accounts. Most users should be logging into Vox every day with the posting key. You are more likely to have your password or key compromised the more you use it so a limited posting key exists to restrict the damage that a compromised account key would cause.
 
-**Active key** - The active key is meant for more sensitive tasks such as transferring funds, power up/down transactions, converting Steem Dollars, voting for witnesses, updating profile details and avatar, and placing a market order. 
+**Active key** - The active key is meant for more sensitive tasks such as transferring funds, power up/down transactions, converting VoxChain Dollars, voting for witnesses, updating profile details and avatar, and placing a market order. 
 
 **Memo key** - Currently the memo key is not used.
 
@@ -1166,21 +1166,21 @@ There is no way to recover your account if you lose your password or owner key! 
 It is strongly recommended that you store an offline copy of your password somewhere safe in case of a hard drive failure or other calamity. Consider digital offline storage, such as an external disk or flash drive, as well as printed paper. Use a safe deposit box for best redundancy.
 
 <a href="#Table_of_Contents_Security">^</a>
-## <span id="Are_my_STEEM_and_Steem_Dollar_tokens_insured_in_the_event_of_a_hack_or_if_someone_takes_over_my_account">Are my STEEM and Steem Dollar tokens insured in the event of a hack or if someone takes over my account?</span>
+## <span id="Are_my_STEEM_and_Steem_Dollar_tokens_insured_in_the_event_of_a_hack_or_if_someone_takes_over_my_account">Are my STEEM and VoxChain Dollar tokens insured in the event of a hack or if someone takes over my account?</span>
 
 No, liquid tokens can not be taken back if stolen or sent to the wrong account. If your tokens are in STEEM Power, it is impossible for a hacker to take out more than 1/13 per week. If your tokens are in savings, there is a three-day wait period for them to become transferable.
 
 <a href="#Table_of_Contents_Security">^</a>
 ## <span id="What_should_I_do_if_I_discover_that_someone_hacked_my_account">What should I do if I discover that someone hacked my account?</span>
 
-If you made your account through Steemit and it is compromised, immediately visit the <a href="https://steemit.com/recover_account_step_1">Stolen Account Recovery</a> page. This link is also available in the main site menu. You will need to provide the email address that you used when you signed up, your account name, and a master password that was used in the last 30 days.
+If you made your account through Vox and it is compromised, immediately visit the <a href="https://steemit.com/recover_account_step_1">Stolen Account Recovery</a> page. This link is also available in the main site menu. You will need to provide the email address that you used when you signed up, your account name, and a master password that was used in the last 30 days.
 
 <a href="#Table_of_Contents_Security">^</a>
 ## <span id="How_does_the_stolen_account_recovery_process_work">How does the stolen account recovery process work?</span>
 
 If your password has been changed without your consent, then the account designated as your recovery account can generate a new owner key for the account. The account recovery must be completed within 30 days of the password being changed, and you must supply a recent owner key that was valid within the last 30 days.
 
-Steemit Inc. owns the default recovery account (@steem) for all users who sign up using Steemit.com. Steemit can identify users by their original email, Facebook, or Reddit logins that were used to signup via Steemit.com.
+Vox Inc. owns the default recovery account (@steem) for all users who sign up using Vox.community. Vox can identify users by their original email, Facebook, or Reddit logins that were used to signup via Vox.community.
 
 If you don't have the master password or owner key that was valid the past 30 days, or are unable to prove that you are the original owner of the account, then your account will be unrecoverable.
 
@@ -1192,28 +1192,28 @@ If you find a security issue please report the details to security@steemit.com.
 <a href="#Table_of_Contents_Security">^</a>
 # Developers
 
-## <span id="Are_the_Steem_blockchain_and_Steemit_com_code_open_source">Are the Steem blockchain and Steemit.com code open-source?</span>
+## <span id="Are_the_Steem_blockchain_and_Steemit_com_code_open_source">Are the VoxChain blockchain and Vox.community code open-source?</span>
 
-Yes. Both the Steem blockchain and Steemit.com are open-source projects.
+Yes. Both the VoxChain blockchain and Vox.community are open-source projects.
 
-Developers should however avoid the use of the term "Steemit" in their own products, and instead refer to the Steem Blockchain or Steem Platform. Steemit refers to Steemit.com, which is owned by Steemit, Inc.
+Developers should however avoid the use of the term "Vox" in their own products, and instead refer to the VoxChain Blockchain or VoxChain Platform. Vox refers to Vox.community, which is owned by Vox, Inc.
 
 <a href="#Table_of_Contents_Developers">^</a>
-## <span id="Is_there_a_Github_page_for_Steemit_com">Is there a Github page for Steemit.com?</span>
+## <span id="Is_there_a_Github_page_for_Steemit_com">Is there a Github page for Vox.community?</span>
 
 https://github.com/steemit/condenser
 
 <a href="#Table_of_Contents_Developers">^</a>
-## <span id="Is_there_a_Github_page_for_the_Steem_blockchain">Is there a Github page for the Steem blockchain?</span>
+## <span id="Is_there_a_Github_page_for_the_Steem_blockchain">Is there a Github page for the VoxChain blockchain?</span>
 
 https://github.com/steemit/steem
 
 <a href="#Table_of_Contents_Developers">^</a>
-## <span id="What_is_available_for_developers_interested_in_Steem_and_Steemit">What is available for developers interested in Steem and Steemit?</span>
+## <span id="What_is_available_for_developers_interested_in_Steem_and_Steemit">What is available for developers interested in VoxChain and Vox?</span>
 
-Many software engineers are currently leveraging the open-source code to build their applications on Steem. There are more than sixty so far.
+Many software engineers are currently leveraging the open-source code to build their applications on VoxChain. There are more than sixty so far.
 
-This post from the user @fabien has more information about the Steem API:
+This post from the user @fabien has more information about the VoxChain API:
 https://steemit.com/steemjs/@fabien/steem-api-now-released
 
 <a href="#Table_of_Contents_Developers">^</a>
@@ -1225,11 +1225,11 @@ https://steemit.com/steemhelp/@pfunk/a-learner-s-guide-to-using-steem-s-cliwalle
 <a href="#Table_of_Contents_Developers">^</a>
 # Witnesses
 
-## <span id="What_are_Steem_witnesses">What are Steem witnesses?</span>
+## <span id="What_are_Steem_witnesses">What are VoxChain witnesses?</span>
 
-The Steem blockchain requires a set of people to create blocks and uses a consensus mechanism called delegated proof of stake, or DPOS. The community elects 'witnesses' to act as the network's block producers and governance body. There are 20 full-time witnesses, producing a block every 63-second round. A 21st position is shared by backup witnesses, who are scheduled proportionally to the amount of stake-weighted community approval they have. Witnesses are compensated with STEEM Power for each block they create.
+The VoxChain blockchain requires a set of people to create blocks and uses a consensus mechanism called delegated proof of stake, or DPOS. The community elects 'witnesses' to act as the network's block producers and governance body. There are 20 full-time witnesses, producing a block every 63-second round. A 21st position is shared by backup witnesses, who are scheduled proportionally to the amount of stake-weighted community approval they have. Witnesses are compensated with STEEM Power for each block they create.
 
-Steemit leverages Steem because the founders of Steemit believe Steem’s decentralized text content storage and governance model makes Steem an excellent platform for supporting the long term success of its social network and digital currency tokens.
+Vox leverages VoxChain because the founders of Vox believe VoxChain’s decentralized text content storage and governance model makes VoxChain an excellent platform for supporting the long term success of its social network and digital currency tokens.
 
 <a href="#Table_of_Contents_Witnesses">^</a>
 ## <span id="How_can_I_vote_for_witnesses">How can I vote for witnesses?</span>
@@ -1244,26 +1244,26 @@ Each account can vote for up to 30 witnesses.
 <a href="#Table_of_Contents_Witnesses">^</a>
 # Miscellaneous
 
-## <span id="What_third_party_tools_are_there_for_Steemit">What third-party tools are there for Steemit?</span>
+## <span id="What_third_party_tools_are_there_for_Steemit">What third-party tools are there for Vox?</span>
 
 http://steemtools.com/
 
 <a href="#Table_of_Contents_Miscellaneous">^</a>
-## <span id="Is_there_an_official_Steemit_Facebook_page">Is there an official Steemit Facebook page?</span>
+## <span id="Is_there_an_official_Steemit_Facebook_page">Is there an official Vox Facebook page?</span>
 
 https://www.facebook.com/steemit/
 
 <a href="#Table_of_Contents_Miscellaneous">^</a>
-## <span id="Is_there_an_official_Steemit_Twitter_account">Is there an official Steemit Twitter account?</span>
+## <span id="Is_there_an_official_Steemit_Twitter_account">Is there an official Vox Twitter account?</span>
 
 https://twitter.com/steemit
 
 <a href="#Table_of_Contents_Miscellaneous">^</a>
-## <span id="What_is_the_Steem_Whitepaper_and_what_is_its_purpose">What is the Steem Whitepaper and what is its purpose?</span>
+## <span id="What_is_the_Steem_Whitepaper_and_what_is_its_purpose">What is the VoxChain Whitepaper and what is its purpose?</span>
 
-The Steem Whitepaper was written to describe the mechanics of the token system that makes decentralized content incentives and distribution possible in a way that can improve web technologies across the board. It is also applicable to Steemit, the first website to plug into the Steem blockchain. Users who have read the Steem Whitepaper will better understand how their interactions with Steemit are interactions with Steem, the decentralized network.
+The VoxChain Whitepaper was written to describe the mechanics of the token system that makes decentralized content incentives and distribution possible in a way that can improve web technologies across the board. It is also applicable to Vox, the first website to plug into the VoxChain blockchain. Users who have read the VoxChain Whitepaper will better understand how their interactions with Vox are interactions with VoxChain, the decentralized network.
 
-It is worth noting that the Whitepaper hasn’t been updated almost since Steem came into existence. Many changes have been made since then, so much of the Whitepaper is now out of date. It is in the process of being rewritten.
+It is worth noting that the Whitepaper hasn’t been updated almost since VoxChain came into existence. Many changes have been made since then, so much of the Whitepaper is now out of date. It is in the process of being rewritten.
 
 https://steem.io/SteemWhitePaper.pdf
 
@@ -1272,7 +1272,7 @@ https://steem.io/SteemWhitePaper.pdf
 
 If you post your question in the <a href="https://steemit.chat/channel/help">#help</a> channel on <a href="https://steemit.chat/home">steemit.chat</a>, the users there may be able to help.
 
-You can also create a post on Steemit.com with the tag #help, and someone in the community may be able to answer it.
+You can also create a post on Vox.community with the tag #help, and someone in the community may be able to answer it.
 
 <a href="#Table_of_Contents_Miscellaneous">^</a>
 
@@ -1280,9 +1280,9 @@ You can also create a post on Steemit.com with the tag #help, and someone in the
 
 ## <span id="Third_Party_References_and_User_Links">Third Party References and User Links</span>
 
-BlockTrades, Poloniex, Bittrex, Changelly, Shapeshift.io, Coinbase, Localbitcoins, SteemDB, PeerHub, Steemit.chat, SteemTools, SteemCreate, AnonSteem, SteemConnect, Streemian, SteemStats, Pixabay, Steemcleaners, Pexels, Postimage, Markdown Cheatsheet, @cheetah, Bitcointalk, bitcoinfees, blockchain.info, and steemd are third party applications/services, and are not owned or maintained by Steemit, Inc. Their listing here, as well as any other third party applications or websites that are listed, does not constitute and endorsement or recommendation on behalf of Steemit, Inc.
+BlockTrades, Poloniex, Bittrex, Changelly, Shapeshift.io, Coinbase, Localbitcoins, SteemDB, PeerHub, Vox.chat, SteemTools, SteemCreate, AnonSteem, SteemConnect, Streemian, SteemStats, Pixabay, Steemcleaners, Pexels, Postimage, Markdown Cheatsheet, @cheetah, Bitcointalk, bitcoinfees, blockchain.info, and steemd are third party applications/services, and are not owned or maintained by Vox, Inc. Their listing here, as well as any other third party applications or websites that are listed, does not constitute and endorsement or recommendation on behalf of Vox, Inc.
 
-All links to user posts were created by our users and do not necessarily represent the views of Steemit, Inc. or its management. Their listing here does not constitute and endorsement or recommendation on behalf of Steemit, Inc.
+All links to user posts were created by our users and do not necessarily represent the views of Vox, Inc. or its management. Their listing here does not constitute and endorsement or recommendation on behalf of Vox, Inc.
 
 Please use the third party tools and content at your own risk.
 

@@ -247,7 +247,7 @@ class Header extends React.Component {
                                 <li className="Header__top-steemit show-for-medium noPrint">
                                     <Link to={logo_link}>
                                         <span className="beta fade-in--10">
-                                            beta
+                                            testnet
                                         </span>
                                     </Link>
                                 </li>
