@@ -4,7 +4,7 @@
 
 Condenser is the react.js web interface to the world's first and best
 blockchain-based social media platform, steemit.com.  It uses
-[STEEM](https://github.com/steemit/steem), a blockchain powered by Graphene
+[VOX](https://github.com/voxchain/vox), a blockchain powered by Graphene
 2.0 technology to store JSON-based content for a plethora of web
 applications.   
 
@@ -30,13 +30,13 @@ https://get.docker.com
 To bring up a running container it's as simple as this:
 
 ```bash
-docker run -it -p 8080:8080 steemit/condenser
+docker run -it -p 8080:8080 vox/condenser
 ```
 
 Environment variables can be added like this:
 
 ```bash
-docker run -it --env SDC_DATABASE_URL="mysql://user:pass@hostname/databasename" -p 8080:8080 steemit/condenser
+docker run -it --env SDC_DATABASE_URL="mysql://user:pass@hostname/databasename" -p 8080:8080 vox/condenser
 ```
 
 If you would like to modify, build, and run condenser using docker, it's as
@@ -44,7 +44,7 @@ simple as pulling in the github repo and issuing one command to build it,
 like this:
 
 ```bash
-git clone https://github.com/steemit/condenser
+git clone https://github.com/voxchain/condenser
 cd condenser
 docker build -t="myname/condenser:mybranch" .
 docker run -it -p 8080:8080 myname/condenser:mybranch
@@ -55,7 +55,7 @@ docker run -it -p 8080:8080 myname/condenser:mybranch
 #### Clone the repository and make a tmp folder
 
 ```bash
-git clone https://github.com/steemit/condenser
+git clone https://github.com/vox/condenser
 cd condenser
 mkdir tmp
 ```
@@ -109,13 +109,10 @@ yarn run start
 It will take quite a bit longer to start in this mode (~60s) as it needs to
 build and start the webpack-dev-server.
 
-By default you will be connected to steemit.com's public steem node at
-`wss://steemd.steeemit.com`. This is actually on the real blockchain and
-you would use your regular account name and credentials to login - there is
-not an official separate testnet at this time. If you intend to run a
+If you intend to run a
 full-fledged site relying on your own, we recommend looking into running a
-copy of `steemd` locally instead
-[https://github.com/steemit/steem](https://github.com/steemit/steem).
+copy of `voxd` locally instead
+[https://github.com/voxchain/vox](https://github.com/voxchain/vox).
 
 #### Configuration
 
@@ -123,13 +120,6 @@ The intention is to configure condenser using environment variables. You
 can see the names of all of the available configuration environment
 variables in `config/custom-environment-variables.json`. Default values are
 stored in `config/defaults.json`.
-
-Environment variables using an example like this:
-
-```bash
-export SDC_CLIENT_STEEMD_URL="wss://steemd.steemit.com"
-export SDC_SERVER_STEEMD_URL="wss://steemd.steemit.com"
-```
 
 Keep in mind environment variables only exist in your active session, so if
 you wish to save them for later use you can put them all in a file and
@@ -169,7 +159,7 @@ format `mysql://user:pass@hostname/databasename`.
 Example:
 
 ```bash
-export SDC_DATABASE_URL="mysql://root:password@127.0.0.1/steemit_dev"
+export SDC_DATABASE_URL="mysql://root:password@127.0.0.1/vox_dev"
 ```
 
 Here are instructions for setting up a mysql server and running the
@@ -206,7 +196,7 @@ FLUSH PRIVILEGES;
 Now launch mysql client and create steemit_dev database:
 ```bash
 mysql -u root
-> create database steemit_dev;
+> create database vox_dev;
 > quit
 ```
 
@@ -287,6 +277,6 @@ This will read data from the blobs in `api_mockdata` directory. If you want to u
 
 To report a non-critical issue, please file an issue on this GitHub project.
 
-If you find a security issue please report details to: security@steemit.com
+If you find a security issue please report details to: security@vox.community
 
 We will evaluate the risk and make a patch available before filing the issue.
