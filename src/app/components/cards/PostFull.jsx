@@ -183,7 +183,7 @@ class PostFull extends React.Component {
             encodeURIComponent(s.title) +
             '&url=' +
             encodeURIComponent(s.url) +
-            '&source=Steemit&mini=true';
+            '&source=Vox&mini=true';
         window.open(
             'https://www.linkedin.com/shareArticle?' + q,
             'Share',

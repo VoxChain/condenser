@@ -91,8 +91,8 @@ class TermsAgree extends Component {
                                         You understand and agree that these
                                         Terms apply solely to your access to,
                                         and use of, Vox and that, when you use
-                                        other Vox services such as Vox.com or
-                                        Steemitgifts.com, the terms and policies
+                                        other Vox services such as Vox.community or
+                                        voxgifts.community, the terms and policies
                                         particular to those services apply.
                                     </span>
                                 </p>

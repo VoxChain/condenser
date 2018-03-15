@@ -18,7 +18,7 @@ function addSiteMeta(metas) {
     });
     metas.push({ property: 'fb:app_id', content: $STM_Config.fb_app });
     metas.push({ name: 'twitter:card', content: 'summary' });
-    metas.push({ name: 'twitter:site', content: '@steemit' });
+    metas.push({ name: 'twitter:site', content: '@vox' });
     metas.push({ name: 'twitter:title', content: '#Vox' });
     metas.push({ name: 'twitter:description', site_desc });
     metas.push({
@@ -88,7 +88,7 @@ export default function extractMeta(chain_data, rp) {
         if (name == null) name = account.name;
         if (about == null)
             about =
-                'Join thousands on steemit who share, post and earn rewards.';
+                'Join thousands on vox who share, post and earn rewards.';
         if (profile_image == null)
             profile_image = 'https://vox.community/images/vox.jpg';
         // Set profile tags
