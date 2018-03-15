@@ -13,7 +13,7 @@ export default function MiniHeader() {
                                 <a href="/">
                                     <img
                                         style={{ height: 40 }}
-                                        src={require('app/assets/images/vox.jpg')}
+                                        src={require('app/assets/images/vox.png')}
                                     />
                                 </a>
                             </li>
