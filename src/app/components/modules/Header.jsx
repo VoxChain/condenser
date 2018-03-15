@@ -240,7 +240,7 @@ class Header extends React.Component {
 
                                         <img
                                             style={{ height: 40 }}
-                                            src={require('app/assets/images/vox.jpg')}
+                                            src={require('app/assets/images/vox.png')}
                                         />
                                     </Link>
                                 </li>
