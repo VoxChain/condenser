@@ -1,5 +1,5 @@
 <span id="disable_router_nav_history_direction_check"></span>
-## Welcome to Steemit!
+## Welcome to Vox!
 
 This page is full of information to help you learn about the platform and become a successful Steemian. You can return to this page at any time by clicking on the "Welcome" link in the main menu. There is a table of contents below to help you navigate the page.
 
@@ -37,9 +37,9 @@ Below that is a list of recommended users to follow, a collection of other resou
 - <a href="#Cashing_out_or_Spending_SBD">Cashing out or Spending SBD</a>
 - <a href="#Plagiarism">Plagiarism</a>
 - <a href="#Password_Security">Password Security</a>
-- <a href="#Earning_on_Steemit">Earning on Steemit</a>
+- <a href="#Earning_on_Vox">Earning on Vox</a>
 
-### <a href="#Helpful_Posts_from_Steemit_Users">Helpful Posts from Steemit Users</a>
+### <a href="#Helpful_Posts_from_Vox_Users">Helpful Posts from Vox Users</a>
 ### <a href="#Users_to_Follow">Users to Follow</a>
 ### <a href="#Other_Resources">Other Resources</a>
 ### <a href="#Live_Help">Live Help</a>
@@ -51,7 +51,7 @@ Below that is a list of recommended users to follow, a collection of other resou
 <span></span>
 ### <span id="Backup_your_password">1. Backup your password</span>
 
-Unlike centralized web services, **the Steem Blockchain has no account password recovery**.
+Unlike centralized web services, **the Vox Blockchain has no account password recovery**.
 
 You are entirely responsible for keeping your password, and keeping it secure.
 
@@ -67,9 +67,9 @@ If your account is valuable, treat it like a valuable!
 The <a href="#Quick_Start_Guide">Quick Start Guide</a> section of this Welcome page contains basic information to help get you started.
 
 <a href="#Table_of_Contents">^</a>
-### <span id="Read_the_Helpful_Posts_from_Steemit_Users">3. Read the Helpful Posts from Steemit Users</span>
+### <span id="Read_the_Helpful_Posts_from_Vox_Users">3. Read the Helpful Posts from Vox Users</span>
 
-The <a href="#Helpful_Posts_from_Steemit_Users">Helpful Posts from Steemit Users</a> section of this Welcome page contains many well written articles from members of the community with tips on how to succeed.
+The <a href="#Helpful_Posts_from_Vox_Users">Helpful Posts from Vox Users</a> section of this Welcome page contains many well written articles from members of the community with tips on how to succeed.
 
 <a href="#Table_of_Contents">^</a>
 ### <span id="Setup_your_Profile_Avatar_and_Cover_Image">4. Setup your Profile, Avatar, and Cover Image</span>
@@ -90,13 +90,13 @@ By default, content that users have tagged as "NSFW" will be hidden, but a link 
 You can update your display preference so that NSFW content is always shown by default, or is completely hidden with no option to reveal.
 
 <a href="#Table_of_Contents">^</a>
-### <span id="Sign_Up_for_Steemit_Chat">6. Sign Up for Steemit Chat</span>
+### <span id="Sign_Up_for_Vox_Chat">6. Sign Up for Vox Chat</span>
 
-A lot of users hang out and chat when they are not posting or browsing Steemit. It is a great place to meet people!
+A lot of users hang out and chat when they are not posting or browsingVox. It is a great place to meet people!
 
 There is a link to sign up in the main menu in the upper right corner.
 
-Your [steemit.chat](https://steemit.chat/home) account is a separate account from your Steem account.
+Your [steemit.chat](https://steemit.chat/home) account is a separate account from your Vox account.
 
 Some channels allow you to share links, but others don't. For instance, [general](https://steemit.chat/channel/general) is for discussion without link promotion, while [postpromotion](https://steemit.chat/channel/postpromotion) is for promoting your Steemit posts.
 
@@ -126,12 +126,12 @@ The <a href="#Other_Resources">Other Resources</a> section of this Welcome page 
 
 ### <span id="No_Cost_to_Participate">No Cost to Participate</span>
 
-It is free to post, comment, or upvote all content on Steemit.com. You might even get paid for it!
+It is free to post, comment, or upvote all content on Vox.com. You might even get paid for it!
 
 <a href="#Table_of_Contents">^</a>
 ### <span id="Upvotes">Upvotes</span>
 
-Upvotes are Steemit's way of saying you like someone's post or comment.
+Upvotes are Vox's way of saying you like someone's post or comment.
 
 To upvote, click on the <Icon name="chevron-up-circle" /> *Upvote* icon at the bottom of the comment/post.
 
@@ -153,7 +153,7 @@ You will want to make your title attention grabbing, and relevant to your conten
 
 Tags will help people find your posts. Each post can have up to five tags, separated by spaces. The tags should all be relevant to the content in the post. You can browse content by tags, as well as see a list of popular tags that other users have used in their posts [here](https://steemit.com/tags).
 
-There are several guides for creating posts in the "Helpful Posts from Steemit Users" section below.
+There are several guides for creating posts in the "Helpful Posts from Vox Users" section below.
 
 <a href="#Table_of_Contents">^</a>
 ### <span id="Followers_and_Feeds">Followers and Feeds</span>
@@ -162,7 +162,7 @@ To follow an author, click on their username and click the "Follow" button.
 
 Once you follow someone, all of their posts will show up in your "Feed" on the homepage when you login.
 
-As other Steemians come across your posts and comments, you will start to gain followers.
+As other Vox come across your posts and comments, you will start to gain followers.
 
 You can see all of your followers and the people you are following in your profile page.
 
@@ -174,16 +174,16 @@ If you want to share someone else's post with all of your followers, click on th
 <a href="#Table_of_Contents">^</a>
 ### <span id="Digital_Currencies">Digital Currencies</span>
 
-STEEM, Steem Power and Steem Dollars are the three forms of digital currency used by the Steem Blockchain.
+Vox, Vox Power and Vox Dollars are the three forms of digital currency used by the Vox Blockchain.
 
-More information on the three types of tokens can be found in the [Steemit FAQ](https://steemit.com/faq.html#What_is_the_difference_between_STEEM__STEEM_Power__and_Steem_Dollars).
+More information on the three types of tokens can be found in the [Vox FAQ](https://steemit.com/faq.html#What_is_the_difference_between_STEEM__STEEM_Power__and_Steem_Dollars).
 
 <a href="#Table_of_Contents">^</a>
 ### <span id="Curation">Curation</span>
 
 Up to 25% of the reward for posts goes to the people who voted on it. These people are called curators.
 
-The more Steem Power you have in your account, the more your upvotes will be worth, and the more potential curation rewards you can earn!
+The more Vox Power you have in your account, the more your upvotes will be worth, and the more potential curation rewards you can earn!
 
 <a href="#Table_of_Contents">^</a>
 ### <span id="Payments">Payments</span>
@@ -194,14 +194,14 @@ The payments may fluctuate (up and down) until the final payment is reached.
 
 Payments for posts are split between the author (at least 75%) and the curators (up to 25%).
 
-The author reward is paid 50% in Steem Power, and 50% in liquid STEEM/SBD.
+The author reward is paid 50% in Vox Power, and 50% in liquid VOX/VBD.
 
-Authors also have the option to decline payout, or be paid in 100% Steem Power!
+Authors also have the option to decline payout, or be paid in 100% Vox Power!
 
 <a href="#Table_of_Contents">^</a>
 ### <span id="Reputation">Reputation</span>
 
-A reputation score is one way Steemit measures the amount of value you have brought to the community.
+A reputation score is one way Vox measures the amount of value you have brought to the community.
 
 The higher the number, the more weighted votes an account has earned.
 
@@ -212,11 +212,11 @@ Your reputation will go up as you earn upvotes for your posts and comments, but 
 <a href="#Table_of_Contents">^</a>
 ### <span id="Cashing_out_or_Spending_SBD">Cashing out or Spending SBD</span>
 
-You can exchange SBD for STEEM in the [Currency Market](https://steemit.com/market). Once you have STEEM, you can "Power Up" in your wallet to gain additional Steem Power.
+You can exchange SBD for VOX in the [Currency Market](https://steemit.com/market). Once you have VOX, you can "Power Up" in your wallet to gain additional Steem Power.
 
 You can spend your SBD at the [Peerhub Store](https://www.peerhub.com/).
 
-You can also exchange your STEEM and SBD for bitcoin on a third-party exchange such as [BlockTrades](https://blocktrades.us/) or [Bittrex](https://bittrex.com/).
+You can also exchange your VOX and VBD for bitcoin on a third-party exchange such as [BlockTrades](https://blocktrades.us/) or [Bittrex](https://bittrex.com/).
 
 <a href="#Table_of_Contents">^</a>
 ### <span id="Plagiarism">Plagiarism</span>
