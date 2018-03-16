@@ -13,7 +13,7 @@ class NotFound extends React.Component {
                             <ul className="menu">
                                 <li className="Header__top-logo">
                                     <Link to="/">
-                                        <Icon name="steem" size="2x" />
+                                        <Icon name="vox" size="2x" />
                                     </Link>
                                 </li>
                                 <li className="Header__top-steemit show-for-medium noPrint">
@@ -29,31 +29,31 @@ class NotFound extends React.Component {
                 </div>
                 <div className="NotFound float-center">
                     <div>
-                        <Icon name="steem" size="4x" />
+                        <Icon name="vox" size="4x" />
                         <h4 className="NotFound__header">
-                            Sorry! This page doesn't exist.
+                            Страница не найдена.
                         </h4>
                         <p>
-                            Not to worry. You can head back to{' '}
+                            Не беспокойтесь. Вы можете вернуться назад{' '}
                             <a style={{ fontWeight: 800 }} href="/">
-                                our homepage
-                            </a>, or check out some great posts.
+                                главную страницу
+                            </a>, или посмотреть другие посты.
                         </p>
                         <ul className="NotFound__menu">
                             <li>
-                                <a href="/created">new posts</a>
+                                <a href="/created">Новое</a>
                             </li>
                             <li>
-                                <a href="/hot">hot posts</a>
+                                <a href="/hot">Горячее</a>
                             </li>
                             <li>
-                                <a href="/trending">trending posts</a>
+                                <a href="/trending">Тренды</a>
                             </li>
                             <li>
-                                <a href="/promoted">promoted posts</a>
+                                <a href="/promoted">Продвигаемые</a>
                             </li>
                             <li>
-                                <a href="/active">active posts</a>
+                                <a href="/active">Активные</a>
                             </li>
                         </ul>
                     </div>
