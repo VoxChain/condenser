@@ -24,6 +24,7 @@ export const icons = [
     'dropdown-arrow',
     'printer',
     'search',
+    'vox',
     'menu',
     'voter',
     'voters',
