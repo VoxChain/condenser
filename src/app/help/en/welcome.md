@@ -1,13 +1,13 @@
 <span id="disable_router_nav_history_direction_check"></span>
 ## Welcome to Vox!
 
-This page is full of information to help you learn about the platform and become a successful Steemian. You can return to this page at any time by clicking on the "Welcome" link in the main menu. There is a table of contents below to help you navigate the page.
+This page is full of information to help you learn about the platform and become a successful Vox. You can return to this page at any time by clicking on the "Welcome" link in the main menu. There is a table of contents below to help you navigate the page.
 
 Included on the page is a "To Do List" with recommended steps to get started with your account, and a "Quick Start Guide" with information on how the platform works. 
 
-Below that is a section of "Helpful Posts from Steemit Users", which contains a collection of posts from users in the community that are helpful for new users getting started. 
+Below that is a section of "Helpful Posts from Vox Users", which contains a collection of posts from users in the community that are helpful for new users getting started. 
 
-Below that is a list of recommended users to follow, a collection of other resources including the <a href="/faq.html">FAQ Page</a> and [Steem bluepaper](https://steem.io/steem-bluepaper.pdf), as well as information on where to find live help. 
+Below that is a list of recommended users to follow, a collection of other resources including the <a href="/faq.html">FAQ Page</a> and [Vox bluepaper](https://steem.io/steem-bluepaper.pdf), as well as information on where to find live help. 
 
 ## <span id="Table_of_Contents">Table of Contents</span>
 
@@ -15,10 +15,10 @@ Below that is a list of recommended users to follow, a collection of other resou
 
 1. <a href="#Backup_your_password">Backup your password</a>
 2. <a href="#Review_the_Quick_Start_Guide">Review the Quick Start Guide</a>
-3. <a href="#Read_the_Helpful_Posts_from_Steemit_Users">Read the Helpful Posts from Steemit Users</a>
+3. <a href="#Read_the_Helpful_Posts_from_Vox_Users">Read the Helpful Posts from Vox Users</a>
 4. <a href="#Setup_your_Profile_Avatar_and_Cover_Image">Setup your Profile, Avatar, and Cover Image</a>
 5. <a href="#Choose_your_NSFW_(Not_Safe_for_Work)_Display_Preference">Choose your "NSFW" (Not Safe for Work) Display Preference</a>
-6. <a href="#Sign_Up_for_Steemit_Chat">Sign Up for Steemit Chat</a>
+6. <a href="#Sign_Up_for_Vox_Chat">Sign Up for Vox Chat</a>
 7. <a href="#Create_your_introduceyourself_post">Create your "introduceyourself" post</a>
 8. <a href="#Learn_more">Learn more</a>
 
@@ -223,7 +223,7 @@ You can also exchange your VOX and VBD for bitcoin on a third-party exchange suc
 
 The community is looking for you to add your own personal touch to your articles.
 
-Plagiarizing, that is posting someone else's work as if it were your own, is very frowned upon by the Steemit community.
+Plagiarizing, that is posting someone else's work as if it were your own, is very frowned upon by the Vox community.
 
 If you are using anyone else's material as part of your posts (including images) - please cite your sources.
 
@@ -232,12 +232,12 @@ Also, make sure that you are not violating any copyright laws if you are using s
 <a href="#Table_of_Contents">^</a>
 ### <span id="Password_Security">Password Security</span>
 
-**There is no lost password recovery for Steem accounts**. You are 100% responsible for having it backed up. This means secure digital backups, as well as secured paper backups, off-site if possible.
+**There is no lost password recovery for Vox accounts**. You are 100% responsible for having it backed up. This means secure digital backups, as well as secured paper backups, off-site if possible.
 
-Your Steemit account is worth real money. Treat your Steemit password like you would your bank password, and keep it secure!
+Your Vox account is worth real money. Treat your Vox password like you would your bank password, and keep it secure!
 
 <a href="#Table_of_Contents">^</a>
-### <span id="Earning_on_Steemit">Earning on Steemit</span>
+### <span id="Earning_on_Vox">Earning on Vox</span>
 
 The best attitude to have is to expect to make nothing. Have fun. Get engaged. Make friends. If along the way you earn something - bonus!
 
@@ -247,7 +247,7 @@ It is possible to earn thousands of dollars, but most authors who are doing this
 
 ***
 
-## <span id="Helpful_Posts_from_Steemit_Users">Helpful Posts from Steemit Users</span>
+## <span id="Helpful_Posts_from_Vox_Users">Helpful Posts from Vox Users</span>
 
 - [Posting and Markdown Basics](https://steemit.com/steemit/@thecryptofiend/markdown-basics-for-beginners)
 - [Ways to Spend Your Hard Earned STEEM/SBD](https://steemit.com/steem/@timcliff/the-steem-economy-tons-of-ways-to-spend-your-hard-earned-steem-sbd)
