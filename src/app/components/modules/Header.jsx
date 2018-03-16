@@ -288,7 +288,7 @@ class Header extends React.Component {
                                         <input
                                             className="input-group-field"
                                             type="text"
-                                            placeholder="search"
+                                            placeholder={tt('g.search')}
                                             name="q"
                                             autoComplete="off"
                                         />
