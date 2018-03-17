@@ -43,6 +43,10 @@
         "logout": "Выйти",
         "memo": "Примечание",
         "mute": "Заблокировать",
+        "myfeed": "Моя лента",
+        "myblog": "Мой блог",
+        "mycomments": "Мои коментарии",
+        "myreplies": "Ответы мне",
         "new": "новое",
         "newer": "Новее",
         "next": "Следующий",
@@ -102,7 +106,9 @@
         "submit_a_story": "Добавить пост",
         "tag": "Тег",
         "to": " к ",
-        "all_tags": "All tags",
+        "topics": "Темы",
+        "toggle_nightmode": "Ночной режим",
+        "all_tags": "Все теги",
         "transfer": "Перевод ",
         "trending_topics": "Популярное",
         "type": "Тип",
@@ -205,8 +211,8 @@
             "authors_get_paid_when_people_like_you_upvote_their_post":
                 "Авторы получают вознаграждение, когда пользователи голосуют за их посты",
             "if_you_enjoyed_what_you_read_earn_amount":
-                "Если Вам понравилось то, что Вы здесь прочитали, создайте свой аккаунт сегодня и начните зарабатывать БЕСПЛАТНЫЕ STEEM-ы!",
-            "free_steem": "БЕСПЛАТНЫЕ STEEM!",
+                "Если Вам понравилось то, что Вы здесь прочитали, создайте свой аккаунт сегодня и начните зарабатывать БЕСПЛАТНЫЕ VOX-ы!",
+            "free_steem": "БЕСПЛАТНЫЕ VOX!",
             "sign_up_earn_steem": "Зарегистрируйтесь сейчас, чтобы заработать "
         },
         "next_3_strings_together": {
@@ -571,7 +577,7 @@
         "converted_VESTING_TOKEN_can_be_sent_to_yourself_but_can_not_transfer_again":
             "Конвертированные %(VESTING_TOKEN)s токены могут быть отправлены себе или кому-либо еще, но не могут быть переданы вновь без конвертации в %(LIQUID_TOKEN)s.",
         "part_of_your_steem_power_is_currently_delegated":
-            "Часть STEEM POWER вам делегирована, это увеличивает ваше влияние на платформе. Количество делегированных токенов со временем может изменяться."
+            "Часть VOX POWER вам делегирована, это увеличивает ваше влияние на платформе. Количество делегированных токенов со временем может изменяться."
     },
     "promote_post_jsx": {
         "promote_post": "Продвинуть пост",
@@ -686,7 +692,7 @@
         "amazing_community": "удивительное сообщество",
         "to_comment_and_reward_others":
             " комментировать и вознаграждать других.",
-        "sign_up_get_steem": "Sign up. Get VOX",
+        "sign_up_get_steem": "Войти",
         "signup_button": "Зарегистрируйтесь",
         "signup_button_emphasis": " сейчас!",
         "returning_users": "Вернувшиеся пользователи: ",
@@ -752,7 +758,9 @@
         "asset_currently_collecting":
             "начисляемые годовые на %(asset)s: %(interest)s%%.",
         "beware_of_spam_and_phishing_links":
-            "Остерегайтесь спама и фишинговых ссылок в передачах. Не открывайте ссылки от пользователей, которым вы не доверяете. Не предоставляйте свои личные ключи третьим сторонам."
+            "Остерегайтесь спама и фишинговых ссылок в передачах. Не открывайте ссылки от пользователей, которым вы не доверяете. Не предоставляйте свои личные ключи третьим сторонам.",
+        "autocomplete_previous_transfers": "предыдущие переводы",
+        "autocomplete_user_following": "следующий"
     },
     "userwallet_jsx": {
         "conversion_complete_tip": "Завершается",
@@ -773,7 +781,8 @@
         "transfers_are_temporary_disabled": "Переводы временно преостановлены.",
         "history": "ИСТОРИЯ",
         "redeem_rewards": "Получить вознаграждение",
-        "buy_steem_or_steem_power": "Купить STEEM или STEEM POWER"
+        "buy_steem_or_steem_power": "Купить VOX или VOX POWER",
+        "you_cur_rewards" : ":"
     },
     "powerdown_jsx": {
         "power_down": "Уменьшить силу голоса (power down)",
@@ -795,5 +804,10 @@
         "ownership_changed_on": "Владелец аккаунта или пароль были изменены ",
         "deadline_for_recovery_is": "Вы можете восстановить доступ до ",
         "i_understand_dont_show_again": "Понятно, больше не показывать"
+    },
+    "sidebar_links": {
+        "header" : "Ссылки",
+        "link_blog" : "Мой блог",
+        "link_wallet" : "Мой кошелек"
     }
 }
