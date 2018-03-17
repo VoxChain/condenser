@@ -488,7 +488,7 @@ class UserWallet extends React.Component {
                     <div className="columns small-12">
                         <div className="UserWallet__claimbox">
                             <span className="UserWallet__claimbox-text">
-                                {_tt("userwallet_jsx.you_cur_rewards")} {rewards_str}
+                                {tt("userwallet_jsx.you_cur_rewards")} {rewards_str}
                             </span>
                             <button
                                 disabled={this.state.claimInProgress}
