@@ -781,5 +781,6 @@
         "header" : "Links",
         "link_blog" : "My blog",
         "link_wallet" : "My wallet"
-    }
+    },
+    "callout" : "Callout, you can add an error style with the knob"
 }

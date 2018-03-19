@@ -609,7 +609,7 @@ class UserWallet extends React.Component {
                                         : null,
                                 }}
                             >
-                                <Tooltip t="STEEM POWER delegated to/from this account">
+                                <Tooltip t="VOX POWER delegated to/from this account">
                                     ({received_power_balance_str} VOX)
                                 </Tooltip>
                             </div>
