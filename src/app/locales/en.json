@@ -268,7 +268,8 @@
         "whitepaper": "VoxChain Whitepaper",
         "intro_tagline": "Your voice is worth something",
         "intro_paragraph":
-            "Get paid for good content. Post and upvote articles on Vox to get your share of the daily rewards pool."
+            "Get paid for good content. Post and upvote articles on Vox to get your share of the daily rewards pool.",
+        "forum": "Forum"    
     },
     "main_menu": {
         "hot": "hot",

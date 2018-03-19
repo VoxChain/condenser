@@ -306,6 +306,84 @@ class App extends React.Component {
                     </ul>
                     <ul className="vertical menu">
                         <li>
+                            <a onClick={() => depositSteem(username)}>
+                                {tt('navigation.buy_LIQUID_TOKEN', {
+                                    LIQUID_TOKEN,
+                                })}&nbsp;<Icon name="extlink" />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://forum.vox.community"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {tt('navigation.forum')}&nbsp;<Icon name="extlink" />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {tt('navigation.chat')}&nbsp;<Icon name="extlink" />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                onClick={this.navigate}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {tt('navigation.app_center')}&nbsp;<Icon name="extlink" />
+                            </a>
+                        </li>
+                        <li className="last">
+                            <a
+                                href="#"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {tt('navigation.api_docs')}&nbsp;<Icon name="extlink" />
+                            </a>
+                        </li>
+                    </ul>
+                    <ul className="vertical menu">
+                        <li>
+                            <a
+                                href="#"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {tt('navigation.bluepaper')}&nbsp;<Icon name="extlink" />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {tt('navigation.smt_whitepaper')}&nbsp;<Icon name="extlink" />
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {tt('navigation.whitepaper')}&nbsp;<Icon name="extlink" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onClick={this.navigate}>
+                                {tt('navigation.about')}&nbsp;<Icon name="extlink" />
+                            </a>
+                        </li>
+                        <li>
                             <a
                                 href="/privacy.html"
                                 onClick={this.navigate}
