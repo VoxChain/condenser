@@ -90,7 +90,7 @@
         "reveal_comment": "Показать комментарий",
         "request": "запрос",
         "required": "Обязательно",
-        "rewards": "вознаграждение",
+        "rewards": "Вознаграждение",
         "save": "Сохранить",
         "saved": "Сохранено",
         "search": "Поиск",
@@ -774,7 +774,7 @@
         "withdraw_LIQUID_TOKEN": "Снять %(LIQUID_TOKEN)s",
         "withdraw_DEBT_TOKENS": "Снять %(DEBT_TOKENS)s",
         "tokens_worth_about_1_of_LIQUID_TICKER":
-            "Стоимость токенов $1.00 в %(LIQUID_TICKER)s, начисляемые годовые %(sbdInterest)s%%.",
+            "Стоимость токенов $1.00 в %(LIQUID_TICKER)s",
         "savings": "Сберегательный счет",
         "estimated_account_value": "Приблизительная стоимость аккаунта",
         "next_power_down_is_scheduled_to_happen":

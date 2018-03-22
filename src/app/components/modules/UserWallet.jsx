@@ -445,7 +445,7 @@ class UserWallet extends React.Component {
             <span>
                 {tt('userwallet_jsx.tokens_worth_about_1_of_LIQUID_TICKER', {
                     LIQUID_TICKER,
-                    sbdInterest,
+                    //sbdInterest,
                 })}
             </span>
         );
