@@ -1,319 +1,294 @@
-<span id="disable_router_nav_history_direction_check"></span>
-## Welcome to Steemit!
+**Добро пожаловать в Vox!**
 
-This page is full of information to help you learn about the platform and become a successful Steemian. You can return to this page at any time by clicking on the "Welcome" link in the main menu. There is a table of contents below to help you navigate the page.
+Эта страница содержит исчерпывающую информацию, чтобы помочь вам узнать о платформе и добиться успеха на Vox. Вы можете вернуться на эту страницу в любое время, нажав на ссылку "Добро пожаловать" в главном меню. Ниже Вы найдете оглавление, которое поможет вам сориентироваться на странице.
 
-Included on the page is a "To Do List" with recommended steps to get started with your account, and a "Quick Start Guide" with information on how the platform works. 
+На странице представлен перечень рекомендуемых шагов для начала работы с Вашей учетной записью, а также" Краткое руководство " с информацией о том, как работает Платформа.
 
-Below that is a section of "Helpful Posts from Steemit Users", which contains a collection of posts from users in the community that are helpful for new users getting started. 
+Ниже приведен раздел "полезные сообщения от пользователей Vox", который содержит коллекцию сообщений от пользователей в сообществе, которые полезны для новых пользователей приступающих к работе.
 
-Below that is a list of recommended users to follow, a collection of other resources including the <a href="/faq.html">FAQ Page</a> and [Steem bluepaper](https://steem.io/steem-bluepaper.pdf), as well as information on where to find live help. 
+Ниже приведен список рекомендуемых пользователей для подражания, ссылки на другие ресурсы, в том числе часто задаваемые вопросы странице и [Вокс bluepaper]()), а также информация о том, где найти помощь.
 
-## <span id="Table_of_Contents">Table of Contents</span>
+**Содержание**
 
-### To Do List
+**Полезные советы**
 
-1. <a href="#Backup_your_password">Backup your password</a>
-2. <a href="#Review_the_Quick_Start_Guide">Review the Quick Start Guide</a>
-3. <a href="#Read_the_Helpful_Posts_from_Steemit_Users">Read the Helpful Posts from Steemit Users</a>
-4. <a href="#Setup_your_Profile_Avatar_and_Cover_Image">Setup your Profile, Avatar, and Cover Image</a>
-5. <a href="#Choose_your_NSFW_(Not_Safe_for_Work)_Display_Preference">Choose your "NSFW" (Not Safe for Work) Display Preference</a>
-6. <a href="#Sign_Up_for_Steemit_Chat">Sign Up for Steemit Chat</a>
-7. <a href="#Create_your_introduceyourself_post">Create your "introduceyourself" post</a>
-8. <a href="#Learn_more">Learn more</a>
+1.  [Резервное копирование пароля](https/vox.community/welcome#Backup_your_password)
+    
+2.  [Обзор руководства по быстрому запуску](https/vox.community/welcome#Review_the_Quick_Start_Guide)
+    
+3.  [Читать полезные сообщения от пользователей Vox](https/vox.community/welcome#Read_the_Helpful_Posts_from_Vox_Users)
+    
+4.  [Настройка профиля, Аватара и изображения обложки](https/vox.community/welcome#Setup_your_Profile_Avatar_and_Cover_Image)
+    
+5.  [Выберите" NSFW " (не безопасно для работы)](https/vox.community/welcome#Choose_your_NSFW_(Not_Safe_for_Work)_Display_Preference)
+    
+6.  [Подпишитесь на Vox Chat](https/vox.community/welcome#Sign_Up_for_Vox_Chat)
+    
+7.  [Создайте свой пост" introduceyourself"](https/vox.community/welcome#Create_your_introduceyourself_post)
+    
+8.  [Узнать больше](https/vox.community/welcome#Learn_more)
+    
 
-### Quick Start Guide
+**Краткое руководство пользователя**
 
-- <a href="#No_Cost_to_Participate">No Cost to Participate</a>
-- <a href="#Upvotes">Upvotes</a>
-- <a href="#Comments">Comments</a>
-- <a href="#Creating_Posts">Creating Posts</a>
-- <a href="#Followers_and_Feeds">Followers and Feeds</a>
-- <a href="#Resteem">Resteem</a>
-- <a href="#Digital_Currencies">Digital Currencies</a>
-- <a href="#Curation">Curation</a>
-- <a href="#Payments">Payments</a>
-- <a href="#Reputation">Reputation</a>
-- <a href="#Cashing_out_or_Spending_SBD">Cashing out or Spending SBD</a>
-- <a href="#Plagiarism">Plagiarism</a>
-- <a href="#Password_Security">Password Security</a>
-- <a href="#Earning_on_Steemit">Earning on Steemit</a>
+-   [Бесплатное участие](https/vox.community/welcome#No_Cost_to_Participate)
+    
+-   [Upvotes](https/vox.community/welcome#Upvotes)
+    
+-   [Комментарии](https/vox.community/welcome#Comments)
+    
+-   [Создание Записей](https/vox.community/welcome#Creating_Posts)
+    
+-   [Подписчики и ленты](https/vox.community/welcome#Followers_and_Feeds)
+    
+-   [Репост](https/vox.community/welcome#Resteem)
+    
+-   [цифровая валюта](https/vox.community/welcome#Digital_Currencies)
+    
+-   [Кураторство](https/vox.community/welcome#Curation)
+    
+-   [Платежи](https/vox.community/welcome#Payments)
+    
+-   [Репутация](https/vox.community/welcome#Reputation)
+    
+-   [Обналичивание или расходы SBD](https/vox.community/welcome#Cashing_out_or_Spending_SBD)
+    
+-   [Плагиат](https/vox.community/welcome#Plagiarism)
+    
+-   [безопасность пароля](https/vox.community/welcome#Password_Security)
+    
+-   [Заработок на Vox](https/vox.community/welcome#Earning_on_Vox)
+    
 
-### <a href="#Helpful_Posts_from_Steemit_Users">Helpful Posts from Steemit Users</a>
-### <a href="#Users_to_Follow">Users to Follow</a>
-### <a href="#Other_Resources">Other Resources</a>
-### <a href="#Live_Help">Live Help</a>
-### <a href="#Third_Party_References">Third Party References</a>
+[**другие ресурсы**](https/vox.community/welcome#Other_Resources)
 
-***
+[**Живая Помощь**](https/vox.community/welcome#Live_Help)
 
-## To Do List
-<span></span>
-### <span id="Backup_your_password">1. Backup your password</span>
+**Полезные советы**
 
-Unlike centralized web services, **the Steem Blockchain has no account password recovery**.
+**1. Резервное копирование пароля**
 
-You are entirely responsible for keeping your password, and keeping it secure.
+В отличие от централизованных сервисов Web, На **Блокчейне** **VOX** **нет восстановление пароля аккаунта**.
 
-Save your master key and keep it somewhere safe.
+Вы несете полную ответственность за сохранение вашего пароля и его сохранность.
 
-It is strongly recommended that you store an offline copy of your password somewhere safe in case of a hard drive failure or other calamity. Consider digital offline storage, such as a flash drive or burned CD, as well as printed paper. Use a safe deposit box for best redundancy. 
+Сохраните мастер-ключ и храните его в надежном месте.
 
-If your account is valuable, treat it like a valuable!
+Настоятельно рекомендуется хранить автономную копию вашего пароля в безопасном месте в случае сбоя жесткого диска или других бедствий. Рассмотрите возможность использования цифрового автономного хранилища, например флэш-накопителя или записанного компакт-диска, а также печатной бумаги. Используйте сейф для наилучшего резервирования.
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Review_the_Quick_Start_Guide">2. Review the Quick Start Guide</span>
+Если ваша учетная запись ценна, относитесь к ней как к ценной!
 
-The <a href="#Quick_Start_Guide">Quick Start Guide</a> section of this Welcome page contains basic information to help get you started.
+[^](https/vox.community/welcome#Table_of_Contents)
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Read_the_Helpful_Posts_from_Steemit_Users">3. Read the Helpful Posts from Steemit Users</span>
+**2. Обзор руководства по быстрому запуску**
 
-The <a href="#Helpful_Posts_from_Steemit_Users">Helpful Posts from Steemit Users</a> section of this Welcome page contains many well written articles from members of the community with tips on how to succeed.
+В [кратком руководстве](vox.community/welcome#Quick_Start_Guide) на данной странице содержится основная информация, чтобы помочь вам начать работу.
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Setup_your_Profile_Avatar_and_Cover_Image">4. Setup your Profile, Avatar, and Cover Image</span>
+[^](https/vox.community/welcome#Table_of_Contents)
 
-Under your user settings, you can update your profile. This includes your display name, location, about info, and website.
+**3. Читать полезные сообщения от пользователей Vox**
 
-To set your avatar image, type or paste a link to the URL where the image is located into the "Profile Picture URL" field.
+На странице [Полезные посты от Vox Пользователей](https/vox.community/welcome#Helpful_Posts_from_Vox_Users)  содержится много хорошо написанных статей от членов сообщества с советами о том, как добиться успеха.
 
-To set your cover image, type or paste a link to the URL where the image is located into the "Cover Image URL" field.
+[^](https/vox.community/welcome#Table_of_Contents)
 
-Once you have made all your changes, click the "Update" button to save your profile.
+**4. Настройка профиля, Аватара и изображения обложки**
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Choose_your_NSFW_(Not_Safe_for_Work)_Display_Preference">5. Choose your "NSFW" (Not Safe for Work) Display Preference</span>
+В настройках пользователя можно обновить профиль. Это включает в себя отображаемое имя, местоположение, информацию и веб-сайт.
 
-By default, content that users have tagged as "NSFW" will be hidden, but a link will be shown to reveal the content.
+Чтобы установить изображение аватара, введите или Вставьте ссылку на URL, где изображение находится в поле "URL изображения профиля".
 
-You can update your display preference so that NSFW content is always shown by default, or is completely hidden with no option to reveal.
+Чтобы установить изображение обложки, введите или Вставьте ссылку на URL, где изображение находится в поле "URL изображения обложки".
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Sign_Up_for_Steemit_Chat">6. Sign Up for Steemit Chat</span>
+После внесения всех изменений нажмите кнопку "обновить", чтобы сохранить профиль.
 
-A lot of users hang out and chat when they are not posting or browsing Steemit. It is a great place to meet people!
+[^](https/vox.community/welcome#Table_of_Contents)
 
-There is a link to sign up in the main menu in the upper right corner.
+**5. Выберите" NSFW " (не безопасно для работы)**
 
-Your [steemit.chat](https://steemit.chat/home) account is a separate account from your Steem account.
+По умолчанию контент, помеченный пользователями как "NSFW", будет скрыт, но будет показана ссылка для отображения Контента.
 
-Some channels allow you to share links, but others don't. For instance, [general](https://steemit.chat/channel/general) is for discussion without link promotion, while [postpromotion](https://steemit.chat/channel/postpromotion) is for promoting your Steemit posts.
+Вы можете обновить настройки отображения, чтобы содержимое NSFW всегда отображалось по умолчанию или было полностью скрыто без возможности его отображения.
 
-Each channel will have its rules posted in the "Info" section.
+[^](https/vox.community/welcome#Table_of_Contents)
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Create_your_introduceyourself_post">7. Create your "introduceyourself" post</span>
+**6. Подпишитесь на Vox Chat**
 
-While not required, the tradition for new users is to create an "introduceyourself" post, to let the community know who you are.
+Многие пользователи болтаются и общаются, когда они не публикуют или browsingVox. Это отличное место для встречи с людьми!
 
-You can see some examples of what other people have done [here](https://steemit.com/trending30/introduceyourself).
+Есть ссылка для регистрации в главном меню в правом верхнем углу.
 
-It is not required, but a lot of users will take a picture of themselves holding up a piece of paper that says "Steemit" with the current date, so we know you are a real person.
+Ваш [чат]() счет-это отдельный счет от вашего Вокс счета.
 
-It is not required either, but if you have other social media accounts (Twitter, Facebook, etc.) you can help the community verify that you are who you say you are, by sharing the link to your Steemit introduceyourself post with those accounts. If you are claiming to be someone famous, this is pretty much expected.
+Некоторые каналы позволяют обмениваться ссылками, а другие нет.[общими]() для обсуждения без ссылок продвижения, а [postpromotion]() для продвижения вашего Steemit посты.
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Learn_more">8. Learn more</span>
+Каждый канал будет иметь свои правила, размещенные в разделе "Информация".
 
-The <a href="#Other_Resources">Other Resources</a> section of this Welcome page contains additional resouces to learn more about the platform. The FAQ page contains answers to the most commonly asked questions, and the bluepaper explains how the platform works.
+[^](https/vox.community/welcome#Table_of_Contents)
 
-<a href="#Table_of_Contents">^</a>
+**7. Создайте свой пост" introduceyourself"**
 
-***
+Хотя этого и не требуется, традицией для новых пользователей является создание приветственного поста, чтобы сообщить сообществу, кто вы.
 
-## <span id="Quick_Start_Guide">Quick Start Guide</span>
+Это не требуется, но многие пользователи фотографируют себя, держа лист бумаги, на котором написано "VOX" с текущей датой, поэтому мы знаем, что вы реальный человек.
 
-### <span id="No_Cost_to_Participate">No Cost to Participate</span>
+Это также не требуется, но если у вас есть другие учетные записи в социальных сетях (Twitter, Facebook и т. д.) вы можете помочь сообществу проверить, кто вы, поделившись ссылкой на ваш блог с вашими друзьями. 
 
-It is free to post, comment, or upvote all content on Steemit.com. You might even get paid for it!
+[^](https/vox.community/welcome#Table_of_Contents)
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Upvotes">Upvotes</span>
+**8. Узнать больше**
 
-Upvotes are Steemit's way of saying you like someone's post or comment.
+На [другие ресурсы](https/vox.community/welcome#Other_Resources) данной странице содержится дополнительные ресурсы, чтобы узнать больше о платформе. На странице часто задаваемых вопросов содержатся ответы на наиболее часто задаваемые вопросы, а bluepaper объясняет, как работает Платформа.
 
-To upvote, click on the <Icon name="chevron-up-circle" /> *Upvote* icon at the bottom of the comment/post.
+[^](https/vox.community/welcome#Table_of_Contents)
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Comments">Comments</span>
+**Краткое руководство пользователя**
 
-When you are first starting out, commenting on other people's posts can be a great way to get involved and connect with people!
+**Участие бесплатно**
 
-To comment on a post, or reply to an existing comment, click on the "Reply" link at the bottom of the post/comment.
+Это бесплатно размещать, комментировать, или upvote весь контент на Vox.com.
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Creating_Posts">Creating Posts</span>
+[^](https/vox.community/welcome#Table_of_Contents)
 
-To create a post, click on the "Post" link in the upper right corner.
+**Upvotes**
 
-Posts have three main parts: Title, Content, Tags.
+Upvotes-это способ на Vox сказать, что вам нравится чей-то пост или комментарий.
 
-You will want to make your title attention grabbing, and relevant to your content. The first image that you use will be the thumbnail image.
+Для upvote, нажмите на  значок «_Голосуйте»_ в нижней части комментария/поста.
 
-Tags will help people find your posts. Each post can have up to five tags, separated by spaces. The tags should all be relevant to the content in the post. You can browse content by tags, as well as see a list of popular tags that other users have used in their posts [here](https://steemit.com/tags).
+[^](https/vox.community/welcome#Table_of_Contents)
 
-There are several guides for creating posts in the "Helpful Posts from Steemit Users" section below.
+**Комментарии**
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Followers_and_Feeds">Followers and Feeds</span>
+В начале вашей деятельности на VOX, комментирование сообщений других людей может быть отличным способом завязать знакомства и приобрести друзей.
 
-To follow an author, click on their username and click the "Follow" button.
+Чтобы прокомментировать публикацию или ответить на существующий комментарий, нажмите на ссылку "ответить" в нижней части публикации / комментария.
 
-Once you follow someone, all of their posts will show up in your "Feed" on the homepage when you login.
+[^](https/vox.community/welcome#Table_of_Contents)
 
-As other Steemians come across your posts and comments, you will start to gain followers.
+**Создание Записей**
 
-You can see all of your followers and the people you are following in your profile page.
+Чтобы создать запись, нажмите на ссылку " Добавить Пост " в правом верхнем углу.
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Resteem">Resteem</span>
+Посты имеют три основные части: Заголовок, содержание, Теги.
 
-If you want to share someone else's post with all of your followers, click on the <Icon name="reblog" /> *resteem* icon.
+Вы хотите внимания к вашему посту, сделайте заголовок броским и запоминающим. В начале поста разместите интересное изображение.
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Digital_Currencies">Digital Currencies</span>
+Теги помогут людям найти ваши посты. Каждый пост может иметь до пяти тегов, разделенных пробелами. Все теги должны иметь отношение к содержимому в публикации. Вы можете просматривать контент по тегам, а [здесь]() посмотреть список популярных тегов, которые другие пользователи поставили в своих постах.
 
-STEEM, Steem Power and Steem Dollars are the three forms of digital currency used by the Steem Blockchain.
+[^](https/vox.community/welcome#Table_of_Contents)
 
-More information on the three types of tokens can be found in the [Steemit FAQ](https://steemit.com/faq.html#What_is_the_difference_between_STEEM__STEEM_Power__and_Steem_Dollars).
+**Подписчики и ленты**
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Curation">Curation</span>
+Чтобы подписаться на автора, нажмите на его имя пользователя и нажмите кнопку" Подписаться".
 
-Up to 25% of the reward for posts goes to the people who voted on it. These people are called curators.
+После того, как вы подписаться на кого-то, все их сообщения будут отображаться в вашей ленте на главной странице, когда вы войдёте.
 
-The more Steem Power you have in your account, the more your upvotes will be worth, and the more potential curation rewards you can earn!
+Когда другие пользователи Vox увидят ваши сообщения и комментарии, вы начнете получать подписчиков.
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Payments">Payments</span>
+Вы можете увидеть всех своих подписчиков и людей на которых вы подписались на странице вашего профиля.
 
-Payouts are made 7 days after the post/comment is created. You can claim your rewards in your wallet after 7 days.
+[^](https/vox.community/welcome#Table_of_Contents)
 
-The payments may fluctuate (up and down) until the final payment is reached.
+**Репост**
 
-Payments for posts are split between the author (at least 75%) and the curators (up to 25%).
+Если вы хотите поделиться чужим постом со всеми вашими подписчиками, нажмите на значок репост.
 
-The author reward is paid 50% in Steem Power, and 50% in liquid STEEM/SBD.
+[^](https/vox.community/welcome#Table_of_Contents)
 
-Authors also have the option to decline payout, or be paid in 100% Steem Power!
+**цифровая валюта**
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Reputation">Reputation</span>
+Vox, Vox Power и Vox Dollars являются тремя формами цифровой валюты, используемой Блокчейном Vox.
 
-A reputation score is one way Steemit measures the amount of value you have brought to the community.
+Более подробную информацию по трем типам маркеров можете найти в [Вокс ЧАВО]().
 
-The higher the number, the more weighted votes an account has earned.
+[^](https/vox.community/welcome#Table_of_Contents)
 
-All new users start at 25.
+**Кураторство**
 
-Your reputation will go up as you earn upvotes for your posts and comments, but it can come down if they are flagged.
+До 25% вознаграждения за посты достается тем людям, которые голосовали на них. Этих людей называют кураторами.
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Cashing_out_or_Spending_SBD">Cashing out or Spending SBD</span>
+Чем больше Vox Power у вашеuj аккаунтf, тем больше ваши upvotes будет стоить, и тем большее вознаграждение как куратор вы можете заработать!
 
-You can exchange SBD for STEEM in the [Currency Market](https://steemit.com/market). Once you have STEEM, you can "Power Up" in your wallet to gain additional Steem Power.
+[^](https/vox.community/welcome#Table_of_Contents)
 
-You can spend your SBD at the [Peerhub Store](https://www.peerhub.com/).
+**Платежи**
 
-You can also exchange your STEEM and SBD for bitcoin on a third-party exchange such as [BlockTrades](https://blocktrades.us/) or [Bittrex](https://bittrex.com/).
+Выплаты производятся через 1 день после создания публикации/комментария. Вы можете получить вознаграждение в своем кошельке через 1 день.
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Plagiarism">Plagiarism</span>
+Платежи могут колебаться (вверх и вниз) до достижения окончательной суммы платежа.
 
-The community is looking for you to add your own personal touch to your articles.
+Платежи за посты делятся между автором (не менее 75%) и кураторами (до 25%).
 
-Plagiarizing, that is posting someone else's work as if it were your own, is very frowned upon by the Steemit community.
+Авторское вознаграждение выплачивается 50% В Vox Power и 50% в liquid VOX/VOXD.
 
-If you are using anyone else's material as part of your posts (including images) - please cite your sources.
+Авторы также имеют возможность отказаться от выплат, или быть оплачены в 100% Vox Power!
 
-Also, make sure that you are not violating any copyright laws if you are using someone else's material/images. Limited, sourced material sharing is OK under fair use and fair dealing doctrines.
+[^](https/vox.community/welcome#Table_of_Contents)
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Password_Security">Password Security</span>
+**Репутация**
 
-**There is no lost password recovery for Steem accounts**. You are 100% responsible for having it backed up. This means secure digital backups, as well as secured paper backups, off-site if possible.
+Оценка репутации \- это один из способов VOX пользу, которую вы принесли сообществу.
 
-Your Steemit account is worth real money. Treat your Steemit password like you would your bank password, and keep it secure!
+Чем больше число, тем больше голосов вы получили.
 
-<a href="#Table_of_Contents">^</a>
-### <span id="Earning_on_Steemit">Earning on Steemit</span>
+Все новые пользователи начинают с репутации 25.
 
-The best attitude to have is to expect to make nothing. Have fun. Get engaged. Make friends. If along the way you earn something - bonus!
+Ваша репутация будет расти, в зависимости от получаемых upvotes для ваших сообщений и комментариев, но она может прийти вниз, если они получат флаг.
 
-It is possible to earn thousands of dollars, but most authors who are doing this have put in a lot of time and work to contribute to the community and build followings.
+[^](https/vox.community/welcome#Table_of_Contents)
 
-<a href="#Table_of_Contents">^</a>
+**Обналичивание или расходы** **V****OX****D**
 
-***
+Вы можете обменять VOXD на [валютном рынке](). Как только у вас появится VOX, вы можете увеличить Vox Power.
 
-## <span id="Helpful_Posts_from_Steemit_Users">Helpful Posts from Steemit Users</span>
+Вы можете потратить свои VOXD в [магазине]().
 
-- [Posting and Markdown Basics](https://steemit.com/steemit/@thecryptofiend/markdown-basics-for-beginners)
-- [Ways to Spend Your Hard Earned STEEM/SBD](https://steemit.com/steem/@timcliff/the-steem-economy-tons-of-ways-to-spend-your-hard-earned-steem-sbd)
-- [Advice on How To Build a Following](https://steemit.com/steemit/@allasyummyfood/how-i-build-a-following-of-160-k-from-scratch)
-- [Steemit Etiquette Guide](https://steemit.com/steemit/@thecryptofiend/the-complete-steemit-etiquette-guide-revision-2-0)
-- [Introduceyourself Example](https://steemit.com/almost-famous/@teamsteem/hello-steemit-coinmaketcap-com-introduced-me)
-- [8 Mistakes to Avoid](https://steemit.com/steemit/@alcibiades/8-mistakes-i-see-beginners-make-on-steemit)
-- [Advice on using Tags](https://steemit.com/steemit/@rok-sivante/the-top-3-reasons-to-tag-your-steemit-posts-a-simple-quick-strategy-for-long-term-profits-and-success)
-- [Guide To Steemit Payouts](https://steemit.com/steemit/@shenanigator/the-ultimate-guide-to-steemit-payouts)
-- [Steemit Succeeds if We Make it Succeed](https://steemit.com/steemit/@krnel/steemit-succeeds-if-we-make-it-succeed)
-- [Understanding Your Wallet](https://steemit.com/steemit-help/@merej99/the-steemit-newbie-s-comprehensive-guide-to-understanding-your-wallet-by-merej99)
-- [Witness Voting Guide](https://steemit.com/witness-category/@timcliff/witness-voting-guide)
-- [Steemit for Artists](https://steemit.com/art/@voronoi/steemit-for-artists-a-new-stage-for-craft)
-- [Steemit Chat Guide](https://steemit.com/steemit/@firepower/dummies-guide-to-using-steemit-chat-effectively-everyday)
-- [Video interview on how to be successful](https://steemit.com/blog/@terrybrock/steemit-success-series--timcliff-on-who-to-target-with-your-content-1512178826-124805)
-- [How to use Blocktrades to exchange STEEM/SBD for BTC](https://steemit.com/steem/@thecryptofiend/how-to-use-blocktrades-the-fastest-and-easiest-way-to-buy-and-sell-steem-sd-and-my-review-of-the-experience)
-- [SBD to bitcoin (BTC) using Blocktrades, then BTC to Euro or USD Using CEX.io](https://steemit.com/howto/@future24/blocktrades-tutorial-part-2-how-to-exchange-sbd-to-btc-and-sell-them-for-euro-or-usd-english-german)
-- [A Guide To Cashing Out Your STEEM/SBD Using PayPal](https://steemit.com/tutorial/@son-of-satire/a-minnows-guide-to-cashing-out-your-steem-sbd-using-paypal-without-using-coinbase-and-their-invasive-identity-checks)
-- [How to Make Your Presence Known](https://steemit.com/steem-help/@papa-pepper/let-your-presence-be-known-advice-from-papa-for-newer-users)
-- [Emojis for Steemit](https://steemit.com/emojis/@blueorgy/steemit-emojis-master-list)
-- [5 Markdown Tips](https://steemit.com/steemit/@steemitguide/markdown-and-html-code-guide-for-beginners-that-includes-5-useful-tips-to-edit-posts-and-comments-using-the-raw-editor)
-- [How to Get Noticed if You Are a New User on Steemit](https://steemit.com/steemit/@thecryptofiend/how-to-get-noticed-if-you-are-a-new-user-on-steemit)
-- [Curation Rewards Explained](https://steemit.com/curation/@liberosist/mind-your-votes-ii-a-guide-to-maximizing-your-curation-rewards)
-- [More Information on Curation Rewards](https://steemit.com/steemit/@calamus056/curation-rewards-explained-in-great-detail)
-- [Everything you need to know about potential payouts and flagging](https://steemit.com/payout/@timcliff/everything-you-need-to-know-about-potential-payouts-and-flagging-for-new-users)
-- [The Ultimate Guide of Tips for New Steem Users](https://steemit.com/steem-help/@timcliff/the-ultimate-guide-of-tips-for-new-steem-users)
-- [Ways to Find Free and Legal Images](https://steemit.com/steem-help/@mindover/don-t-plagiarize-images-here-are-13-free-and-legal-ways-to-find-high-quality-photos-you-can-use-on-steemit)
-- [Steem Keys and Passwords Guide](https://steemit.com/steemit-guides/@pfunk/a-user-s-guide-to-the-different-steem-keys-or-passwords)
-- [Unwritten Rules of Steemit](https://steemit.com/steem-help/@beanz/the-unwritten-rules-of-steemit)
-- [Advice on How to Succeed on Steemit: Come to Give, Not to Take](https://steemit.com/psychology/@shenanigator/come-to-give-not-take-the-power-of-reciprocity)
-- [Best Practices for Steemit Artists](https://steemit.com/art/@merej99/best-practices-for-steemit-newbie-artists-by-merej99-a-100-power-up-post)
-- [STEEM The Super Basic Explanation](https://steemit.com/steem/@thecryptofiend/steem-the-super-basic-explanation-for-new-users)
-- [Blogging Tools](https://steemit.com/blogging/@munteanu/blogging-tools)
-- [How to Create Different Types of Blog Content](https://steemit.com/writing/@jessicanicklos/how-to-create-different-types-of-blog-content-know-here-total-guide-line)
+Вы можете также обменять свои VOXD на биткоины на сторонних биржах.
 
-<a href="#Table_of_Contents">^</a>
-## <span id="Users_to_Follow">Users to Follow</span>
+[^](https/vox.community/welcome#Table_of_Contents)
 
-- @steemitblog - Official Steemit Announcements
-- @ned - Ned Scott, CEO and Co-Founder of Steemit
+**Плагиат**
 
-<a href="#Table_of_Contents">^</a>
-## <span id="Other_Resources">Other Resources</span>
+Читая ваши статьи люди должны получать новую информацию.
 
-- [FAQ](https://steemit.com/faq.html) - Answers to commonly asked questions
-- [Bluepaper](https://steem.io/steem-bluepaper.pdf) - Explanation of how the platform works
-- [Steemit Help](https://www.steemithelp.net/) - Community maintained help pages
-- [The Steem Whitepaper](https://steem.io/SteemWhitePaper.pdf) - Technical details of the Steem blockchain
-- [Steem App Center](http://steemtools.com/) - Community developed tools for the Steem blockchain
-- [Steem Block Explorer](https://steemd.com/) - Shows the raw Steem blockchain data 
-- [Steem Blockchain Explorer](https://steemdb.com/) - Analysis pages for the Steem blockchain data
+Если вы публикуете чужую работу, выдавая за свою, встретите негативную оценку сообществом Vox.
 
-<a href="#Table_of_Contents">^</a>
-## <span id="Live_Help">Live Help</span>
+Если вы используете чужой материал как часть ваших Сообщений (включая изображения) \- пожалуйста, укажите ваши источники.
 
-Ask your general questions in the [help](https://steemit.chat/channel/help) channel of [steemit.chat](https://steemit.chat/home). Users in the channel will typically respond to questions within a few hours.
+Кроме того, убедитесь, что Вы не нарушаете законы об авторском праве, если вы используете чужой материал/изображения. 
 
-New Member Support Community is a group of people dedicated to helping new users find their way around Steemit. You can find them in the [New Member Support Community](https://discord.gg/HYj4yvw) channel of Discord Chat.
+ [^](https/vox.community/welcome#Table_of_Contents)
 
-<a href="#Table_of_Contents">^</a>
-## <span id="Third_Party_References">Third Party References</span>
+**безопасность пароля**
 
-Peerhub, BlockTrades, Bittrex, Steemit Chat, Steemit Help, New Member Support Community, and Discord Chat, as well as the tools listed under "Other Resources" are third party applications/services, and are not owned or maintained by Steemit, Inc. Their listing here does not constitute and endorsement or recommendation on behalf of Steemit, Inc.
+**Нет никакого пароля для восстановления** **Vox** **счетов**. Вы на 100% ответственны за его резервное копирование. Это означает защищенные цифровые резервные копии, а также защищенные бумажные резервные копии, если это возможно.
 
-All of the links in the "Helpful Posts from Steemit Users" section were created by our users and do not necessarily represent the views of Steemit, Inc. or its management.
+Ваш счет Vox стоит реальных денег. Храните свой Vox пароль, как ваш банковский пароль, и держать его в безопасности!
 
-Please use the third party tools and content at your own risk.
+[^](https/vox.community/welcome#Table_of_Contents)
 
-<a href="#Table_of_Contents">^</a>
+**Заработок на Vox**
+
+Повеселитесь. Познакомьтесь. Подружитеся. Если попутно вы что \- то заработаете – воспринимайте как бонус!
+
+Можно заработать тысячи долларов, но большинство авторов, которые делают это, вложили много времени и работы, чтобы внести свой вклад в сообщество и приобрести подписчиков.
+
+[^](https/vox.community/welcome#Table_of_Contents)
+
+**другие ресурсы**
+
+-   [ЧАВО]() \- ответы на часто задаваемые вопросы
+    
+-   [Bluepaper]() \- объяснение того, как работает Платформа
+    
+    
+
+[^](https/vox.community/welcome#Table_of_Contents)
+
+**Живая Помощь**
+
+Задать вопросы в [помощь]() каналу [чат](). Пользователи канала обычно отвечают на вопросы в течение нескольких часов.
+
+
+[^](https/vox.community/welcome#Table_of_Contents)

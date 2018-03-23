@@ -43,8 +43,9 @@
         "logout": "Logout",
         "memo": "Memo",
         "mute": "Mute",
-        "myblog": "My blog",
-        "mycomments": "My comments",
+        "myfeed": "My Feed",
+        "myblog": "My Blog",
+        "mycomments": "My Comments",
         "myreplies": "Replies to me",
         "new": "new",
         "newer": "Newer",
@@ -183,8 +184,8 @@
             "vote currently exists, user must be indicate a desire to reject witness",
         "only_one_APP_NAME_account_allowed_per_ip_address_every_10_minutes":
             "Only one VoxChain account allowed per IP address every 10 minutes",
-        "resteem_this_post": "Resteem This Post",
-        "reblog": "Resteem",
+        "resteem_this_post": "Revox This Post",
+        "reblog": "Revox",
         "write_your_story": "Write your story",
         "remember_voting_and_posting_key": "Remember voting & posting key",
         "auto_login_question_mark": "Auto login?",
@@ -208,8 +209,8 @@
             "authors_get_paid_when_people_like_you_upvote_their_post":
                 "Authors get paid when people like you upvote their post",
             "if_you_enjoyed_what_you_read_earn_amount":
-                "If you enjoyed what you read here, create your account today and start earning FREE STEEM!",
-            "free_steem": "FREE STEEM!",
+                "If you enjoyed what you read here, create your account today and start earning FREE VOX!",
+            "free_steem": "FREE VOX!",
             "sign_up_earn_steem": "Sign up now to earn "
         },
         "next_3_strings_together": {
@@ -235,7 +236,7 @@
         },
         "post_key_warning": {
             "confirm":
-                "You are about to publish a STEEM private key or master password. You will probably lose control of the associated account and all its funds.",
+                "You are about to publish a VOX private key or master password. You will probably lose control of the associated account and all its funds.",
             "warning":
                 "Legitimate users, including employees of Vox Inc., will never ask you for a private key or master password.",
             "checkbox": "I understand"
@@ -267,7 +268,8 @@
         "whitepaper": "VoxChain Whitepaper",
         "intro_tagline": "Your voice is worth something",
         "intro_paragraph":
-            "Get paid for good content. Post and upvote articles on Vox to get your share of the daily rewards pool."
+            "Get paid for good content. Post and upvote articles on Vox to get your share of the daily rewards pool.",
+        "forum": "Forum"    
     },
     "main_menu": {
         "hot": "hot",
@@ -371,7 +373,7 @@
         "request_already_submitted_contact_support":
             "Your request has been already submitted and we are working on it. Please contact %(SUPPORT_EMAIL)s for the status of your request.",
         "recover_account_intro":
-            "From time to time, a Steemian's owner key may be compromised. Stolen Account Recovery gives the rightful account owner 30 days to recover their account from the moment the thief changed their owner key. Stolen Account Recovery can only be used on %(APP_URL)s if the account owner had previously listed '%(APP_NAME)s' as their account trustee and complied with %(APP_NAME)s's Terms of Service.",
+            "From time to time, a Vox's owner key may be compromised. Stolen Account Recovery gives the rightful account owner 30 days to recover their account from the moment the thief changed their owner key. Stolen Account Recovery can only be used on %(APP_URL)s if the account owner had previously listed '%(APP_NAME)s' as their account trustee and complied with %(APP_NAME)s's Terms of Service.",
         "login_with_facebook_or_reddit_media_to_verify_identity":
             "Please login with Facebook or Reddit to verify your identity",
         "login_with_social_media_to_verify_identity":
@@ -551,7 +553,7 @@
         "converted_VESTING_TOKEN_can_be_sent_to_yourself_but_can_not_transfer_again":
             "Converted %(VESTING_TOKEN)s can be sent to yourself or someone else but can not transfer again without converting back to %(LIQUID_TOKEN)s.",
         "part_of_your_steem_power_is_currently_delegated":
-            "Part of %(user_name)s's STEEM POWER is currently delegated. Delegation is donated for influence or to help new users perform actions on steemit. Your delegation amount can fluctuate."
+            "Part of %(user_name)s's VOX POWER is currently delegated. Delegation is donated for influence or to help new users perform actions on vox. Your delegation amount can fluctuate."
     },
     "promote_post_jsx": {
         "promote_post": "Promote Post",
@@ -574,8 +576,8 @@
             "Images were hidden due to low ratings."
     },
     "postsummary_jsx": {
-        "resteemed": "resteemed",
-        "resteemed_by": "Resteemed by",
+        "resteemed": "revoxed",
+        "resteemed_by": "Revoxed by",
         "reveal_it": "Reveal this post",
         "adjust_your": "adjust your",
         "display_preferences": "display preferences",
@@ -665,8 +667,8 @@
         "amazing_community": "amazing community",
         "to_comment_and_reward_others": " to comment and reward others.",
         "signup_button": "Sign up now to earn ",
-        "signup_button_emphasis": "FREE STEEM!",
-        "sign_up_get_steem": "Sign up. Get STEEM",
+        "signup_button_emphasis": "FREE VOX!",
+        "sign_up_get_steem": "Sign up. Get VOX",
         "returning_users": "Returning Users: ",
         "join_our": "Join our"
     },
@@ -743,7 +745,7 @@
         "withdraw_LIQUID_TOKEN": "Withdraw %(LIQUID_TOKEN)s",
         "withdraw_DEBT_TOKENS": "Withdraw %(DEBT_TOKENS)s",
         "tokens_worth_about_1_of_LIQUID_TICKER":
-            "Tokens worth about $1.00 of %(LIQUID_TICKER)s, currently collecting %(sbdInterest)s%% APR.",
+            "Tokens worth about $1.00 of %(LIQUID_TICKER)s",
         "savings": "SAVINGS",
         "estimated_account_value": "Estimated Account Value",
         "next_power_down_is_scheduled_to_happen":
@@ -751,7 +753,8 @@
         "transfers_are_temporary_disabled": "Transfers are temporary disabled.",
         "history": "HISTORY",
         "redeem_rewards": "Redeem Rewards (Transfer to Balance)",
-        "buy_steem_or_steem_power": "Buy STEEM or STEEM POWER"
+        "buy_steem_or_steem_power": "Buy VOX or VOX POWER",
+        "you_cur_rewards" : "Ваши текущие награды:"
     },
     "powerdown_jsx": {
         "power_down": "Power Down",
@@ -773,5 +776,11 @@
         "ownership_changed_on": "Ownership Changed On ",
         "deadline_for_recovery_is": "Deadline for recovery is",
         "i_understand_dont_show_again": "I understand, don't show me again"
-    }
+    },
+    "sidebar_links": {
+        "header" : "Links",
+        "link_blog" : "My blog",
+        "link_wallet" : "My wallet"
+    },
+    "callout" : "Callout, you can add an error style with the knob"
 }

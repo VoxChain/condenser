@@ -1,12 +1,12 @@
 {
-  "database_url": "mysql://root:password@127.0.0.1/steemit_dev",
+  "database_url": "mysql://root:Vox@Men@127.0.0.1/vox",
   "disable_signups": false,
   "facebook_app_id": false,
   "google_analytics_id": false,
   "helmet": {
     "directives": {
       "childSrc": "'self' www.youtube.com staticxx.facebook.com w.soundcloud.com player.vimeo.com",
-      "connectSrc": "'self' steemit.com https://api.steemit.com api.blocktrades.us",
+      "connectSrc": "'self' www.vox.community vox.community https://vox.community https://signup.vox.community https://vox.community:9000 http://signup.vox.community http://localhost:9000",
       "defaultSrc": "'self' www.youtube.com staticxx.facebook.com player.vimeo.com",
       "fontSrc": "data: fonts.gstatic.com",
       "frameAncestors": "'none'",
@@ -17,10 +17,10 @@
       "styleSrc": "'self' 'unsafe-inline' fonts.googleapis.com",
       "reportUri": "/api/v1/csp_violation"
     },
-    "reportOnly": false,
+    "reportOnly": true,
     "setAllHeaders": true
   },
-  "img_proxy_prefix": "https://steemitdevimages.com/",
+  "img_proxy_prefix": "https://image.vox.community/",
   "ipfs_prefix": false,
   "mixpanel": false,
   "newrelic": false,
@@ -33,14 +33,14 @@
     "site_key": false
   },
   "registrar": {
-    "account": "-",
-    "fee": "0.5 STEEM",
-    "delegation": "150250.000000 VESTS",
-    "signing_key": "5J..."
+    "account": "initminer",
+    "fee": "0.000 VOX",
+    "delegation": "0.000000 VESTS",
+    "signing_key": "5KTVLmmAFiwJSUTRKe3K4JEzzwzAFVf2EKHRN5oxwkPrWr6oYA8"
   },
   "requestAccountRecovery": {
-    "recovery_account": "steem",
-    "signing_key": "5J..."
+    "recovery_account": "initminer",
+    "signing_key": "5KTVLmmAFiwJSUTRKe3K4JEzzwzAFVf2EKHRN5oxwkPrWr6oYA8"
   },
   "sendgrid": {
     "from": "noreply@example.com",
@@ -51,9 +51,9 @@
     }
   },
   "server_session_secret": "exiKdyF+IwRIXJDmtGIl4vWUz4i3eVSISpfZoeYc0s4=",
-  "session_cookie_key": "stm-dev",
-  "session_key": "steemses",
-  "site_domain": "steemitdev.com",
+  "session_cookie_key": "vox-dev",
+  "session_key": "voxses",
+  "site_domain": "vox.community",
   "tarantool": {
     "host": "localhost",
     "password": "",
@@ -69,9 +69,9 @@
     "auth_token": false
   },
   "upload_image": false,
-  "steemd_connection_client": "https://api.steemit.com",
-  "steemd_connection_server": "https://api.steemit.com",
+  "steemd_connection_client": "https://vox.community:9000",
+  "steemd_connection_server": "https://vox.community:9000",
   "steemd_use_appbase": false,
   "chain_id": "0000000000000000000000000000000000000000000000000000000000000000",
-  "address_prefix": "STM"
+  "address_prefix": "VOX"
 }

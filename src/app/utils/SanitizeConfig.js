@@ -169,7 +169,7 @@ export default ({
             href = href.trim();
             const attys = { href };
             // If it's not a (relative or absolute) steemit URL...
-            if (!href.match(/^(\/(?!\/)|https:\/\/steemit.com)/)) {
+            if (!href.match(/^(\/(?!\/)|https:\/\/vox.community)/)) {
                 // attys.target = '_blank' // pending iframe impl https://mathiasbynens.github.io/rel-noopener/
                 attys.rel = highQualityPost ? 'noopener' : 'nofollow noopener';
             }

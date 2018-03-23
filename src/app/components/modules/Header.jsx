@@ -123,7 +123,7 @@ class Header extends React.Component {
         } else if (route.page == 'CreateAccount') {
             page_title = tt('header_jsx.create_account');
         } else if (route.page == 'PickAccount') {
-            page_title = `Pick Your New Steemit Account`;
+            page_title = `Pick Your New Vox Account`;
             this.state.subheader_hidden = true;
         } else if (route.page == 'Approval') {
             page_title = `Account Confirmation`;
@@ -240,7 +240,7 @@ class Header extends React.Component {
 
                                         <img
                                             style={{ height: 40 }}
-                                            src={require('app/assets/images/vox.jpg')}
+                                            src={require('app/assets/images/vox.png')}
                                         />
                                     </Link>
                                 </li>
@@ -288,7 +288,7 @@ class Header extends React.Component {
                                         <input
                                             className="input-group-field"
                                             type="text"
-                                            placeholder="search"
+                                            placeholder={tt('g.search')}
                                             name="q"
                                             autoComplete="off"
                                         />

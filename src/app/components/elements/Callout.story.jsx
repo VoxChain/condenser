@@ -11,7 +11,7 @@ storiesOf('Elements', module)
     .add('Callout', () => (
         <Center>
             <Callout type={select('Callout style', selectOptions, 'default')}>
-                <span> Callout, you can add an error style with the knob</span>
+                <span> {tt("callout")}</span>
             </Callout>
         </Center>
     ));

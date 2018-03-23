@@ -314,16 +314,16 @@ class App extends React.Component {
                         </li>
                         <li>
                             <a
-                                href="https://thesteemitshop.com/"
+                                href="https://forum.vox.community"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                {tt('navigation.shop')}&nbsp;<Icon name="extlink" />
+                                {tt('navigation.forum')}&nbsp;<Icon name="extlink" />
                             </a>
                         </li>
                         <li>
                             <a
-                                href="https://steemit.chat/home"
+                                href="#"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -332,7 +332,7 @@ class App extends React.Component {
                         </li>
                         <li>
                             <a
-                                href="http://steemtools.com/"
+                                href="#"
                                 onClick={this.navigate}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -342,7 +342,7 @@ class App extends React.Component {
                         </li>
                         <li className="last">
                             <a
-                                href="https://developers.steem.io/"
+                                href="#"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -353,7 +353,7 @@ class App extends React.Component {
                     <ul className="vertical menu">
                         <li>
                             <a
-                                href="https://steem.io/steem-bluepaper.pdf"
+                                href="#"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -362,7 +362,7 @@ class App extends React.Component {
                         </li>
                         <li>
                             <a
-                                href="https://smt.steem.io/"
+                                href="#"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -371,7 +371,7 @@ class App extends React.Component {
                         </li>
                         <li>
                             <a
-                                href="https://steem.io/SteemWhitePaper.pdf"
+                                href="#"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -379,7 +379,7 @@ class App extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a href="https://steem.io" onClick={this.navigate}>
+                            <a href="#" onClick={this.navigate}>
                                 {tt('navigation.about')}&nbsp;<Icon name="extlink" />
                             </a>
                         </li>
