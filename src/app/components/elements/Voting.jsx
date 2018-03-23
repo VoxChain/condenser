@@ -274,7 +274,7 @@ class Voting extends React.Component {
             post_obj.get('pending_payout_value')
         );
         const percent_steem_dollars =
-            post_obj.get('percent_steem_dollars') / 20000;
+            post_obj.get('percent_steem_dollars') / 10000;
         const pending_payout_sbd = pending_payout * percent_steem_dollars;
         const pending_payout_sp =
             (pending_payout - pending_payout_sbd) / price_per_steem;
