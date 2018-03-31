@@ -256,7 +256,7 @@ function linkify(content, mutate, hashtags, usertags, images, links) {
     content = content.replace(/(^|\s)(#[-a-z\d]+)/gi, tag => {
         if (/#[\d]+$/.test(tag)) return tag; // Don't allow numbers to be tags
         const space = /^\s/.test(tag) ? tag[0] : '';
-        const tag2 = tag.trim().substring(1);
+        let tag2 = tag.trim().substring(1);
         if(/^[а-яёґєії]/.test(tag2)) tag2 = 'ru--' + detransliterate(tag2, true);
         const tagLower = tag2.toLowerCase();
         if (hashtags) hashtags.add(tagLower);
