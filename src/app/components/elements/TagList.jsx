@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import DropdownMenu from 'app/components/elements/DropdownMenu';
+import { detransliterate } from 'app/utils/ParsersAndFormatters';
 
 export default ({ post, horizontal, single }) => {
     let sort_order = 'trending';
@@ -9,7 +10,7 @@ export default ({ post, horizontal, single }) => {
 
     if (single)
         return (
-            <Link to={`/${sort_order}/${post.category}`}>{post.category}</Link>
+            <Link to={`/${sort_order}/${post.category}`}>{detransliterate(post.category)}</Link>
         );
 
     const json = post.json_metadata;
@@ -42,20 +43,20 @@ export default ({ post, horizontal, single }) => {
         const list = tags.map((tag, idx) => (
             <Link to={`/${sort_order}/${tag}`} key={idx}>
                 {' '}
-                {tag}{' '}
+                {detransliterate(tag)}{' '}
             </Link>
         ));
         return <div className="TagList__horizontal">{list}</div>;
     }
     if (tags.length == 1) {
-        return <Link to={`/${sort_order}/${tags[0]}`}>{tags[0]}</Link>;
+        return <Link to={`/${sort_order}/${tags[0]}`}>{detransliterate(tags[0])}</Link>;
     }
     const list = tags.map(tag => {
-        return { value: tag, link: `/${sort_order}/${tag}` };
+        return { value: detransliterate(tag), link: `/${sort_order}/${tag}` };
     });
     return (
         <DropdownMenu
-            selected={' ' + tags[0]}
+            selected={' ' + detransliterate(tags[0])}
             className="TagList"
             items={list}
             el="div"

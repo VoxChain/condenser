@@ -10,6 +10,7 @@ import HorizontalMenu from 'app/components/elements/HorizontalMenu';
 import normalizeProfile from 'app/utils/NormalizeProfile';
 import tt from 'counterpart';
 import { APP_NAME } from 'app/client_config';
+import {detransliterate, capitalizeFirstLetter} from 'app/utils/ParsersAndFormatters';
 
 function sortOrderToLink(so, topic, account) {
     if (so === 'home') return '/@' + account + '/feed';
@@ -99,15 +100,14 @@ class Header extends React.Component {
                 )
                     home_account = true;
             } else {
-                topic = route.params.length > 1 ? route.params[1] : '';
-                const type =
-                    route.params[0] == 'payout_comments' ? 'comments' : 'posts';
+                const type = tt(route.params[0] == 'payout_comments' ? 'g.comments' : 'g.posts');
+                const topic = (route.params.length > 1 ? detransliterate(route.params[1]) + ' ' : '')
+                topic_original_link = route.params[1]
                 let prefix = route.params[0];
-                if (prefix == 'created') prefix = 'New';
-                if (prefix == 'payout') prefix = 'Pending payout';
-                if (prefix == 'payout_comments') prefix = 'Pending payout';
-                if (topic !== '') prefix += ` ${topic}`;
-                page_title = `${prefix} ${type}`;
+                if(prefix == 'created') prefix = tt('g.new')
+                if(prefix == 'payout') prefix = tt('voting_jsx.pending_payout')
+                if(prefix == 'payout_comments') prefix = tt('voting_jsx.pending_payout')
+                page_title = `${prefix} ${topic}${type}`;
             }
         } else if (route.page === 'Post') {
             sort_order = '';
@@ -186,7 +186,7 @@ class Header extends React.Component {
                 : current_account_name ? `/@${current_account_name}/feed` : '/';
         const topic_link = topic ? (
             <Link to={`/${this.last_sort_order || 'trending'}/${topic}`}>
-                {topic}
+                {detransliterate(topic)}
             </Link>
         ) : null;
 
@@ -202,7 +202,7 @@ class Header extends React.Component {
             .filter(so => so[0] !== sort_order)
             .map(so => ({
                 link: sortOrderToLink(so[0], topic, current_account_name),
-                value: so[1],
+                value: capitalizeFirstLetter(so[1]),
             }));
         const selected_sort_order = sort_orders.find(
             so => so[0] === sort_order

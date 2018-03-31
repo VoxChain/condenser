@@ -16,6 +16,7 @@ import { Set } from 'immutable';
 import Remarkable from 'remarkable';
 import Dropzone from 'react-dropzone';
 import tt from 'counterpart';
+import { detransliterate, capitalizeFirstLetter } from 'app/utils/ParsersAndFormatters';
 
 const remarkable = new Remarkable({ html: true, linkify: false, breaks: true });
 
@@ -787,7 +788,8 @@ export default formId =>
             let { category, title, body } = ownProps;
             if (/submit_/.test(type)) title = body = '';
             if (isStory && jsonMetadata && jsonMetadata.tags) {
-                category = Set([category, ...jsonMetadata.tags]).join(' ');
+                const detags = jsonMetadata.tags.map(tag => detransliterate(tag))
+                category = Set([detransliterate(category), ...detags]).join(' ')
             }
             const ret = {
                 ...ownProps,
@@ -886,6 +888,14 @@ export default formId =>
                                 .join(', ')
                     );
                     return;
+                }
+
+                if (category) {
+                    category = category
+                        .split(' ')
+                        .map(item => /^[а-яё]/.test(item) ? 'ru--' + detransliterate(item, true) : item)
+                        .join(' ')
+                        .trim()
                 }
 
                 const formCategories = Set(

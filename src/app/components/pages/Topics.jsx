@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 import { connect } from 'react-redux';
 import { browserHistory } from 'react-router';
 import tt from 'counterpart';
+import { detransliterate } from 'app/utils/ParsersAndFormatters';
 
 class Topics extends React.Component {
     static propTypes = {
@@ -47,27 +48,28 @@ class Topics extends React.Component {
                         {tt('g.all_tags')}
                     </option>
                     {categories.map(cat => {
-                        const link = order ? `/${order}/${cat}` : `/${cat}`;
-                        return (
-                            <option key={cat} value={link}>
-                                {cat}
-                            </option>
-                        );
+                        const translitCat = /[а-яёґєії]/.test(cat) ? 'ru--' + detransliterate(cat.toLowerCase(), true) : cat
+                        const link = order ? `/${order}/${translitCat}` : `/${translitCat}`;
+                        return <option key={cat} value={link}>{detransliterate(cat)}</option>
                     })}
                 </select>
             );
         }
 
         categories = categories.map(cat => {
-            const link = order ? `/${order}/${cat}` : `/hot/${cat}`;
+            //const link = order ? `/${order}/${cat}` : `/hot/${cat}`;
+            const translitCat = /[а-яёґєії]/.test(cat) ? 'ru--' + detransliterate(cat.toLowerCase(), true) : cat
+            const link = order ? `/${order}/${translitCat}` : `/hot/${translitCat}`;
+
             return (
                 <li className="c-sidebar__list-item" key={cat}>
                     <Link
                         to={link}
                         className="c-sidebar__link"
                         activeClassName="active"
+                        title={detransliterate(cat)}
                     >
-                        {cat}
+                        {detransliterate(cat)}
                     </Link>
                 </li>
             );

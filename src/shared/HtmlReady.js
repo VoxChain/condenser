@@ -3,6 +3,7 @@ import tt from 'counterpart';
 import linksRe, { any as linksAny } from 'app/utils/Links';
 import { validate_account_name } from 'app/utils/ChainValidation';
 import proxifyImageUrl from 'app/utils/ProxifyUrl';
+import {detransliterate} from 'app/utils/ParsersAndFormatters'
 
 export const getPhishingWarningMessage = () => tt('g.phishy_message');
 
@@ -256,6 +257,7 @@ function linkify(content, mutate, hashtags, usertags, images, links) {
         if (/#[\d]+$/.test(tag)) return tag; // Don't allow numbers to be tags
         const space = /^\s/.test(tag) ? tag[0] : '';
         const tag2 = tag.trim().substring(1);
+        if(/^[а-яёґєії]/.test(tag2)) tag2 = 'ru--' + detransliterate(tag2, true);
         const tagLower = tag2.toLowerCase();
         if (hashtags) hashtags.add(tagLower);
         if (!mutate) return tag;

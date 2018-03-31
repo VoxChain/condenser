@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { browserHistory } from 'react-router';
 import { numberWithCommas } from 'app/utils/StateFunctions';
 import tt from 'counterpart';
+import { detransliterate } from 'app/utils/ParsersAndFormatters';
 
 export default class TagsIndex extends React.Component {
     static propTypes = {
@@ -67,11 +68,17 @@ export default class TagsIndex extends React.Component {
             .map(tag => {
                 const name = tag.get('name');
                 const link = `/trending/${name}`;
+
+                if (/[а-яёґєії]/.test(name)) {
+                    name = 'ru--' + detransliterate(name.toLowerCase(), true)
+                }
+                if (/^(u\w{4}){6,}/.test(name)) return null;
+
                 return (
                     <tr key={name}>
                         <td>
                             <Link to={link} activeClassName="active">
-                                {name}
+                                {detransliterate(name)}
                             </Link>
                         </td>
                         <td>

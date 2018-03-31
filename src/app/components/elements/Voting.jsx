@@ -313,9 +313,7 @@ class Voting extends React.Component {
 
         if (cashout_active) {
             payoutItems.push({
-                value: tt('voting_jsx.pending_payout', {
-                    value: formatDecimal(pending_payout).join(''),
-                }),
+                value: tt('voting_jsx.pending_payout') + ' ' + formatDecimal(pending_payout).join(''),
             });
             if (max_payout > 0) {
                 payoutItems.push({
