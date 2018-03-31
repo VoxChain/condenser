@@ -86,6 +86,7 @@ class Header extends React.Component {
 
         let sort_order = '';
         let topic = '';
+        let topic_original_link = '';
         let user_name = null;
         let page_name = null;
         this.state.subheader_hidden = false;
