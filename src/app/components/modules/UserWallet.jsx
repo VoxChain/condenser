@@ -305,20 +305,12 @@ class UserWallet extends React.Component {
             {
                 value: tt('g.transfer'),
                 link: '#',
-                onClick: showTransfer.bind(
-                    this,
-                    'VOX',
-                    'Transfer to Account'
-                ),
+                onClick: showTransfer.bind(this, 'VOX', 'Transfer to Account'),
             },
             {
                 value: tt('userwallet_jsx.transfer_to_savings'),
                 link: '#',
-                onClick: showTransfer.bind(
-                    this,
-                    'VOX',
-                    'Transfer to Savings'
-                ),
+                onClick: showTransfer.bind(this, 'VOX', 'Transfer to Savings'),
             },
             {
                 value: tt('userwallet_jsx.power_up'),
@@ -460,7 +452,7 @@ class UserWallet extends React.Component {
                 : null;
         const reward_sp =
             parseFloat(account.get('reward_vesting_steem').split(' ')[0]) > 0
-                ? account.get('reward_vesting_steem').replace('VOX', 'VP')
+                ? account.get('reward_vesting_steem').replace('VOX', 'MANA')
                 : null;
 
         let rewards = [];
@@ -488,7 +480,8 @@ class UserWallet extends React.Component {
                     <div className="columns small-12">
                         <div className="UserWallet__claimbox">
                             <span className="UserWallet__claimbox-text">
-                                {tt("userwallet_jsx.you_cur_rewards")} {rewards_str}
+                                {tt('userwallet_jsx.you_cur_rewards')}{' '}
+                                {rewards_str}
                             </span>
                             <button
                                 disabled={this.state.claimInProgress}

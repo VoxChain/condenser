@@ -275,7 +275,7 @@
         "intro_tagline": "Здесь говорят деньги",
         "intro_paragraph":
             "Ваше мнение имеет цену. Присоединяйтесь к сообществу, которое платит за контент и за работу по отбору самого лучшего контента.",
-        "forum": "Forum" 
+        "forum": "Forum"
     },
     "main_menu": {
         "hot": "актуальное",
@@ -297,7 +297,7 @@
         "pasting_from_the_clipboard": "или вставив из буфера обмена, ",
         "selecting_them": "выбрав их",
         "image_upload": "Загрузка изображения",
-        "power_up_100": "Сила Голоса 100%%",
+        "power_up_100": "MANA 100%%",
         "default_50_50": "По умолчанию (50%% / 50%%)",
         "decline_payout": "Отказаться от выплаты",
         "check_this_to_auto_upvote_your_post":
@@ -783,7 +783,7 @@
         "history": "ИСТОРИЯ",
         "redeem_rewards": "Получить вознаграждение",
         "buy_steem_or_steem_power": "Купить VOX или VOX POWER",
-        "you_cur_rewards" : ":"
+        "you_cur_rewards": ":"
     },
     "powerdown_jsx": {
         "power_down": "Уменьшить силу голоса (power down)",
@@ -807,9 +807,9 @@
         "i_understand_dont_show_again": "Понятно, больше не показывать"
     },
     "sidebar_links": {
-        "header" : "Ссылки",
-        "link_blog" : "Мой блог",
-        "link_wallet" : "Мой кошелек"
+        "header": "Ссылки",
+        "link_blog": "Мой блог",
+        "link_wallet": "Мой кошелек"
     },
-    "callout" : "Callout, you can add an error style with the knob"
+    "callout": "Callout, you can add an error style with the knob"
 }

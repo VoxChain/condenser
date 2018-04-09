@@ -16,7 +16,10 @@ import { Set } from 'immutable';
 import Remarkable from 'remarkable';
 import Dropzone from 'react-dropzone';
 import tt from 'counterpart';
-import { detransliterate, capitalizeFirstLetter } from 'app/utils/ParsersAndFormatters';
+import {
+    detransliterate,
+    capitalizeFirstLetter,
+} from 'app/utils/ParsersAndFormatters';
 
 const remarkable = new Remarkable({ html: true, linkify: false, breaks: true });
 
@@ -100,8 +103,8 @@ class ReplyEditor extends React.Component {
             this.setAutoVote();
             this.setState({
                 payoutType: this.props.isStory
-                    ? localStorage.getItem('defaultPayoutType') || '50%'
-                    : '50%',
+                    ? localStorage.getItem('defaultPayoutType') || '100%'
+                    : '100%',
             });
         }
     }
@@ -788,8 +791,12 @@ export default formId =>
             let { category, title, body } = ownProps;
             if (/submit_/.test(type)) title = body = '';
             if (isStory && jsonMetadata && jsonMetadata.tags) {
-                const detags = jsonMetadata.tags.map(tag => detransliterate(tag))
-                category = Set([detransliterate(category), ...detags]).join(' ')
+                const detags = jsonMetadata.tags.map(tag =>
+                    detransliterate(tag)
+                );
+                category = Set([detransliterate(category), ...detags]).join(
+                    ' '
+                );
             }
             const ret = {
                 ...ownProps,
@@ -893,9 +900,14 @@ export default formId =>
                 if (category) {
                     category = category
                         .split(' ')
-                        .map(item => /^[а-яё]/.test(item) ? 'ru--' + detransliterate(item, true) : item)
+                        .map(
+                            item =>
+                                /^[а-яё]/.test(item)
+                                    ? 'ru--' + detransliterate(item, true)
+                                    : item
+                        )
                         .join(' ')
-                        .trim()
+                        .trim();
                 }
 
                 const formCategories = Set(
