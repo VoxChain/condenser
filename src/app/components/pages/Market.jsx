@@ -355,7 +355,7 @@ class Market extends React.Component {
                             {o.price.toFixed(6)}
                         </td>
                         <td>{o.steem}</td>
-                        <td>{o.sbd.replace('VOXD', DEBT_TOKEN_SHORT)}</td>
+                        <td>{o.sbd.replace('GOLD', DEBT_TOKEN_SHORT)}</td>
                         <td>
                             <a
                                 href="#"
@@ -684,7 +684,7 @@ class Market extends React.Component {
                                                     {tt('market_jsx.available')}:
                                                 </a>{' '}
                                                 {account.sbd_balance.replace(
-                                                    'VOXD',
+                                                    'GOLD',
                                                     DEBT_TOKEN_SHORT
                                                 )}
                                             </small>
@@ -1038,7 +1038,7 @@ module.exports = {
                 fill_or_kill = false,
                 expiration = DEFAULT_EXPIRE
             ) => {
-                // create_order jsc 12345 "1.000 VOXD" "100.000 VOX" true 1467122240 false
+                // create_order jsc 12345 "1.000 GOLD" "100.000 VOX" true 1467122240 false
 
                 // Padd amounts to 3 decimal places
                 amount_to_sell = amount_to_sell.replace(

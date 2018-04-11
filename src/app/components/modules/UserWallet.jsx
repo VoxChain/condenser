@@ -64,7 +64,7 @@ class UserWallet extends React.Component {
             const new_window = window.open();
             new_window.opener = null;
             new_window.location =
-                'https://blocktrades.us/?input_coin_type=eth&output_coin_type=voxd&receive_address=' +
+                'https://blocktrades.us/?input_coin_type=eth&output_coin_type=gold&receive_address=' +
                 current_user_name;
         };
         this.onShowWithdrawSBD = e => {
@@ -72,7 +72,7 @@ class UserWallet extends React.Component {
             const new_window = window.open();
             new_window.opener = null;
             new_window.location =
-                'https://blocktrades.us/unregistered_trade/voxd/eth';
+                'https://blocktrades.us/unregistered_trade/gold/eth';
         };
         this.shouldComponentUpdate = shouldComponentUpdate(this, 'UserWallet');
     }
@@ -168,7 +168,7 @@ class UserWallet extends React.Component {
                 const [amount, asset] = withdraw.get('amount').split(' ');
                 if (asset === 'VOX') savings_pending += parseFloat(amount);
                 else {
-                    if (asset === 'VOXD')
+                    if (asset === 'GOLD')
                         savings_sbd_pending += parseFloat(amount);
                 }
             });
@@ -189,7 +189,7 @@ class UserWallet extends React.Component {
                 if (finishTime < currentTime) return out;
 
                 const amount = parseFloat(
-                    item.getIn([1, 'op', 1, 'amount']).replace(' VOXD', '')
+                    item.getIn([1, 'op', 1, 'amount']).replace(' GOLD', '')
                 );
                 conversionValue += amount;
 
@@ -227,7 +227,7 @@ class UserWallet extends React.Component {
             !open_orders || !isMyAccount
                 ? 0
                 : open_orders.reduce((o, order) => {
-                      if (order.sell_price.base.indexOf('VOXD') !== -1) {
+                      if (order.sell_price.base.indexOf('GOLD') !== -1) {
                           o += order.for_sale;
                       }
                       return o;
@@ -286,7 +286,7 @@ class UserWallet extends React.Component {
                 }
 
                 if (
-                    data.sbd_payout === '0.000 VOXD' &&
+                    data.sbd_payout === '0.000 GOLD' &&
                     data.vesting_payout === '0.000000 VESTS'
                 )
                     return null;
@@ -333,12 +333,12 @@ class UserWallet extends React.Component {
             {
                 value: tt('g.transfer'),
                 link: '#',
-                onClick: showTransfer.bind(this, 'VOXD', 'Transfer to Account'),
+                onClick: showTransfer.bind(this, 'GOLD', 'Transfer to Account'),
             },
             {
                 value: tt('userwallet_jsx.transfer_to_savings'),
                 link: '#',
-                onClick: showTransfer.bind(this, 'VOXD', 'Transfer to Savings'),
+                onClick: showTransfer.bind(this, 'GOLD', 'Transfer to Savings'),
             },
             { value: tt('userwallet_jsx.market'), link: '/market' },
         ];
@@ -428,7 +428,7 @@ class UserWallet extends React.Component {
                     DEBT_TOKENS,
                 }),
                 link: '#',
-                onClick: showTransfer.bind(this, 'VOXD', 'Savings Withdraw'),
+                onClick: showTransfer.bind(this, 'GOLD', 'Savings Withdraw'),
             },
         ];
         // set dynamic secondary wallet values
@@ -763,7 +763,7 @@ export default connect(
         const feed_price = state.global.get('feed_price');
         if (feed_price && feed_price.has('base') && feed_price.has('quote')) {
             const { base, quote } = feed_price.toJS();
-            if (/ VOXD$/.test(base) && / VOX$/.test(quote))
+            if (/ GOLD$/.test(base) && / VOX$/.test(quote))
                 price_per_steem = parseFloat(base.split(' ')[0]);
         }
         const savings_withdraws = state.user.get('savings_withdraws');
