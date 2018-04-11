@@ -45,9 +45,9 @@ class Privacy extends React.Component {
                         <p>
                             <span className="section">4</span>
                             If you purchase products or services from us (e.g.,
-                            Vox Power), we will collect certain information from
-                            you, including your name, address, email address,
-                            and information about the product or service you are
+                            MANA), we will collect certain information from you,
+                            including your name, address, email address, and
+                            information about the product or service you are
                             purchasing. Payments are processed by third-party
                             payment processors (e.g., Stripe and PayPal), so
                             please refer to the applicable processor’s terms and

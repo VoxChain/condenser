@@ -568,7 +568,7 @@ class UserWallet extends React.Component {
                 </div>
                 <div className="UserWallet__balance row zebra">
                     <div className="column small-12 medium-8">
-                        VOX POWER
+                        MANA
                         <FormattedHTMLMessage
                             className="secondary"
                             id="tips_js.influence_token"
@@ -602,7 +602,7 @@ class UserWallet extends React.Component {
                                         : null,
                                 }}
                             >
-                                <Tooltip t="VOX POWER delegated to/from this account">
+                                <Tooltip t="MANA delegated to/from this account">
                                     ({received_power_balance_str} VOX)
                                 </Tooltip>
                             </div>
