@@ -30,6 +30,9 @@ try {
 
 function runApp(initial_state) {
     console.log('Initial state', initial_state);
+
+    window.remain_gold =
+        initial_state.global.props.remain_gold_emission_in_blocks;
     const konami = {
         code: 'xyzzy',
         enabled: false,
