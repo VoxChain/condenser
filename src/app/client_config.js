@@ -11,11 +11,11 @@ export const APP_DOMAIN = 'vox.community';
 export const LIQUID_TOKEN = 'VOX';
 // sometimes it's impossible to use html tags to style coin name, hence usage of _UPPERCASE modifier
 export const LIQUID_TOKEN_UPPERCASE = 'VOX';
-export const VESTING_TOKEN = 'VOX POWER';
-export const INVEST_TOKEN_UPPERCASE = 'VOX POWER';
+export const VESTING_TOKEN = 'MANA';
+export const INVEST_TOKEN_UPPERCASE = 'MANA';
 export const INVEST_TOKEN_SHORT = 'MANA';
-export const DEBT_TOKEN = 'VOX DOLLAR';
-export const DEBT_TOKENS = 'VOX DOLLARS';
+export const DEBT_TOKEN = 'GOLD';
+export const DEBT_TOKENS = 'GOLD';
 export const CURRENCY_SIGN = '$';
 export const WIKI_URL = ''; // https://wiki.golos.io/
 export const LANDING_PAGE_URL = 'https://steem.io/';
@@ -26,8 +26,8 @@ export const WHITEPAPER_URL = 'https://steem.io/SteemWhitePaper.pdf';
 // these are dealing with asset types, not displaying to client, rather sending data over websocket
 export const LIQUID_TICKER = 'VOX';
 export const VEST_TICKER = 'VESTS';
-export const DEBT_TICKER = 'VOXD';
-export const DEBT_TOKEN_SHORT = 'VOXD';
+export const DEBT_TICKER = 'GOLD';
+export const DEBT_TOKEN_SHORT = 'GOLD';
 
 // application settings
 export const DEFAULT_LANGUAGE = 'en'; // used on application internationalization bootstrap

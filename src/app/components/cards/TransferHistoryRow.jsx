@@ -35,12 +35,12 @@ class TransferHistoryRow extends React.Component {
                         tt('g.transfer') +
                         data.amount.split(' ')[0] +
                         tt('g.to') +
-                        'VOX POWER';
+                        'MANA';
                 } else {
                     description_start +=
                         tt('g.transfer') +
                         data.amount.split(' ')[0] +
-                        ' VOX POWER' +
+                        ' MANA' +
                         tt('g.to');
                     other_account = data.to;
                 }
@@ -48,14 +48,14 @@ class TransferHistoryRow extends React.Component {
                 description_start +=
                     tt('g.receive') +
                     data.amount.split(' ')[0] +
-                    ' VOX POWER' +
+                    ' MANA' +
                     tt('g.from');
                 other_account = data.from;
             } else {
                 description_start +=
                     tt('g.transfer') +
                     data.amount.split(' ')[0] +
-                    ' VOX POWER' +
+                    ' MANA' +
                     tt('g.from') +
                     data.from +
                     tt('g.to');
@@ -112,7 +112,7 @@ class TransferHistoryRow extends React.Component {
                     powerdown_vests +
                     ' VOX';
         } else if (type === 'curation_reward') {
-            description_start += `${curation_reward} VOX POWER` + tt('g.for');
+            description_start += `${curation_reward} MANA` + tt('g.for');
             other_account = data.comment_author + '/' + data.comment_permlink;
         } else if (type === 'author_reward') {
             let steem_payout = '';
@@ -120,7 +120,7 @@ class TransferHistoryRow extends React.Component {
                 steem_payout = ', ' + data.steem_payout;
             description_start += `${data.sbd_payout}${steem_payout}, ${tt(
                 'g.and'
-            )} ${author_reward} VOX POWER ${tt('g.for')}`;
+            )} ${author_reward} MANA ${tt('g.for')}`;
             other_account = data.author + '/' + data.permlink;
             description_end = '';
         } else if (type === 'claim_reward_balance') {
@@ -130,7 +130,7 @@ class TransferHistoryRow extends React.Component {
             if (parseFloat(data.reward_sbd.split(' ')[0]) > 0)
                 rewards.push(data.reward_sbd);
             if (parseFloat(data.reward_vests.split(' ')[0]) > 0)
-                rewards.push(`${reward_vests} VOX POWER`);
+                rewards.push(`${reward_vests} MANA`);
 
             let rewards_str;
             switch (rewards.length) {
@@ -173,7 +173,7 @@ class TransferHistoryRow extends React.Component {
             let steem_payout = '';
             if (data.steem_payout !== '0.000 VOX')
                 steem_payout = ', ' + data.steem_payout;
-            description_start += `${benefactor_reward} VOX POWER for ${
+            description_start += `${benefactor_reward} MANA for ${
                 data.author
             }/${data.permlink}`;
             description_end = '';

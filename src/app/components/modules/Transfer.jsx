@@ -131,7 +131,7 @@ class TransferForm extends Component {
                     ? isWithdraw
                       ? currentAccount.get('savings_balance')
                       : currentAccount.get('balance')
-                    : asset === 'VOXD'
+                    : asset === 'GOLD'
                       ? isWithdraw
                         ? currentAccount.get('savings_sbd_balance')
                         : currentAccount.get('sbd_balance')
@@ -200,7 +200,7 @@ class TransferForm extends Component {
             ? isWithdraw
               ? currentAccount.get('savings_balance')
               : currentAccount.get('balance')
-            : asset.value === 'VOXD'
+            : asset.value === 'GOLD'
               ? isWithdraw
                 ? currentAccount.get('savings_sbd_balance')
                 : currentAccount.get('sbd_balance')
@@ -425,7 +425,7 @@ class TransferForm extends Component {
                                         }}
                                     >
                                         <option value="VOX">VOX</option>
-                                        <option value="VOXD">VOXD</option>
+                                        <option value="GOLD">GOLD</option>
                                     </select>
                                 </span>
                             )}

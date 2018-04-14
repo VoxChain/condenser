@@ -313,7 +313,10 @@ class Voting extends React.Component {
 
         if (cashout_active) {
             payoutItems.push({
-                value: tt('voting_jsx.pending_payout') + ' ' + formatDecimal(pending_payout).join(''),
+                value:
+                    tt('voting_jsx.pending_payout') +
+                    ' ' +
+                    formatDecimal(pending_payout).join(''),
             });
             if (max_payout > 0) {
                 payoutItems.push({
@@ -538,7 +541,7 @@ export default connect(
         const feed_price = state.global.get('feed_price');
         if (feed_price && feed_price.has('base') && feed_price.has('quote')) {
             const { base, quote } = feed_price.toJS();
-            if (/ VOXD$/.test(base) && / VOX$/.test(quote))
+            if (/ GOLD$/.test(base) && / VOX$/.test(quote))
                 price_per_steem = parseFloat(base.split(' ')[0]);
         }
 

@@ -7,10 +7,14 @@ import resolveRoute from 'app/ResolveRoute';
 import DropdownMenu from 'app/components/elements/DropdownMenu';
 import shouldComponentUpdate from 'app/utils/shouldComponentUpdate';
 import HorizontalMenu from 'app/components/elements/HorizontalMenu';
+
 import normalizeProfile from 'app/utils/NormalizeProfile';
 import tt from 'counterpart';
 import { APP_NAME } from 'app/client_config';
-import {detransliterate, capitalizeFirstLetter} from 'app/utils/ParsersAndFormatters';
+import {
+    detransliterate,
+    capitalizeFirstLetter,
+} from 'app/utils/ParsersAndFormatters';
 
 function sortOrderToLink(so, topic, account) {
     if (so === 'home') return '/@' + account + '/feed';
@@ -27,7 +31,10 @@ class Header extends React.Component {
 
     constructor() {
         super();
-        this.state = { subheader_hidden: false };
+        this.state = {
+            subheader_hidden: false,
+            remain_gold: window.remain_gold,
+        };
         this.shouldComponentUpdate = shouldComponentUpdate(this, 'Header');
         this.hideSubheader = this.hideSubheader.bind(this);
     }
@@ -37,6 +44,16 @@ class Header extends React.Component {
             capture: false,
             passive: true,
         });
+        setInterval(
+            () =>
+                this.setState({
+                    remain_gold:
+                        this.state.remain_gold > 0
+                            ? this.state.remain_gold - 1
+                            : 0,
+                }),
+            3000
+        );
     }
 
     componentWillReceiveProps(nextProps) {
@@ -90,6 +107,7 @@ class Header extends React.Component {
         let user_name = null;
         let page_name = null;
         this.state.subheader_hidden = false;
+
         if (route.page === 'PostsIndex') {
             sort_order = route.params[0];
             if (sort_order === 'home') {
@@ -101,13 +119,22 @@ class Header extends React.Component {
                 )
                     home_account = true;
             } else {
-                const type = tt(route.params[0] == 'payout_comments' ? 'g.comments' : 'g.posts');
-                const topic = (route.params.length > 1 ? detransliterate(route.params[1]) + ' ' : '')
-                topic_original_link = route.params[1]
+                const type = tt(
+                    route.params[0] == 'payout_comments'
+                        ? 'g.comments'
+                        : 'g.posts'
+                );
+                const topic =
+                    route.params.length > 1
+                        ? detransliterate(route.params[1]) + ' '
+                        : '';
+                topic_original_link = route.params[1];
                 let prefix = route.params[0];
-                if(prefix == 'created') prefix = tt('g.new')
-                if(prefix == 'payout') prefix = tt('voting_jsx.pending_payout')
-                if(prefix == 'payout_comments') prefix = tt('voting_jsx.pending_payout')
+                if (prefix == 'created') prefix = tt('g.new');
+                if (prefix == 'payout')
+                    prefix = tt('voting_jsx.pending_payout');
+                if (prefix == 'payout_comments')
+                    prefix = tt('voting_jsx.pending_payout');
                 page_title = `${prefix} ${topic}${type}`;
             }
         } else if (route.page === 'Post') {
@@ -245,11 +272,33 @@ class Header extends React.Component {
                                         />
                                     </Link>
                                 </li>
+                                {this.state.remain_gold > 0 ? (
+                                    <div
+                                        className="Blocks_count fade-in--10"
+                                        style={{
+                                            textAlign: 'center',
+                                            background: 'black',
+                                            paddingLeft: '10px',
+                                            paddingRight: '10px',
+                                            color: 'lime',
+                                            minWidth: '100',
+                                        }}
+                                    >
+                                        <div>GOLD в:</div>
+                                        <div>
+                                            {this.state.remain_gold} блоках{' '}
+                                            <a
+                                                href="google.com"
+                                                style={{ color: 'lime' }}
+                                            >
+                                                (?)
+                                            </a>
+                                        </div>
+                                    </div>
+                                ) : null}
                                 <li className="Header__top-steemit show-for-medium noPrint">
                                     <Link to={logo_link}>
-                                        <span className="beta fade-in--10">
-                                            testnet
-                                        </span>
+                                        <span className="beta fade-in--10" />
                                     </Link>
                                 </li>
                                 {selected_sort_order && (
