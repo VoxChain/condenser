@@ -269,7 +269,7 @@
         "intro_tagline": "Your voice is worth something",
         "intro_paragraph":
             "Get paid for good content. Post and upvote articles on Vox to get your share of the daily rewards pool.",
-        "forum": "Forum"    
+        "forum": "Forum"
     },
     "main_menu": {
         "hot": "hot",
@@ -745,7 +745,7 @@
         "withdraw_LIQUID_TOKEN": "Withdraw %(LIQUID_TOKEN)s",
         "withdraw_DEBT_TOKENS": "Withdraw %(DEBT_TOKENS)s",
         "tokens_worth_about_1_of_LIQUID_TICKER":
-            "Tokens worth about $1.00 of %(LIQUID_TICKER)s",
+            "A token issued by a limited number. Can be sold on the foreign exchange.",
         "savings": "SAVINGS",
         "estimated_account_value": "Estimated Account Value",
         "next_power_down_is_scheduled_to_happen":
@@ -754,7 +754,7 @@
         "history": "HISTORY",
         "redeem_rewards": "Redeem Rewards (Transfer to Balance)",
         "buy_steem_or_steem_power": "Buy VOX or VOX POWER",
-        "you_cur_rewards" : "Ваши текущие награды:"
+        "you_cur_rewards": "Ваши текущие награды:"
     },
     "powerdown_jsx": {
         "power_down": "Power Down",
@@ -778,9 +778,9 @@
         "i_understand_dont_show_again": "I understand, don't show me again"
     },
     "sidebar_links": {
-        "header" : "Links",
-        "link_blog" : "My blog",
-        "link_wallet" : "My wallet"
+        "header": "Links",
+        "link_blog": "My blog",
+        "link_wallet": "My wallet"
     },
-    "callout" : "Callout, you can add an error style with the knob"
+    "callout": "Callout, you can add an error style with the knob"
 }
