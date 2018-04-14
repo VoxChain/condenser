@@ -575,8 +575,7 @@ class UserWallet extends React.Component {
                         {delegated_steem != 0 ? (
                             <span className="secondary">
                                 {tt(
-                                    'tips_js.part_of_your_steem_power_is_currently_delegated',
-                                    { user_name: account.get('name') }
+                                    'tips_js.part_of_your_steem_power_is_currently_delegated'
                                 )}
                             </span>
                         ) : null}
