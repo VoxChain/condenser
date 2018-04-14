@@ -33,7 +33,7 @@ class Header extends React.Component {
         super();
         this.state = {
             subheader_hidden: false,
-            remain_gold: process.env.BROWSER ? window.remain_gold : 0,
+            remain_gold: window ? window.remain_gold : 0,
         };
         this.shouldComponentUpdate = shouldComponentUpdate(this, 'Header');
         this.hideSubheader = this.hideSubheader.bind(this);
