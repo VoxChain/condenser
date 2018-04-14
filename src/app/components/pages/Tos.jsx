@@ -51,8 +51,8 @@ class Tos extends React.Component {
                             You understand and agree that these Terms apply
                             solely to your access to, and use of, Vox and that,
                             when you use other Vox services such as
-                            Vox.community or Steemitgifts.com, the terms and
-                            policies particular to those services apply.
+                            Vox.community, the terms and policies particular to
+                            those services apply.
                         </span>
                     </p>
                     <p className="c0">
@@ -192,17 +192,17 @@ class Tos extends React.Component {
                         <span className="c1">
                             6.1. &nbsp; You accept and acknowledge that there
                             are risks associated with utilizing an Internet-
-                            based STEEM account service including, but not
-                            limited to, the risk of failure of hardware,
-                            software and Internet connections, the risk of
-                            malicious software introduction, and the risk that
-                            third parties may obtain unauthorized access to
-                            information stored within your Account, including,
-                            but not limited to your Private Key (as defined
-                            below at 10.2.). You accept and acknowledge that Vox
-                            will not be responsible for any communication
-                            failures, disruptions, errors, distortions or delays
-                            you may experience when using the Services, however
+                            based VOX account service including, but not limited
+                            to, the risk of failure of hardware, software and
+                            Internet connections, the risk of malicious software
+                            introduction, and the risk that third parties may
+                            obtain unauthorized access to information stored
+                            within your Account, including, but not limited to
+                            your Private Key (as defined below at 10.2.). You
+                            accept and acknowledge that Vox will not be
+                            responsible for any communication failures,
+                            disruptions, errors, distortions or delays you may
+                            experience when using the Services, however
                             caused.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </span>
                     </p>
@@ -229,10 +229,10 @@ class Tos extends React.Component {
                             Services, including but not limited to any losses,
                             damages or claims arising from: (a) User error such
                             as forgotten passwords, incorrectly constructed
-                            transactions, or mistyped STEEM addresses; (b)
-                            Server failure or data loss; (c) Corrupted Account
-                            files; (d) Unauthorized access to applications; (e)
-                            Any unauthorized third party activities, including
+                            transactions, or mistyped VOX addresses; (b) Server
+                            failure or data loss; (c) Corrupted Account files;
+                            (d) Unauthorized access to applications; (e) Any
+                            unauthorized third party activities, including
                             without limitation the use of viruses, phishing,
                             bruteforcing or other means of attack against the
                             Service or
@@ -402,10 +402,10 @@ class Tos extends React.Component {
                             10.1. &nbsp;As described in more detail below, the
                             Services, among other things, provide in-browser (or
                             otherwise local) software that (a) generates and
-                            stores STEEM ACCOUNT Addresses and encrypted Private
+                            stores VOX ACCOUNT Addresses and encrypted Private
                             Keys (defined below), and (b) Facilitates the
-                            submission of STEEM transaction data to the VoxChain
-                            network without requiring you to access the STEEM
+                            submission of VOX transaction data to the VoxChain
+                            network without requiring you to access the VOX
                             command line
                             interface.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </span>
@@ -415,11 +415,11 @@ class Tos extends React.Component {
                             10.2. &nbsp;Account Names and Private Keys. When you
                             create an Account, the Services generate and store a
                             cryptographic private and public key pair that you
-                            may use to send and receive STEEM and VoxChain
-                            Dollars via the VoxChain network.. The Private Key
-                            uniquely matches the Account Name and must be used
-                            in connection with the Account Name to authorize the
-                            transfer of STEEM and VoxChain Dollars from that
+                            may use to send and receive VOX and VoxChain Dollars
+                            via the VoxChain network.. The Private Key uniquely
+                            matches the Account Name and must be used in
+                            connection with the Account Name to authorize the
+                            transfer of VOX and VoxChain Dollars from that
                             Account. You are solely responsible for maintaining
                             the security of your Private Key and any password
                             phrase associated with your wallet. You must keep
@@ -443,7 +443,7 @@ class Tos extends React.Component {
                             password. If you have not safely stored a backup of
                             any Account Names and password pairs maintained in
                             your Account, you accept and acknowledge that any
-                            STEEM, VoxChain Dollars and VoxChain Power you have
+                            VOX, VoxChain Dollars and VoxChain Power you have
                             associated with such Account will become
                             inaccessible if you do not have your Account
                             password.
@@ -474,19 +474,19 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            10.5. &nbsp;No Storage or Transmission of STEEM,
+                            10.5. &nbsp;No Storage or Transmission of VOX,
                             VoxChain Dollars or VoxChain Power. VoxChain, in any
-                            of its forms (STEEM, VoxChain Dollars and VoxChain
+                            of its forms (VOX, VoxChain Dollars and VoxChain
                             Power) is an intangible, digital asset. They exist
                             only by virtue of the ownership record maintained in
                             the VoxChain network. The Service does not store,
                             send or receive VoxChain. Any transfer of title that
-                            might occur in any STEEM, VoxChain Dollars or
-                            VoxChain Power occurs on the decentralized ledger
-                            within the VoxChain network and not within the
-                            Services. We do not guarantee that the Service can
-                            effect the transfer of title or right in any
-                            VoxChain, VoxChain Dollars or VoxChain Power.
+                            might occur in any VOX, VoxChain Dollars or VoxChain
+                            Power occurs on the decentralized ledger within the
+                            VoxChain network and not within the Services. We do
+                            not guarantee that the Service can effect the
+                            transfer of title or right in any VoxChain, VoxChain
+                            Dollars or VoxChain Power.
                         </span>
                     </p>
                     <p className="c0">
@@ -777,7 +777,7 @@ class Tos extends React.Component {
                         </span>
                     </p>
                     <p className="c0">
-                        <span className="c1">contact@steemit.com</span>
+                        <span className="c1">contact@vox.community</span>
                     </p>
                     <p className="c0">
                         <span className="c1">Please see </span>
@@ -807,21 +807,21 @@ class Tos extends React.Component {
                     <p className="c0">
                         <span className="c1">
                             TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW,
-                            STEEMIT AND THE STEEMIT CONTENT ARE PROVIDED ON AN
-                            &ldquo; AS IS&rdquo; AND &ldquo;AS AVAILABLE&rdquo;
-                            BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER
-                            EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION,
-                            IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+                            VOX AND THE VOX CONTENT ARE PROVIDED ON AN &ldquo;
+                            AS IS&rdquo; AND &ldquo;AS AVAILABLE&rdquo; BASIS,
+                            WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR
+                            IMPLIED, INCLUDING, WITHOUT LIMITATION, IMPLIED
+                            WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
                             PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT AND
                             ANY WARRANTIES IMPLIED BY ANY COURSE OF PERFORMANCE
-                            OR USAGE OF TRADE. STEEMIT DOES NOT REPRESENT OR
-                            WARRANT THAT STEEMIT AND THE STEEMIT CONTENT: (A)
-                            WILL BE SECURE OR AVAILABLE AT ANY PARTICULAR TIME
-                            OR LOCATION; (B) ARE ACCURATE, COMPLETE, RELIABLE,
-                            CURRENT OR ERROR-FREE OR THAT ANY DEFECTS OR ERRORS
-                            WILL BE CORRECTED; AND (C) ARE FREE OF VIRUSES OR
-                            OTHER HARMFUL COMPONENTS. YOUR USE OF STEEMIT AND
-                            THE STEEMIT CONTENT IS SOLELY AT YOUR OWN RISK. SOME
+                            OR USAGE OF TRADE. VOX DOES NOT REPRESENT OR WARRANT
+                            THAT VOX AND THE VOX CONTENT: (A) WILL BE SECURE OR
+                            AVAILABLE AT ANY PARTICULAR TIME OR LOCATION; (B)
+                            ARE ACCURATE, COMPLETE, RELIABLE, CURRENT OR
+                            ERROR-FREE OR THAT ANY DEFECTS OR ERRORS WILL BE
+                            CORRECTED; AND (C) ARE FREE OF VIRUSES OR OTHER
+                            HARMFUL COMPONENTS. YOUR USE OF VOX AND THE VOX
+                            CONTENT IS SOLELY AT YOUR OWN RISK. SOME
                             JURISDICTIONS DO NOT ALLOW THE DISCLAIMER OF IMPLIED
                             TERMS IN CONTRACTS WITH CONSUMERS, SO SOME OR ALL OF
                             THE DISCLAIMERS IN THIS SECTION MAY NOT APPLY TO
@@ -836,25 +836,25 @@ class Tos extends React.Component {
                     <p className="c0">
                         <span className="c1">
                             TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW,
-                            IN NO EVENT SHALL STEEMIT OR THE STEEMIT PARTIES BE
-                            LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL,
+                            IN NO EVENT SHALL VOX OR THE VOX PARTIES BE LIABLE
+                            FOR ANY SPECIAL, INDIRECT, INCIDENTAL,
                             CONSEQUENTIAL, EXEMPLARY OR PUNITIVE DAMAGES, OR ANY
                             OTHER DAMAGES OF ANY KIND, INCLUDING, BUT NOT
                             LIMITED TO, LOSS OF USE, LOSS OF PROFITS OR LOSS OF
                             DATA, WHETHER IN AN ACTION IN CONTRACT, TORT
                             (INCLUDING, BUT NOT LIMITED TO, NEGLIGENCE) OR
                             OTHERWISE, ARISING OUT OF, OR IN ANY WAY CONNECTED
-                            WITH, THE USE OF, OR INABILITY TO USE, STEEMIT OR
-                            THE STEEMIT CONTENT. TO THE FULLEST EXTENT PERMITTED
-                            BY APPLICABLE LAW, IN NO EVENT SHALL THE AGGREGATE
-                            LIABILITY OF STEEMIT OR THE STEEMIT PARTIES, WHETHER
-                            IN CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE,
+                            WITH, THE USE OF, OR INABILITY TO USE, VOX OR THE
+                            VOX CONTENT. TO THE FULLEST EXTENT PERMITTED BY
+                            APPLICABLE LAW, IN NO EVENT SHALL THE AGGREGATE
+                            LIABILITY OF VOX OR THE VOX PARTIES, WHETHER IN
+                            CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE,
                             WHETHER ACTIVE, PASSIVE OR IMPUTED), PRODUCT
                             LIABILITY, STRICT LIABILITY OR OTHER THEORY, ARISING
                             OUT OF OR RELATING TO: (A) THE USE OF OR INABILITY
-                            TO USE STEEMIT OR THE STEEMIT CONTENT; OR (B) THESE
-                            TERMS EXCEED ANY COMPENSATION YOU PAY, IF ANY, TO
-                            STEEMIT FOR ACCESS TO OR USE OF STEEMIT.
+                            TO USE VOX OR THE VOX CONTENT; OR (B) THESE TERMS
+                            EXCEED ANY COMPENSATION YOU PAY, IF ANY, TO VOX FOR
+                            ACCESS TO OR USE OF VOX.
                         </span>
                     </p>
                     <p className="c0">
@@ -885,8 +885,8 @@ class Tos extends React.Component {
                         <span className="c1">
                             PLEASE READ THE FOLLOWING SECTION CAREFULLY BECAUSE
                             IT REQUIRES YOU TO ARBITRATE CERTAIN DISPUTES WITH
-                            STEEMIT AND LIMITS THE MANNER IN WHICH YOU CAN SEEK
-                            RELIEF FROM STEEMIT.
+                            VOX AND LIMITS THE MANNER IN WHICH YOU CAN SEEK
+                            RELIEF FROM VOX.
                         </span>
                     </p>
                     <p className="c0">
@@ -923,8 +923,8 @@ class Tos extends React.Component {
                     </p>
                     <p className="c0">
                         <span className="c1">
-                            YOU AND STEEMIT AGREE THAT ANY DISPUTE IS PERSONAL
-                            TO YOU AND STEEMIT AND THAT ANY SUCH DISPUTE WILL BE
+                            YOU AND VOX AGREE THAT ANY DISPUTE IS PERSONAL TO
+                            YOU AND VOX AND THAT ANY SUCH DISPUTE WILL BE
                             RESOLVED SOLELY THROUGH INDIVIDUAL ARBITRATION AND
                             WILL NOT BE BROUGHT AS A CLASS ARBITRATION, CLASS
                             ACTION OR ANY OTHER TYPE OF REPRESENTATIVE
@@ -932,7 +932,7 @@ class Tos extends React.Component {
                             ARBITRATION OR TO AN ARBITRATION IN WHICH AN
                             INDIVIDUAL ATTEMPTS TO RESOLVE A DISPUTE AS A
                             REPRESENTATIVE OF ANOTHER INDIVIDUAL OR GROUP OF
-                            INDIVIDUALS. FURTHER, YOU AND STEEMIT AGREE THAT A
+                            INDIVIDUALS. FURTHER, YOU AND VOX AGREE THAT A
                             DISPUTE CANNOT BE BROUGHT AS A CLASS, OR OTHER TYPE
                             OF REPRESENTATIVE ACTION, WHETHER WITHIN OR OUTSIDE
                             OF ARBITRATION, OR ON BEHALF OF ANY OTHER INDIVIDUAL
@@ -965,7 +965,7 @@ class Tos extends React.Component {
                             when it arises so that the parties can attempt, in
                             good faith, to resolve the Dispute informally.
                             Notice to Vox shall be provided by filling out the
-                            form available at https://steemit.com/contact/ or
+                            form available at https://vox.community/contact/ or
                             sending an email to{' '}
                         </span>
                         <span className="c4">contact@Vox.community</span>
@@ -1114,8 +1114,8 @@ class Tos extends React.Component {
                     <p className="c0">
                         <span className="c1">
                             Questions or comments about Vox may be directed to{' '}
-                            <a href="mailto:contact@steemit.com">
-                                contact@steemit.com
+                            <a href="mailto:contact@vox.community">
+                                contact@vox.community
                             </a>
                         </span>
                     </p>

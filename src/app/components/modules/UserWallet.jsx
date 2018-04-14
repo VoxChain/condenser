@@ -205,7 +205,7 @@ class UserWallet extends React.Component {
                             <span>
                                 (+{tt('userwallet_jsx.in_conversion', {
                                     amount: numberWithCommas(
-                                        '$' + amount.toFixed(3)
+                                        'GOLD ' + amount.toFixed(3)
                                     ),
                                 })})
                             </span>
@@ -257,7 +257,7 @@ class UserWallet extends React.Component {
             savings_pending +
             steemOrders;
         let total_value =
-            '$' +
+            'GOLD ' +
             numberWithCommas(
                 (total_steem * price_per_steem + total_sbd).toFixed(2)
             );
@@ -402,15 +402,17 @@ class UserWallet extends React.Component {
         const received_power_balance_str =
             (delegated_steem < 0 ? '+' : '') +
             numberWithCommas((-delegated_steem).toFixed(3));
-        const sbd_balance_str = numberWithCommas('$' + sbd_balance.toFixed(3)); // formatDecimal(account.sbd_balance, 3)
+        const sbd_balance_str = numberWithCommas(
+            'GOLD ' + sbd_balance.toFixed(3)
+        ); // formatDecimal(account.sbd_balance, 3)
         const sbd_orders_balance_str = numberWithCommas(
-            '$' + sbdOrders.toFixed(3)
+            'GOLD ' + sbdOrders.toFixed(3)
         );
         const savings_balance_str = numberWithCommas(
             saving_balance_steem.toFixed(3) + ' VOX'
         );
         const savings_sbd_balance_str = numberWithCommas(
-            '$' + sbd_balance_savings.toFixed(3)
+            'GOLD ' + sbd_balance_savings.toFixed(3)
         );
 
         const savings_menu = [
@@ -588,11 +590,11 @@ class UserWallet extends React.Component {
                                 className="Wallet_dropdown"
                                 dropdownPosition="bottom"
                                 dropdownAlignment="right"
-                                label={power_balance_str + ' VOX'}
+                                label={power_balance_str + ' MANA'}
                                 menu={power_menu}
                             />
                         ) : (
-                            power_balance_str + ' VOX'
+                            power_balance_str + ' MANA'
                         )}
                         {delegated_steem != 0 ? (
                             <div
@@ -602,8 +604,8 @@ class UserWallet extends React.Component {
                                         : null,
                                 }}
                             >
-                                <Tooltip t="VOX POWER delegated to/from this account">
-                                    ({received_power_balance_str} VOX)
+                                <Tooltip t="MANA делегированы на/из этот аккаунт">
+                                    ({received_power_balance_str} MANA)
                                 </Tooltip>
                             </div>
                         ) : null}
