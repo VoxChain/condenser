@@ -22,6 +22,10 @@ function sortOrderToLink(so, topic, account) {
     return `/${so}`;
 }
 
+function is_server() {
+    return !(typeof window != 'undefined' && window.document);
+}
+
 class Header extends React.Component {
     static propTypes = {
         location: React.PropTypes.object.isRequired,
@@ -33,7 +37,7 @@ class Header extends React.Component {
         super();
         this.state = {
             subheader_hidden: false,
-            remain_gold: window ? window.remain_gold : 0,
+            remain_gold: is_server() ? 0 : window.remain_gold,
         };
         this.shouldComponentUpdate = shouldComponentUpdate(this, 'Header');
         this.hideSubheader = this.hideSubheader.bind(this);
