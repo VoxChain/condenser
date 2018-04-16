@@ -16,8 +16,7 @@ export const icons = [
     'logotype',
     'clock',
     'extlink',
-    'steem',
-    'steempower',
+    'vox_logo',
     'ether',
     'bitcoin',
     'bitshares',
@@ -38,7 +37,6 @@ export const icons = [
     'eye',
     'location',
     'calendar',
-    'steemd',
     'chain',
     'wallet',
     'cog',
@@ -51,6 +49,7 @@ export const icons = [
     'reply',
     '100',
     'pencil2',
+    'vk',
 ];
 const icons_map = {};
 for (const i of icons) icons_map[i] = require(`assets/icons/${i}.svg`);

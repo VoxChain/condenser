@@ -574,13 +574,22 @@ export default connect(
                           'voting_jsx.we_will_reset_curation_rewards_for_this_post'
                       );
                 if (weight === 0)
-                    return tt('voting_jsx.removing_your_vote') + t;
+                    return tt('voting_jsx.removing_your_vote') + ' : ' + t;
                 if (weight > 0)
-                    return tt('voting_jsx.changing_to_an_upvote') + t;
+                    return tt('voting_jsx.changing_to_an_upvote') + ' : ' + t;
                 if (weight < 0)
-                    return tt('voting_jsx.changing_to_a_downvote') + t;
+                    return tt('voting_jsx.changing_to_a_downvote') + ' : ' + t;
                 return null;
             };
+
+            let title = tt('g.confirm');
+            if (weight === 0)
+                title += ': ' + tt('voting_jsx.removing_your_vote');
+            if (weight > 0)
+                title += ': ' + tt('voting_jsx.changing_to_an_upvote');
+            if (weight < 0)
+                title += ': ' + tt('voting_jsx.changing_to_a_downvote');
+
             dispatch(
                 transactionActions.broadcastOperation({
                     type: 'vote',
@@ -590,10 +599,7 @@ export default connect(
                         permlink,
                         weight,
                         __config: {
-                            title:
-                                weight < 0
-                                    ? tt('voting_jsx.confirm_flag')
-                                    : null,
+                            title: title,
                         },
                     },
                     confirm,

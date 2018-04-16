@@ -333,6 +333,7 @@
         "share_on_facebook": "Поделитесь в Facebook",
         "share_on_twitter": "Поделиться в Twitter",
         "share_on_linkedin": "Поделиться в Linkedin",
+        "share_on_vk": "Поделиться в Vk",
         "recent_password": "Недавний пароль",
         "in_week_convert_DEBT_TOKEN_to_LIQUID_TOKEN":
             "В 3,5 дня перевести %(amount)s %(DEBT_TOKEN)s в %(LIQUID_TOKEN)s",
@@ -417,6 +418,7 @@
         "read_the_quick_start_guide": "Прочтите краткое руководство",
         "browse_the_faq": "Просмотреть ЧаВО",
         "followers": "Подписчики",
+        "followed": "Подписан",
         "this_is_users_reputations_score_it_is_based_on_history_of_votes":
             "Это репутация %(name)s.\n\nРепутация рассчитывается на основе истории полученных голосов и используется для сокрытия низкокачественного контента.",
         "follower_count": {
@@ -690,7 +692,7 @@
         "this_operation_requires_your_key_or_master_password":
             "Для осуществления данной операции нужен ваш %(authType)s ключ или Основной пароль.",
         "keep_me_logged_in": "Оставить меня залогиненным",
-        "amazing_community": "удивительное сообщество",
+        "amazing_community": "удивительному сообществу",
         "to_comment_and_reward_others":
             " комментировать и вознаграждать других.",
         "sign_up_get_steem": "Регистрация",
@@ -767,8 +769,8 @@
         "conversion_complete_tip": "Завершается",
         "in_conversion": "%(amount)s на конвертации",
         "transfer_to_savings": "Отправить в сейф",
-        "power_up": "Усилить силу голоса",
-        "power_down": "Уменьшить силу голоса",
+        "power_up": "Усилить MANA",
+        "power_down": "Уменьшить MANA",
         "market": "Биржа",
         "convert_to_LIQUID_TOKEN": "Перевести в %(LIQUID_TOKEN)s",
         "withdraw_LIQUID_TOKEN": "Снять %(LIQUID_TOKEN)s",
@@ -786,7 +788,7 @@
         "you_cur_rewards": ":"
     },
     "powerdown_jsx": {
-        "power_down": "Уменьшить силу голоса (power down)",
+        "power_down": "Уменьшить MANA (power down)",
         "amount": "Количество",
         "already_power_down":
             "Вы уже запустили понижение MANA на %(AMOUNT)s %(LIQUID_TICKER)s (%(WITHDRAWN)s %(LIQUID_TICKER)s уже выплачено). Если вы измените количество, отсчет времени сбросится и составит 13 недель от сегодняшего дня.",
@@ -795,7 +797,7 @@
         "per_week": "Это ~%(AMOUNT)s %(LIQUID_TICKER)s в неделю.",
         "warning":
             "Оставлять меньше чем %(AMOUNT)s %(LIQUID_TICKER)s не рекомендуется, т.к. это может остановить все транзакции с использованием это аккаунта.",
-        "error": "Неполучается уменьшить силу голоса (ERROR: %(MESSAGE)s)"
+        "error": "Неполучается уменьшить MANA (ERROR: %(MESSAGE)s)"
     },
     "checkloginowner_jsx": {
         "your_password_permissions_were_reduced":

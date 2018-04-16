@@ -12,57 +12,57 @@
 
 **Полезные советы**
 
-1.  [Резервное копирование пароля](https/vox.community/welcome#Backup_your_password)
+1.  [Резервное копирование пароля](https://vox.community/welcome#Backup_your_password)
     
-2.  [Обзор руководства по быстрому запуску](https/vox.community/welcome#Review_the_Quick_Start_Guide)
+2.  [Обзор руководства по быстрому запуску](https://vox.community/welcome#Review_the_Quick_Start_Guide)
     
-3.  [Читать полезные сообщения от пользователей Vox](https/vox.community/welcome#Read_the_Helpful_Posts_from_Vox_Users)
+3.  [Читать полезные сообщения от пользователей Vox](https://vox.community/welcome#Read_the_Helpful_Posts_from_Vox_Users)
     
-4.  [Настройка профиля, Аватара и изображения обложки](https/vox.community/welcome#Setup_your_Profile_Avatar_and_Cover_Image)
+4.  [Настройка профиля, Аватара и изображения обложки](https://vox.community/welcome#Setup_your_Profile_Avatar_and_Cover_Image)
     
-5.  [Выберите" NSFW " (не безопасно для работы)](https/vox.community/welcome#Choose_your_NSFW_(Not_Safe_for_Work)_Display_Preference)
+5.  [Выберите" NSFW " (не безопасно для работы)](https://vox.community/welcome#Choose_your_NSFW_(Not_Safe_for_Work)_Display_Preference)
     
-6.  [Подпишитесь на Vox Chat](https/vox.community/welcome#Sign_Up_for_Vox_Chat)
+6.  [Подпишитесь на Vox Chat](https://vox.community/welcome#Sign_Up_for_Vox_Chat)
     
-7.  [Создайте свой пост" introduceyourself"](https/vox.community/welcome#Create_your_introduceyourself_post)
+7.  [Создайте свой пост" introduceyourself"](https://vox.community/welcome#Create_your_introduceyourself_post)
     
-8.  [Узнать больше](https/vox.community/welcome#Learn_more)
+8.  [Узнать больше](https://vox.community/welcome#Learn_more)
     
 
 **Краткое руководство пользователя**
 
--   [Бесплатное участие](https/vox.community/welcome#No_Cost_to_Participate)
+-   [Бесплатное участие](https://vox.community/welcome#No_Cost_to_Participate)
     
--   [Upvotes](https/vox.community/welcome#Upvotes)
+-   [Upvotes](https://vox.community/welcome#Upvotes)
     
--   [Комментарии](https/vox.community/welcome#Comments)
+-   [Комментарии](https://vox.community/welcome#Comments)
     
--   [Создание Записей](https/vox.community/welcome#Creating_Posts)
+-   [Создание Записей](https://vox.community/welcome#Creating_Posts)
     
--   [Подписчики и ленты](https/vox.community/welcome#Followers_and_Feeds)
+-   [Подписчики и ленты](https://vox.community/welcome#Followers_and_Feeds)
     
--   [Репост](https/vox.community/welcome#Resteem)
+-   [Репост](https://vox.community/welcome#Resteem)
     
--   [цифровая валюта](https/vox.community/welcome#Digital_Currencies)
+-   [цифровая валюта](https://vox.community/welcome#Digital_Currencies)
     
--   [Кураторство](https/vox.community/welcome#Curation)
+-   [Кураторство](https://vox.community/welcome#Curation)
     
--   [Платежи](https/vox.community/welcome#Payments)
+-   [Платежи](https://vox.community/welcome#Payments)
     
--   [Репутация](https/vox.community/welcome#Reputation)
+-   [Репутация](https://vox.community/welcome#Reputation)
     
--   [Обналичивание или расходы SBD](https/vox.community/welcome#Cashing_out_or_Spending_SBD)
+-   [Обналичивание или расходы SBD](https://vox.community/welcome#Cashing_out_or_Spending_SBD)
     
--   [Плагиат](https/vox.community/welcome#Plagiarism)
+-   [Плагиат](https://vox.community/welcome#Plagiarism)
     
--   [безопасность пароля](https/vox.community/welcome#Password_Security)
+-   [безопасность пароля](https://vox.community/welcome#Password_Security)
     
--   [Заработок на Vox](https/vox.community/welcome#Earning_on_Vox)
+-   [Заработок на Vox](https://vox.community/welcome#Earning_on_Vox)
     
 
-[**другие ресурсы**](https/vox.community/welcome#Other_Resources)
+[**другие ресурсы**](https://vox.community/welcome#Other_Resources)
 
-[**Живая Помощь**](https/vox.community/welcome#Live_Help)
+[**Живая Помощь**](https://vox.community/welcome#Live_Help)
 
 **Полезные советы**
 
@@ -78,19 +78,19 @@
 
 Если ваша учетная запись ценна, относитесь к ней как к ценной!
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **2. Обзор руководства по быстрому запуску**
 
 В [кратком руководстве](vox.community/welcome#Quick_Start_Guide) на данной странице содержится основная информация, чтобы помочь вам начать работу.
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **3. Читать полезные сообщения от пользователей Vox**
 
-На странице [Полезные посты от Vox Пользователей](https/vox.community/welcome#Helpful_Posts_from_Vox_Users)  содержится много хорошо написанных статей от членов сообщества с советами о том, как добиться успеха.
+На странице [Полезные посты от Vox Пользователей](https://vox.community/welcome#Helpful_Posts_from_Vox_Users)  содержится много хорошо написанных статей от членов сообщества с советами о том, как добиться успеха.
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **4. Настройка профиля, Аватара и изображения обложки**
 
@@ -102,7 +102,7 @@
 
 После внесения всех изменений нажмите кнопку "обновить", чтобы сохранить профиль.
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **5. Выберите" NSFW " (не безопасно для работы)**
 
@@ -110,7 +110,7 @@
 
 Вы можете обновить настройки отображения, чтобы содержимое NSFW всегда отображалось по умолчанию или было полностью скрыто без возможности его отображения.
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **6. Подпишитесь на Vox Chat**
 
@@ -124,7 +124,7 @@
 
 Каждый канал будет иметь свои правила, размещенные в разделе "Информация".
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **7. Создайте свой пост" introduceyourself"**
 
@@ -134,13 +134,13 @@
 
 Это также не требуется, но если у вас есть другие учетные записи в социальных сетях (Twitter, Facebook и т. д.) вы можете помочь сообществу проверить, кто вы, поделившись ссылкой на ваш блог с вашими друзьями. 
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **8. Узнать больше**
 
-На [другие ресурсы](https/vox.community/welcome#Other_Resources) данной странице содержится дополнительные ресурсы, чтобы узнать больше о платформе. На странице часто задаваемых вопросов содержатся ответы на наиболее часто задаваемые вопросы, а bluepaper объясняет, как работает Платформа.
+На [другие ресурсы](https://vox.community/welcome#Other_Resources) данной странице содержится дополнительные ресурсы, чтобы узнать больше о платформе. На странице часто задаваемых вопросов содержатся ответы на наиболее часто задаваемые вопросы, а bluepaper объясняет, как работает Платформа.
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **Краткое руководство пользователя**
 
@@ -148,7 +148,7 @@
 
 Это бесплатно размещать, комментировать, или upvote весь контент на Vox.com.
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **Upvotes**
 
@@ -156,7 +156,7 @@ Upvotes-это способ на Vox сказать, что вам нравит�
 
 Для upvote, нажмите на  значок «_Голосуйте»_ в нижней части комментария/поста.
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **Комментарии**
 
@@ -164,7 +164,7 @@ Upvotes-это способ на Vox сказать, что вам нравит�
 
 Чтобы прокомментировать публикацию или ответить на существующий комментарий, нажмите на ссылку "ответить" в нижней части публикации / комментария.
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **Создание Записей**
 
@@ -176,7 +176,7 @@ Upvotes-это способ на Vox сказать, что вам нравит�
 
 Теги помогут людям найти ваши посты. Каждый пост может иметь до пяти тегов, разделенных пробелами. Все теги должны иметь отношение к содержимому в публикации. Вы можете просматривать контент по тегам, а [здесь]() посмотреть список популярных тегов, которые другие пользователи поставили в своих постах.
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **Подписчики и ленты**
 
@@ -188,13 +188,13 @@ Upvotes-это способ на Vox сказать, что вам нравит�
 
 Вы можете увидеть всех своих подписчиков и людей на которых вы подписались на странице вашего профиля.
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **Репост**
 
 Если вы хотите поделиться чужим постом со всеми вашими подписчиками, нажмите на значок репост.
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **цифровая валюта**
 
@@ -202,7 +202,7 @@ Vox, Vox Power и Vox Dollars являются тремя формами циф�
 
 Более подробную информацию по трем типам маркеров можете найти в [Вокс ЧАВО]().
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **Кураторство**
 
@@ -210,7 +210,7 @@ Vox, Vox Power и Vox Dollars являются тремя формами циф�
 
 Чем больше Vox Power у вашеuj аккаунтf, тем больше ваши upvotes будет стоить, и тем большее вознаграждение как куратор вы можете заработать!
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **Платежи**
 
@@ -222,7 +222,7 @@ Vox, Vox Power и Vox Dollars являются тремя формами циф�
 
 Авторы также имеют возможность отказаться от выплат, или быть оплачены в 100% Vox Power!
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **Репутация**
 
@@ -234,7 +234,7 @@ Vox, Vox Power и Vox Dollars являются тремя формами циф�
 
 Ваша репутация будет расти, в зависимости от получаемых upvotes для ваших сообщений и комментариев, но она может прийти вниз, если они получат флаг.
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **Обналичивание или расходы** **V****OX****D**
 
@@ -244,7 +244,7 @@ Vox, Vox Power и Vox Dollars являются тремя формами циф�
 
 Вы можете также обменять свои VOXD на биткоины на сторонних биржах.
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **Плагиат**
 
@@ -256,7 +256,7 @@ Vox, Vox Power и Vox Dollars являются тремя формами циф�
 
 Кроме того, убедитесь, что Вы не нарушаете законы об авторском праве, если вы используете чужой материал/изображения. 
 
- [^](https/vox.community/welcome#Table_of_Contents)
+ [^](https://vox.community/welcome#Table_of_Contents)
 
 **безопасность пароля**
 
@@ -264,7 +264,7 @@ Vox, Vox Power и Vox Dollars являются тремя формами циф�
 
 Ваш счет Vox стоит реальных денег. Храните свой Vox пароль, как ваш банковский пароль, и держать его в безопасности!
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **Заработок на Vox**
 
@@ -272,7 +272,7 @@ Vox, Vox Power и Vox Dollars являются тремя формами циф�
 
 Можно заработать тысячи долларов, но большинство авторов, которые делают это, вложили много времени и работы, чтобы внести свой вклад в сообщество и приобрести подписчиков.
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **другие ресурсы**
 
@@ -282,11 +282,11 @@ Vox, Vox Power и Vox Dollars являются тремя формами циф�
     
     
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)
 
 **Живая Помощь**
 
 Задать вопросы в [помощь]() каналу [чат](). Пользователи канала обычно отвечают на вопросы в течение нескольких часов.
 
 
-[^](https/vox.community/welcome#Table_of_Contents)
+[^](https://vox.community/welcome#Table_of_Contents)

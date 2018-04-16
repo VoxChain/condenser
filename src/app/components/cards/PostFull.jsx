@@ -86,6 +86,7 @@ class PostFull extends React.Component {
         this.twitterShare = this.twitterShare.bind(this);
         this.linkedInShare = this.linkedInShare.bind(this);
         this.showExplorePost = this.showExplorePost.bind(this);
+        this.vkShare = this.vkShare.bind(this);
         this.onShowReply = () => {
             const { state: { showReply, formId } } = this;
             this.setState({ showReply: !showReply, showEdit: false });
@@ -159,6 +160,33 @@ class PostFull extends React.Component {
             encodeURIComponent(s.url);
         window.open(
             'http://twitter.com/share?' + q,
+            'Share',
+            'top=' +
+                winTop +
+                ',left=' +
+                winLeft +
+                ',toolbar=0,status=0,width=' +
+                winWidth +
+                ',height=' +
+                winHeight
+        );
+    }
+
+    vkShare(e) {
+        serverApiRecordEvent('VkShare', this.share_params.link);
+        e.preventDefault();
+        const winWidth = 640;
+        const winHeight = 320;
+        const winTop = screen.height / 2 - winWidth / 2;
+        const winLeft = screen.width / 2 - winHeight / 2;
+        const s = this.share_params;
+        const q =
+            'text=' +
+            encodeURIComponent(s.title) +
+            '&url=' +
+            encodeURIComponent(s.url);
+        window.open(
+            'https://vk.com/share.php?' + q,
             'Share',
             'top=' +
                 winTop +
@@ -301,6 +329,13 @@ class PostFull extends React.Component {
                 title: tt('postfull_jsx.share_on_linkedin'),
                 icon: 'linkedin',
             },
+            {
+                link: '#',
+                onClick: this.vkShare,
+                value: 'Vkontakte',
+                title: tt('postfull_jsx.share_on_vk'),
+                icon: 'vk',
+            },
         ];
 
         const Editor = this.state.showReply
@@ -342,7 +377,7 @@ class PostFull extends React.Component {
                 {content.title}
                 {full_power && (
                     <span title={tt('g.powered_up_100')}>
-                        <Icon name="steempower" />
+                        <Icon name="vox" />
                     </span>
                 )}
             </h1>

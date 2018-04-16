@@ -266,14 +266,36 @@ class Header extends React.Component {
                             <ul className="menu Header__menu">
                                 <li className="Header__logo">
                                     <Link to={logo_link}>
-                                        {/*
-                                        <Icon name="logo" className="logo-for-mobile" />
-                                        <Icon name="logotype" className="logo-for-large" />  */}
-
-                                        <img
-                                            style={{ height: 40 }}
-                                            src={require('app/assets/images/vox.png')}
-                                        />
+                                        {
+                                            <span>
+                                                <svg
+                                                    width="111"
+                                                    height="27"
+                                                    viewBox="0 0 111 27"
+                                                >
+                                                    <title>vox</title>
+                                                    <path
+                                                        id="v"
+                                                        className="cls-1"
+                                                        d="M2253.16,293.667L2237,269.557h32.31Z"
+                                                        transform="translate(-2237 -268)"
+                                                    />
+                                                    <circle
+                                                        id="o"
+                                                        className="cls-2"
+                                                        cx="56.17"
+                                                        cy="13.5"
+                                                        r="13.61"
+                                                    />
+                                                    <path
+                                                        id="x"
+                                                        className="cls-1"
+                                                        d="M2348,288.446l-6.53,6.474-6.94-6.885-6.94,6.885-6.52-6.474,6.94-6.885-6.94-6.885,6.52-6.475,6.94,6.886,6.94-6.886,6.53,6.475-6.94,6.885Z"
+                                                        transform="translate(-2237 -268)"
+                                                    />
+                                                </svg>
+                                            </span>
+                                        }
                                     </Link>
                                 </li>
                                 {this.state.remain_gold > 0 ? (

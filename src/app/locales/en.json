@@ -325,6 +325,7 @@
         "share_on_facebook": "Share on Facebook",
         "share_on_twitter": "Share on Twitter",
         "share_on_linkedin": "Share on Linkedin",
+        "share_on_vk": "Share on vkontakte",
         "recent_password": "Recent Password",
         "in_week_convert_DEBT_TOKEN_to_LIQUID_TOKEN":
             "In 3.5 days, convert %(amount)s %(DEBT_TOKEN)s into %(LIQUID_TOKEN)s",
@@ -408,6 +409,7 @@
         "read_the_quick_start_guide": "Read The Quick Start Guide",
         "browse_the_faq": "Browse The FAQ",
         "followers": "Followers",
+        "followed": "Followed",
         "this_is_users_reputations_score_it_is_based_on_history_of_votes":
             "This is %(name)s's reputation score.\n\nThe reputation score is based on the history of votes received by the account, and is used to hide low quality content.",
         "follower_count": {
