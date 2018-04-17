@@ -264,7 +264,7 @@ class Header extends React.Component {
                     <div className="expanded row">
                         <div className="columns">
                             <ul className="menu Header__menu">
-                                <li className="Header__logo">
+                                <li className="Header__logo show-for-large">
                                     <Link to={logo_link}>
                                         {
                                             <span>
@@ -297,31 +297,65 @@ class Header extends React.Component {
                                             </span>
                                         }
                                     </Link>
-                                </li>
-                                {this.state.remain_gold > 0 ? (
-                                    <div
-                                        className="Blocks_count fade-in--10"
-                                        style={{
-                                            textAlign: 'center',
-                                            background: 'black',
-                                            paddingLeft: '10px',
-                                            paddingRight: '10px',
-                                            color: 'lime',
-                                            minWidth: '100',
-                                        }}
-                                    >
-                                        <div>GOLD в:</div>
-                                        <div>
-                                            {this.state.remain_gold} блоках{' '}
-                                            <a
-                                                href="google.com"
-                                                style={{ color: 'lime' }}
-                                            >
-                                                (?)
+                                    {this.state.remain_gold > 0 ? (
+                                        <div className="Blocks_count fade-in--10">
+                                            <a href="google.com">
+                                                <span>
+                                                    GOLD в:{' '}
+                                                    {this.state.remain_gold}{' '}
+                                                    блоках
+                                                </span>
                                             </a>
                                         </div>
-                                    </div>
-                                ) : null}
+                                    ) : null}
+                                </li>
+
+                                <li className="Header__logo hide-for-large">
+                                    <Link to={logo_link}>
+                                        {
+                                            <span>
+                                                <svg
+                                                    width="55"
+                                                    height="13"
+                                                    viewBox="0 0 111 27"
+                                                >
+                                                    <title>vox</title>
+                                                    <path
+                                                        id="v"
+                                                        className="cls-1"
+                                                        d="M2253.16,293.667L2237,269.557h32.31Z"
+                                                        transform="translate(-2237 -268)"
+                                                    />
+                                                    <circle
+                                                        id="o"
+                                                        className="cls-2"
+                                                        cx="56.17"
+                                                        cy="13.5"
+                                                        r="13.61"
+                                                    />
+                                                    <path
+                                                        id="x"
+                                                        className="cls-1"
+                                                        d="M2348,288.446l-6.53,6.474-6.94-6.885-6.94,6.885-6.52-6.474,6.94-6.885-6.94-6.885,6.52-6.475,6.94,6.886,6.94-6.886,6.53,6.475-6.94,6.885Z"
+                                                        transform="translate(-2237 -268)"
+                                                    />
+                                                </svg>
+                                            </span>
+                                        }
+                                    </Link>
+                                    {this.state.remain_gold > 0 ? (
+                                        <div className="Blocks_count fade-in--10">
+                                            <a href="google.com">
+                                                <span>
+                                                    GOLD в:{' '}
+                                                    {this.state.remain_gold}{' '}
+                                                    блоках
+                                                </span>
+                                            </a>
+                                        </div>
+                                    ) : null}
+                                </li>
+
                                 <li className="Header__top-steemit show-for-medium noPrint">
                                     <Link to={logo_link}>
                                         <span className="beta fade-in--10" />
