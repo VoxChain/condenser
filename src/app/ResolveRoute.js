@@ -25,6 +25,9 @@ export default function resolveRoute(path) {
     if (path === '/faq.html') {
         return { page: 'Faq' };
     }
+    if (path === '/underconstuction.html') {
+        return { page: 'UnderConstuction' };
+    }
     if (path === '/login.html') {
         return { page: 'Login' };
     }

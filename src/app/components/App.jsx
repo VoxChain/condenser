@@ -323,7 +323,7 @@ class App extends React.Component {
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/underconstuction.html"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -332,7 +332,7 @@ class App extends React.Component {
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/underconstuction.html"
                                 onClick={this.navigate}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -342,7 +342,7 @@ class App extends React.Component {
                         </li>
                         <li className="last">
                             <a
-                                href="#"
+                                href="/underconstuction.html"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -353,7 +353,7 @@ class App extends React.Component {
                     <ul className="vertical menu">
                         <li>
                             <a
-                                href="#"
+                                href="/underconstuction.html"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -362,7 +362,7 @@ class App extends React.Component {
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/underconstuction.html"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -371,7 +371,7 @@ class App extends React.Component {
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="/underconstuction.html"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -379,7 +379,10 @@ class App extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a href="#" onClick={this.navigate}>
+                            <a
+                                href="/underconstuction.html"
+                                onClick={this.navigate}
+                            >
                                 {tt('navigation.about')}&nbsp;<Icon name="extlink" />
                             </a>
                         </li>

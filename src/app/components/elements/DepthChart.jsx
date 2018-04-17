@@ -76,7 +76,7 @@ class DepthChart extends React.Component {
 
     render() {
         const { bids, asks } = this.props;
-        if (!bids.length && !asks.length) {
+        if (!bids.length || !asks.length) {
             return null;
         }
         const depth_chart_config = generateDepthChart(bids, asks);

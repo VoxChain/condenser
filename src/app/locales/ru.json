@@ -698,7 +698,7 @@
         "sign_up_get_steem": "Регистрация",
         "signup_button": "Зарегистрируйтесь",
         "signup_button_emphasis": " сейчас!",
-        "returning_users": "Вернувшиеся пользователи: ",
+        "returning_users": "Авторизация: ",
         "join_our": "Присоединяйтесь к нашему"
     },
     "chainvalidation_js": {
