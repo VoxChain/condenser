@@ -1,4 +1,5 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { serverApiRecordEvent } from 'app/utils/ServerApiClient';
 import Icon from 'app/components/elements/Icon';
@@ -19,7 +20,6 @@ class ExplorePost extends Component {
         this.Steemd = this.Steemd.bind(this);
         this.Steemdb = this.Steemdb.bind(this);
         this.Busy = this.Busy.bind(this);
-        this.Phist = this.Phist.bind(this);
     }
 
     Steemd() {
@@ -34,10 +34,6 @@ class ExplorePost extends Component {
         serverApiRecordEvent('Busy view', this.props.permlink);
     }
 
-    Phist() {
-        serverApiRecordEvent('PhistView', this.props.permlink);
-    }
-
     onCopy() {
         this.setState({
             copied: true,
@@ -46,7 +42,10 @@ class ExplorePost extends Component {
 
     render() {
         const link = this.props.permlink;
-        const steemit = 'https://vox.community' + link;
+        const steemd = 'https://next.vox.community' + link;
+        const steemdb = 'https://next.vox.community' + link;
+        const busy = 'https://next.vox.community' + link;
+        const steemit = 'https://next.vox.community' + link;
         let text =
             this.state.copied == true
                 ? tt('explorepost_jsx.copied')
@@ -70,6 +69,39 @@ class ExplorePost extends Component {
                         <span>{text}</span>
                     </CopyToClipboard>
                 </div>
+                <h5>{tt('explorepost_jsx.alternative_sources')}</h5>
+                <ul>
+                    <li>
+                        <a
+                            href={steemd}
+                            onClick={this.Steemd}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            steemd.com <Icon name="extlink" />
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href={steemdb}
+                            onClick={this.Steemdb}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            steemdb.com <Icon name="extlink" />
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href={busy}
+                            onClick={this.Busy}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            busy.org <Icon name="extlink" />
+                        </a>
+                    </li>
+                </ul>
             </span>
         );
     }

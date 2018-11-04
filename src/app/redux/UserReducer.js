@@ -1,12 +1,11 @@
 import { fromJS } from 'immutable';
 import { DEFAULT_LANGUAGE } from 'app/client_config';
-import store from 'store';
 
 // Action constants
 const SHOW_LOGIN = 'user/SHOW_LOGIN';
 const HIDE_LOGIN = 'user/HIDE_LOGIN';
 const SHOW_TERMS = 'user/SHOW_TERMS';
-const HIDE_TERMS = 'user/HIDE_TERMS';
+export const ACCEPT_TERMS = 'user/ACCEPT_TERMS';
 export const SAVE_LOGIN_CONFIRM = 'user/SAVE_LOGIN_CONFIRM';
 export const SAVE_LOGIN = 'user/SAVE_LOGIN';
 const REMOVE_HIGH_SECURITY_KEYS = 'user/REMOVE_HIGH_SECURITY_KEYS';
@@ -26,6 +25,7 @@ export const SET_USER = 'user/SET_USER';
 const CLOSE_LOGIN = 'user/CLOSE_LOGIN';
 export const LOGIN_ERROR = 'user/LOGIN_ERROR';
 export const LOGOUT = 'user/LOGOUT';
+const SET_LATEST_FEED_PRICE = 'user/SET_LATEST_FEED_PRICE';
 const SHOW_SIGN_UP = 'user/SHOW_SIGN_UP';
 const HIDE_SIGN_UP = 'user/HIDE_SIGN_UP';
 const KEYS_ERROR = 'user/KEYS_ERROR';
@@ -33,6 +33,13 @@ const ACCOUNT_AUTH_LOOKUP = 'user/ACCOUNT_AUTH_LOOKUP';
 const SET_AUTHORITY = 'user/SET_AUTHORITY';
 const HIDE_CONNECTION_ERROR_MODAL = 'user/HIDE_CONNECTION_ERROR_MODAL';
 const SET = 'user/SET';
+const SHOW_SIDE_PANEL = 'user/SHOW_SIDE_PANEL';
+const HIDE_SIDE_PANEL = 'user/HIDE_SIDE_PANEL';
+const SHOW_POST_ADVANCED_SETTINGS = 'user/SHOW_POST_ADVANCED_SETTINGS';
+const HIDE_POST_ADVANCED_SETTINGS = 'user/HIDE_POST_ADVANCED_SETTINGS';
+const HIDE_ANNOUNCEMENT = 'user/HIDE_ANNOUNCEMENT';
+const SHOW_ANNOUNCEMENT = 'user/SHOW_ANNOUNCEMENT';
+
 // Saga-related
 export const LOAD_SAVINGS_WITHDRAW = 'user/LOAD_SAVINGS_WITHDRAW';
 export const UPLOAD_IMAGE = 'user/UPLOAD_IMAGE';
@@ -43,14 +50,13 @@ const defaultState = fromJS({
     show_transfer_modal: false,
     show_promote_post_modal: false,
     show_signup_modal: false,
+    show_post_advanced_settings_modal: '', // formId
     pub_keys_used: null,
     locale: DEFAULT_LANGUAGE,
+    show_side_panel: false,
+    maybeLoggedIn: false,
+    showAnnouncement: false,
 });
-
-if (process.env.BROWSER) {
-    const locale = store.get('language');
-    if (locale) defaultState.locale = locale;
-}
 
 export default function reducer(state = defaultState, action) {
     const payload = action.payload;
@@ -68,6 +74,9 @@ export default function reducer(state = defaultState, action) {
                 loginDefault,
             });
         }
+
+        case SET_LATEST_FEED_PRICE:
+            return state.set('latest_feed_price', payload);
 
         case HIDE_LOGIN:
             return state.merge({
@@ -87,7 +96,7 @@ export default function reducer(state = defaultState, action) {
             });
         }
 
-        case HIDE_TERMS:
+        case ACCEPT_TERMS:
             return state.merge({
                 show_terms_modal: false,
                 termsDefault: undefined,
@@ -229,6 +238,31 @@ export default function reducer(state = defaultState, action) {
                 fromJS(payload.value)
             );
 
+        case SHOW_SIDE_PANEL:
+            return state.set('show_side_panel', true);
+
+        case HIDE_SIDE_PANEL:
+            return state.set('show_side_panel', false);
+
+        case SHOW_POST_ADVANCED_SETTINGS:
+            return state.set(
+                'show_post_advanced_settings_modal',
+                payload.formId
+            );
+
+        case HIDE_POST_ADVANCED_SETTINGS:
+            return state.set('show_post_advanced_settings_modal', '');
+
+        case SHOW_ANNOUNCEMENT:
+            typeof sessionStorage !== 'undefined' &&
+                sessionStorage.setItem('hideAnnouncement', 'false');
+            return state.set('showAnnouncement', true);
+
+        case HIDE_ANNOUNCEMENT:
+            typeof sessionStorage !== 'undefined' &&
+                sessionStorage.setItem('hideAnnouncement', 'true');
+            return state.set('showAnnouncement', false);
+
         default:
             return state;
     }
@@ -250,10 +284,7 @@ export const showTerms = payload => ({
     payload,
 });
 
-export const hideTerms = payload => ({
-    type: HIDE_TERMS,
-    payload,
-});
+export const acceptTerms = () => ({ type: ACCEPT_TERMS });
 
 export const saveLoginConfirm = payload => ({
     type: SAVE_LOGIN_CONFIRM,
@@ -375,6 +406,11 @@ export const setAuthority = payload => ({
     payload,
 });
 
+export const setLatestFeedPrice = payload => ({
+    type: SET_LATEST_FEED_PRICE,
+    payload,
+});
+
 export const hideConnectionErrorModal = payload => ({
     type: HIDE_CONNECTION_ERROR_MODAL,
     payload,
@@ -393,4 +429,31 @@ export const loadSavingsWithdraw = payload => ({
 export const uploadImage = payload => ({
     type: UPLOAD_IMAGE,
     payload,
+});
+
+export const showSidePanel = () => ({
+    type: SHOW_SIDE_PANEL,
+});
+
+export const hideSidePanel = () => {
+    return {
+        type: HIDE_SIDE_PANEL,
+    };
+};
+
+export const showPostAdvancedSettings = payload => ({
+    type: SHOW_POST_ADVANCED_SETTINGS,
+    payload,
+});
+
+export const hidePostAdvancedSettings = () => ({
+    type: HIDE_POST_ADVANCED_SETTINGS,
+});
+
+export const hideAnnouncement = () => ({
+    type: HIDE_ANNOUNCEMENT,
+});
+
+export const showAnnouncement = () => ({
+    type: SHOW_ANNOUNCEMENT,
 });

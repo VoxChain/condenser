@@ -10,8 +10,8 @@ class Support extends React.Component {
                     <h2>{tt('g.APP_NAME_support', { APP_NAME })}</h2>
                     <p>
                         {tt('g.please_email_questions_to')}{' '}
-                        <a href="mailto:contact@vox.community">
-                            contact@vox.community
+                        <a href="mailto:contact@next.vox.community">
+                            contact@next.vox.community
                         </a>.
                     </p>
                 </div>

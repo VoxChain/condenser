@@ -4,6 +4,7 @@ import { Link } from 'react-router';
 import { connect } from 'react-redux';
 import { browserHistory } from 'react-router';
 import classnames from 'classnames';
+import * as globalActions from 'app/redux/GlobalReducer';
 import * as transactionActions from 'app/redux/TransactionReducer';
 import * as userActions from 'app/redux/UserReducer';
 import { actions as fetchDataSagaActions } from 'app/redux/FetchDataSaga';
@@ -21,11 +22,9 @@ import PostsList from 'app/components/cards/PostsList';
 import { isFetchingOrRecentlyUpdated } from 'app/utils/StateFunctions';
 import { repLog10 } from 'app/utils/ParsersAndFormatters.js';
 import Tooltip from 'app/components/elements/Tooltip';
-import { LinkWithDropdown } from 'react-foundation-components/lib/global/dropdown';
-import VerticalMenu from 'app/components/elements/VerticalMenu';
-import NotifiCounter from 'app/components/elements/NotifiCounter';
 import DateJoinWrapper from 'app/components/elements/DateJoinWrapper';
 import tt from 'counterpart';
+import { List } from 'immutable';
 import WalletSubMenu from 'app/components/elements/WalletSubMenu';
 import Userpic from 'app/components/elements/Userpic';
 import Callout from 'app/components/elements/Callout';
@@ -33,18 +32,20 @@ import normalizeProfile from 'app/utils/NormalizeProfile';
 import userIllegalContent from 'app/utils/userIllegalContent';
 import proxifyImageUrl from 'app/utils/ProxifyUrl';
 import ArticleLayoutSelector from 'app/components/modules/ArticleLayoutSelector';
+import SanitizedLink from 'app/components/elements/SanitizedLink';
+import DropdownMenu from 'app/components/elements/DropdownMenu';
 
 export default class UserProfile extends React.Component {
     constructor() {
         super();
-        this.state = {};
+        this.state = { showResteem: true };
         this.onPrint = () => {
             window.print();
         };
         this.loadMore = this.loadMore.bind(this);
     }
 
-    shouldComponentUpdate(np) {
+    shouldComponentUpdate(np, ns) {
         const { follow } = this.props;
         const { follow_count } = this.props;
 
@@ -86,7 +87,8 @@ export default class UserProfile extends React.Component {
             np.location.pathname !== this.props.location.pathname ||
             np.routeParams.accountname !== this.props.routeParams.accountname ||
             np.follow_count !== this.props.follow_count ||
-            np.blogmode !== this.props.blogmode
+            np.blogmode !== this.props.blogmode ||
+            ns.showResteem !== this.state.showResteem
         );
     }
 
@@ -95,8 +97,9 @@ export default class UserProfile extends React.Component {
         this.props.clearPowerdownDefaults();
     }
 
-    loadMore(last_post, category) {
+    loadMore(last_post, category, showResteem) {
         const { accountname } = this.props.routeParams;
+
         if (!last_post) return;
 
         let order;
@@ -123,8 +126,13 @@ export default class UserProfile extends React.Component {
                 order,
                 category
             )
-        )
+        ) {
             return;
+        }
+
+        const postFilter = showResteem
+            ? null
+            : value => value.author === accountname;
         const [author, permlink] = last_post.split('/');
         this.props.requestData({
             author,
@@ -132,11 +140,19 @@ export default class UserProfile extends React.Component {
             order,
             category,
             accountname,
+            postFilter,
         });
     }
 
+    toggleShowResteem = e => {
+        e.preventDefault();
+        const newShowResteem = !this.state.showResteem;
+        this.setState({ showResteem: newShowResteem });
+    };
+
     render() {
         const {
+            state: { showResteem },
             props: { current_user, wifShown, global_status, follow },
             onPrint,
         } = this;
@@ -327,14 +343,20 @@ export default class UserProfile extends React.Component {
                     tab_content = <Callout>{emptyText}</Callout>;
                 } else {
                     tab_content = (
-                        <PostsList
-                            account={account.name}
-                            posts={posts}
-                            loading={fetching}
-                            category="blog"
-                            loadMore={this.loadMore}
-                            showSpam
-                        />
+                        <div>
+                            <a href="#" onClick={this.toggleShowResteem}>
+                                {showResteem ? 'Hide resteems' : 'Show all'}
+                            </a>
+                            <PostsList
+                                account={account.name}
+                                posts={posts}
+                                loading={fetching}
+                                category="blog"
+                                loadMore={this.loadMore}
+                                showResteem={showResteem}
+                                showSpam
+                            />
+                        </div>
                     );
                 }
             } else {
@@ -415,11 +437,11 @@ export default class UserProfile extends React.Component {
 
         if (isMyAccount) {
             if (section === 'blog') {
-                page_title = tt('g.myblog');
+                page_title = tt('g.my_blog');
             } else if (section === 'comments') {
-                page_title = tt('g.mycomments');
+                page_title = tt('g.my_comments');
             } else if (section === 'recent-replies') {
-                page_title = tt('g.myreplies');
+                page_title = tt('g.my_replies');
             } else if (section === 'settings') {
                 page_title = tt('g.settings');
             } else if (section === 'curation-rewards') {
@@ -545,28 +567,17 @@ export default class UserProfile extends React.Component {
                                 to={`/@${accountname}/recent-replies`}
                                 activeClassName="active"
                             >
-                                {tt('g.replies')}{' '}
-                                {isMyAccount && (
-                                    <NotifiCounter fields="comment_reply" />
-                                )}
+                                {tt('g.replies')}
                             </Link>
                         </li>
                         {/*<li><Link to={`/@${accountname}/feed`} activeClassName="active">Feed</Link></li>*/}
-                        <li>
-                            <LinkWithDropdown
-                                closeOnClickOutside
-                                dropdownPosition="bottom"
-                                dropdownAlignment="right"
-                                dropdownContent={
-                                    <VerticalMenu items={rewardsMenu} />
-                                }
-                            >
-                                <a className={rewardsClass}>
-                                    {tt('g.rewards')}
-                                    <Icon name="dropdown-arrow" />
-                                </a>
-                            </LinkWithDropdown>
-                        </li>
+                        <DropdownMenu
+                            className={rewardsClass}
+                            items={rewardsMenu}
+                            el="li"
+                            selected={tt('g.rewards')}
+                            position="right"
+                        />
                     </ul>
                 </div>
                 <div className="columns shrink">
@@ -581,10 +592,7 @@ export default class UserProfile extends React.Component {
                                     return false;
                                 }}
                             >
-                                {tt('g.wallet')}{' '}
-                                {isMyAccount && (
-                                    <NotifiCounter fields="send,receive,account_update" />
-                                )}
+                                {tt('g.wallet')}
                             </a>
                         </li>
                         {isMyAccount && (
@@ -633,7 +641,6 @@ export default class UserProfile extends React.Component {
                                 />
                             </div>
                         </div>
-
                         <h1>
                             <Userpic account={account.name} hideIfDefault />
                             {name || account.name}{' '}
@@ -660,9 +667,6 @@ export default class UserProfile extends React.Component {
                                             count: followerCount,
                                         })}
                                     </Link>
-                                    {isMyAccount && (
-                                        <NotifiCounter fields="follow" />
-                                    )}
                                 </span>
                                 <span>
                                     <Link to={`/@${accountname}`}>
@@ -688,13 +692,10 @@ export default class UserProfile extends React.Component {
                                 {website && (
                                     <span>
                                         <Icon name="link" />{' '}
-                                        <a
-                                            href={website}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            {website_label}
-                                        </a>
+                                        <SanitizedLink
+                                            url={website}
+                                            text={website_label}
+                                        />
                                     </span>
                                 )}
                                 <Icon name="calendar" />{' '}

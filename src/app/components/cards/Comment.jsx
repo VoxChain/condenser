@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Author from 'app/components/elements/Author';
 import ReplyEditor from 'app/components/elements/ReplyEditor';
 import MarkdownViewer from 'app/components/cards/MarkdownViewer';
@@ -49,6 +50,9 @@ export function sortComments(cont, comments, sort_order) {
         return a.get('active_votes').filter(vote => vote.get('percent') > 0)
             .size;
     }
+    function authorReputation(a) {
+        return a.get('author_reputation');
+    }
 
     /** sorts replies by upvotes, age, or payout */
     const sort_orders = {
@@ -85,6 +89,11 @@ export function sortComments(cont, comments, sort_order) {
             // If SBD payouts were equal, fall back to rshares sorting
             return netRshares(bcontent).compare(netRshares(acontent));
         },
+        author_reputation: (a, b) => {
+            return (
+                authorReputation(cont.get(b)) - authorReputation(cont.get(a))
+            );
+        },
     };
     comments.sort(sort_orders[sort_order]);
 }
@@ -92,23 +101,27 @@ export function sortComments(cont, comments, sort_order) {
 class CommentImpl extends React.Component {
     static propTypes = {
         // html props
-        cont: React.PropTypes.object.isRequired,
-        content: React.PropTypes.string.isRequired,
-        sort_order: React.PropTypes.oneOf(['votes', 'new', 'trending'])
-            .isRequired,
-        root: React.PropTypes.bool,
-        showNegativeComments: React.PropTypes.bool,
-        onHide: React.PropTypes.func,
-        noImage: React.PropTypes.bool,
+        cont: PropTypes.object.isRequired,
+        content: PropTypes.string.isRequired,
+        sort_order: PropTypes.oneOf([
+            'votes',
+            'new',
+            'trending',
+            'author_reputation',
+        ]).isRequired,
+        root: PropTypes.bool,
+        showNegativeComments: PropTypes.bool,
+        onHide: PropTypes.func,
+        noImage: PropTypes.bool,
 
         // component props (for recursion)
-        depth: React.PropTypes.number,
+        depth: PropTypes.number,
 
         // redux props
-        username: React.PropTypes.string,
-        rootComment: React.PropTypes.string,
-        anchor_link: React.PropTypes.string.isRequired,
-        deletePost: React.PropTypes.func.isRequired,
+        username: PropTypes.string,
+        rootComment: PropTypes.string,
+        anchor_link: PropTypes.string.isRequired,
+        deletePost: PropTypes.func.isRequired,
     };
     static defaultProps = {
         depth: 1,
@@ -222,9 +235,19 @@ class CommentImpl extends React.Component {
     render() {
         const { cont } = this.props;
         const dis = cont.get(this.props.content);
+
         if (!dis) {
             return <div>{tt('g.loading')}...</div>;
         }
+
+        // Don't server-side render the comment if it has a certain number of newlines
+        if (
+            global['process'] !== undefined &&
+            (dis.get('body').match(/\r?\n/g) || '').length > 25
+        ) {
+            return <div>{tt('g.loading')}...</div>;
+        }
+
         const comment = dis.toJS();
         if (!comment.stats) {
             console.error('Comment -- missing stats object');
@@ -277,11 +300,11 @@ class CommentImpl extends React.Component {
         // hide images if author is in blacklist
         const hideImages = ImageUserBlockList.includes(author);
 
-        const showDeleteOption = username === author && allowDelete;
+        const _isPaidout = comment.cashout_time === '1969-12-31T23:59:59'; // TODO: audit after HF19. #1259
         const showEditOption = username === author;
+        const showDeleteOption =
+            username === author && allowDelete && !_isPaidout;
         const showReplyOption = comment.depth < 255;
-        const archived = comment.cashout_time === '1969-12-31T23:59:59'; // TODO: audit after HF19. #1259
-        const readonly = archived || $STM_Config.read_only_mode;
 
         let body = null;
         let controls = null;
@@ -303,14 +326,12 @@ class CommentImpl extends React.Component {
                         {showReplyOption && (
                             <a onClick={onShowReply}>{tt('g.reply')}</a>
                         )}{' '}
-                        {!readonly &&
-                            showEditOption && (
-                                <a onClick={onShowEdit}>{tt('g.edit')}</a>
-                            )}{' '}
-                        {!readonly &&
-                            showDeleteOption && (
-                                <a onClick={onDeletePost}>{tt('g.delete')}</a>
-                            )}
+                        {showEditOption && (
+                            <a onClick={onShowEdit}>{tt('g.edit')}</a>
+                        )}{' '}
+                        {showDeleteOption && (
+                            <a onClick={onDeletePost}>{tt('g.delete')}</a>
+                        )}
                     </span>
                 </div>
             );

@@ -5,12 +5,15 @@ import constants from './constants';
 
 export const emptyContentMap = Map(emptyContent);
 
-export const defaultState = Map({ status: {} });
+export const defaultState = Map({
+    status: {},
+});
 
 // Action constants
 const SET_COLLAPSED = 'global/SET_COLLAPSED';
 const RECEIVE_STATE = 'global/RECEIVE_STATE';
 const RECEIVE_ACCOUNT = 'global/RECEIVE_ACCOUNT';
+const RECEIVE_ACCOUNTS = 'global/RECEIVE_ACCOUNTS';
 const RECEIVE_COMMENT = 'global/RECEIVE_COMMENT';
 const RECEIVE_CONTENT = 'global/RECEIVE_CONTENT';
 const LINK_REPLY = 'global/LINK_REPLY';
@@ -33,8 +36,37 @@ const FETCH_JSON = 'global/FETCH_JSON';
 const FETCH_JSON_RESULT = 'global/FETCH_JSON_RESULT';
 const SHOW_DIALOG = 'global/SHOW_DIALOG';
 const HIDE_DIALOG = 'global/HIDE_DIALOG';
+const ADD_ACTIVE_WITNESS_VOTE = 'global/ADD_ACTIVE_WITNESS_VOTE';
+const REMOVE_ACTIVE_WITNESS_VOTE = 'global/REMOVE_ACTIVE_WITNESS_VOTE';
 // Saga-related:
 export const GET_STATE = 'global/GET_STATE';
+
+/**
+ * Transfrom nested JS object to appropriate immutable collection.
+ *
+ * @param {Object} account
+ */
+
+const transformAccount = account =>
+    fromJS(account, (key, value) => {
+        if (key === 'witness_votes') return value.toSet();
+        const isIndexed = Iterable.isIndexed(value);
+        return isIndexed ? value.toList() : value.toOrderedMap();
+    });
+
+/**
+ * Merging accounts: A get_state will provide a very full account but a get_accounts will provide a smaller version this makes sure we don't overwrite
+ *
+ * @param {Immutable.Map} state
+ * @param {Immutable.Map} account
+ *
+ */
+
+const mergeAccounts = (state, account) => {
+    return state.updateIn(['accounts', account.get('name')], Map(), a =>
+        a.mergeDeep(account)
+    );
+};
 
 export default function reducer(state = defaultState, action = {}) {
     const payload = action.payload;
@@ -64,15 +96,15 @@ export default function reducer(state = defaultState, action = {}) {
         }
 
         case RECEIVE_ACCOUNT: {
-            const account = fromJS(payload.account, (key, value) => {
-                if (key === 'witness_votes') return value.toSet();
-                const isIndexed = Iterable.isIndexed(value);
-                return isIndexed ? value.toList() : value.toOrderedMap();
-            });
-            // Merging accounts: A get_state will provide a very full account but a get_accounts will provide a smaller version
-            return state.updateIn(['accounts', account.get('name')], Map(), a =>
-                a.mergeDeep(account)
-            );
+            const account = transformAccount(payload.account);
+            return mergeAccounts(state, account);
+        }
+
+        case RECEIVE_ACCOUNTS: {
+            return payload.accounts.reduce((acc, curr) => {
+                const transformed = transformAccount(curr);
+                return mergeAccounts(acc, transformed);
+            }, state);
         }
 
         case RECEIVE_COMMENT: {
@@ -227,10 +259,18 @@ export default function reducer(state = defaultState, action = {}) {
         }
 
         case RECEIVE_DATA: {
-            const { data, order, category, accountname } = payload;
+            const {
+                data,
+                order,
+                category,
+                accountname,
+                fetching,
+                endOfData,
+            } = payload;
             let new_state;
             if (
                 order === 'by_author' ||
+                order === 'by_author_noreblog' ||
                 order === 'by_feed' ||
                 order === 'by_comments' ||
                 order === 'by_replies'
@@ -273,10 +313,10 @@ export default function reducer(state = defaultState, action = {}) {
             new_state = new_state.updateIn(
                 ['status', category || '', order],
                 () => {
-                    if (data.length < constants.FETCH_DATA_BATCH_SIZE) {
-                        return { fetching: false, last_fetch: new Date() };
+                    if (endOfData) {
+                        return { fetching, last_fetch: new Date() };
                     }
-                    return { fetching: false };
+                    return { fetching };
                 }
             );
             return new_state;
@@ -380,6 +420,21 @@ export default function reducer(state = defaultState, action = {}) {
             return state.update('active_dialogs', d => d.delete(payload.name));
         }
 
+        case ADD_ACTIVE_WITNESS_VOTE: {
+            return state.update(
+                `transaction_witness_vote_active_${payload.account}`,
+                Set(),
+                s => s.add(payload.witness)
+            );
+        }
+
+        case REMOVE_ACTIVE_WITNESS_VOTE: {
+            return state.update(
+                `transaction_witness_vote_active_${payload.account}`,
+                s => s.delete(payload.witness)
+            );
+        }
+
         default:
             return state;
     }
@@ -399,6 +454,11 @@ export const receiveState = payload => ({
 
 export const receiveAccount = payload => ({
     type: RECEIVE_ACCOUNT,
+    payload,
+});
+
+export const receiveAccounts = payload => ({
+    type: RECEIVE_ACCOUNTS,
     payload,
 });
 
@@ -510,6 +570,16 @@ export const showDialog = payload => ({
 
 export const hideDialog = payload => ({
     type: HIDE_DIALOG,
+    payload,
+});
+
+export const addActiveWitnessVote = payload => ({
+    type: ADD_ACTIVE_WITNESS_VOTE,
+    payload,
+});
+
+export const removeActiveWitnessVote = payload => ({
+    type: REMOVE_ACTIVE_WITNESS_VOTE,
     payload,
 });
 

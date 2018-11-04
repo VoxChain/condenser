@@ -1,6 +1,7 @@
 /* eslint react/prop-types: 0 */
 /*global $STM_csrf, $STM_Config */
 import React from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
 import { api } from '@steemit/steem-js';
@@ -12,11 +13,12 @@ import { validate_account_name } from 'app/utils/ChainValidation';
 import runTests from 'app/utils/BrowserTests';
 import GeneratedPasswordInput from 'app/components/elements/GeneratedPasswordInput';
 import { saveCords } from 'app/utils/ServerApiClient';
+import { SIGNUP_URL } from 'shared/constants';
 
 class CreateAccount extends React.Component {
     static propTypes = {
-        loginUser: React.PropTypes.func.isRequired,
-        serverBusy: React.PropTypes.bool,
+        loginUser: PropTypes.func.isRequired,
+        serverBusy: PropTypes.bool,
     };
 
     constructor(props) {
@@ -215,8 +217,9 @@ class CreateAccount extends React.Component {
                         <br />
                         <div className="callout alert">
                             <p>
-                                Membership to Vox.com is now under invitation
-                                only because of unexpectedly high sign up rate.
+                                Membership to next.vox.community is now under
+                                invitation only because of unexpectedly high
+                                sign up rate.
                             </p>
                         </div>
                     </div>
@@ -243,7 +246,8 @@ class CreateAccount extends React.Component {
                                 <a href="https://www.mozilla.org/en-US/firefox/new/">
                                     Firefox
                                 </a>
-                                are well tested and known to work with Vox.com.
+                                are well tested and known to work with
+                                next.vox.community.
                             </p>
                         </div>
                     </div>
@@ -285,12 +289,12 @@ class CreateAccount extends React.Component {
                                 approved yet or you already created an account.<br
                                 />
                                 Please try again later or contact{' '}
-                                <a href="mailto:support@Vox.community">
-                                    support@vox.community
+                                <a href="mailto:support@next.vox.community">
+                                    support@next.vox.community
                                 </a>{' '}
                                 for the status of your request.<br />
                                 If you didn't submit your sign up application
-                                yet, <Link to="/pick_account">apply now</Link>!
+                                yet, <a href={SIGNUP_URL}>apply now</a>!
                             </p>
                         </div>
                     </div>
@@ -337,7 +341,6 @@ class CreateAccount extends React.Component {
                             Please read the Vox Rules and fill in the form below
                             to create your Vox account
                         </h4>
-                        {/*<Progress tabIndex="0" value={95} max={100} />*/}
                         {showRules ? (
                             <div className="CreateAccount__rules">
                                 <p>

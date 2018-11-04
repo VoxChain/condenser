@@ -1,8 +1,9 @@
 /* eslint react/prop-types: 0 */
 import React from 'react';
+import PropTypes from 'prop-types';
 import shouldComponentUpdate from 'app/utils/shouldComponentUpdate';
 
-const { string, number } = React.PropTypes;
+const { string, number } = PropTypes;
 
 /** Lots of iframes in a post can be very slow.  This component only inserts the iframe when it is actually needed. */
 export default class YoutubePreview extends React.Component {
@@ -16,7 +17,7 @@ export default class YoutubePreview extends React.Component {
     static defaultProps = {
         width: 640,
         height: 360,
-        dataParams: 'enablejsapi=0&rel=0&origin=https://vox.community',
+        dataParams: 'enablejsapi=0&rel=0&origin=https://next.vox.community',
     };
 
     constructor() {

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router';
 import TimeAgoWrapper from 'app/components/elements/TimeAgoWrapper';
 import Icon from 'app/components/elements/Icon';
@@ -68,15 +69,15 @@ class PostFull extends React.Component {
     static propTypes = {
         // html props
         /* Show extra options (component is being viewed alone) */
-        cont: React.PropTypes.object.isRequired,
-        post: React.PropTypes.string.isRequired,
+        cont: PropTypes.object.isRequired,
+        post: PropTypes.string.isRequired,
 
         // connector props
-        username: React.PropTypes.string,
-        unlock: React.PropTypes.func.isRequired,
-        deletePost: React.PropTypes.func.isRequired,
-        showPromotePost: React.PropTypes.func.isRequired,
-        showExplorePost: React.PropTypes.func.isRequired,
+        username: PropTypes.string,
+        unlock: PropTypes.func.isRequired,
+        deletePost: PropTypes.func.isRequired,
+        showPromotePost: PropTypes.func.isRequired,
+        showExplorePost: PropTypes.func.isRequired,
     };
 
     constructor() {
@@ -84,6 +85,7 @@ class PostFull extends React.Component {
         this.state = {};
         this.fbShare = this.fbShare.bind(this);
         this.twitterShare = this.twitterShare.bind(this);
+        this.redditShare = this.redditShare.bind(this);
         this.linkedInShare = this.linkedInShare.bind(this);
         this.showExplorePost = this.showExplorePost.bind(this);
         this.vkShare = this.vkShare.bind(this);
@@ -197,6 +199,18 @@ class PostFull extends React.Component {
                 ',height=' +
                 winHeight
         );
+    }
+         
+    redditShare(e) {
+        serverApiRecordEvent('RedditShare', this.share_params.link);
+        e.preventDefault();
+        const s = this.share_params;
+        const q =
+            'title=' +
+            encodeURIComponent(s.title) +
+            '&url=' +
+            encodeURIComponent(s.url);
+        window.open('https://www.reddit.com/submit?' + q, 'Share');
     }
 
     linkedInShare(e) {
@@ -324,6 +338,13 @@ class PostFull extends React.Component {
             },
             {
                 link: '#',
+                onClick: this.redditShare,
+                value: 'Reddit',
+                title: tt('postfull_jsx.share_on_reddit'),
+                icon: 'reddit',
+            },
+            {
+                link: '#',
                 onClick: this.linkedInShare,
                 value: 'LinkedIn',
                 title: tt('postfull_jsx.share_on_linkedin'),
@@ -419,15 +440,15 @@ class PostFull extends React.Component {
             );
         }
 
-        const archived =
+        const _isPaidout =
             post_content.get('cashout_time') === '1969-12-31T23:59:59'; // TODO: audit after HF19. #1259
-        const readonly = archived || $STM_Config.read_only_mode;
+        const showReblog = !_isPaidout;
         const showPromote =
-            username && !archived && post_content.get('depth') == 0;
+            username && !_isPaidout && post_content.get('depth') == 0;
         const showReplyOption = post_content.get('depth') < 255;
         const showEditOption = username === author;
         const showDeleteOption =
-            username === author && content.stats.allowDelete;
+            username === author && content.stats.allowDelete && !_isPaidout;
 
         const authorRepLog10 = repLog10(content.author_reputation);
         const isPreViewCount =
@@ -486,28 +507,28 @@ class PostFull extends React.Component {
                 )}
                 <TagList post={content} horizontal />
                 <div className="PostFull__footer row">
-                    <div className="column">
+                    <div className="columns medium-12 large-5">
                         <TimeAuthorCategory
                             content={content}
                             authorRepLog10={authorRepLog10}
                         />
+                    </div>
+                    <div className="columns medium-12 large-2 ">
                         <Voting post={post} />
                     </div>
-                    <div className="RightShare__Menu small-11 medium-5 large-5 columns text-right">
-                        {!readonly && (
+                    <div className="RightShare__Menu small-11 medium-12 large-5 columns">
+                        {showReblog && (
                             <Reblog author={author} permlink={permlink} />
                         )}
                         <span className="PostFull__reply">
                             {showReplyOption && (
                                 <a onClick={onShowReply}>{tt('g.reply')}</a>
                             )}{' '}
-                            {!readonly &&
-                                showEditOption &&
+                            {showEditOption &&
                                 !showEdit && (
                                     <a onClick={onShowEdit}>{tt('g.edit')}</a>
                                 )}{' '}
-                            {!readonly &&
-                                showDeleteOption &&
+                            {showDeleteOption &&
                                 !showReply && (
                                     <a onClick={onDeletePost}>
                                         {tt('g.delete')}

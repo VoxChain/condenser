@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
+import { filterTags } from 'app/utils/StateFunctions';
 import DropdownMenu from 'app/components/elements/DropdownMenu';
 import { detransliterate } from 'app/utils/ParsersAndFormatters';
 
@@ -10,7 +11,7 @@ export default ({ post, horizontal, single }) => {
 
     if (single)
         return (
-            <Link to={`/${sort_order}/${post.category}`}>{detransliterate(post.category)}</Link>
+            <Link to={`/${sort_order}/${post.category}`}>{post.category}</Link>
         );
 
     const json = post.json_metadata;
@@ -33,30 +34,27 @@ export default ({ post, horizontal, single }) => {
     // Category should always be first.
     tags.unshift(post.category);
 
-    // Uniqueness filter.
-    tags = tags.filter(
-        (value, index, self) => value && self.indexOf(value) === index
-    );
+    tags = filterTags(tags);
 
     if (horizontal) {
         // show it as a dropdown in Preview
         const list = tags.map((tag, idx) => (
             <Link to={`/${sort_order}/${tag}`} key={idx}>
                 {' '}
-                {detransliterate(tag)}{' '}
+                {tag}{' '}
             </Link>
         ));
         return <div className="TagList__horizontal">{list}</div>;
     }
     if (tags.length == 1) {
-        return <Link to={`/${sort_order}/${tags[0]}`}>{detransliterate(tags[0])}</Link>;
+        return <Link to={`/${sort_order}/${tags[0]}`}>{tags[0]}</Link>;
     }
     const list = tags.map(tag => {
-        return { value: detransliterate(tag), link: `/${sort_order}/${tag}` };
+        return { value: tag, link: `/${sort_order}/${tag}` };
     });
     return (
         <DropdownMenu
-            selected={' ' + detransliterate(tags[0])}
+            selected={' ' + tags[0]}
             className="TagList"
             items={list}
             el="div"

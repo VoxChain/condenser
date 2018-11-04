@@ -1,14 +1,14 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router';
 import { connect } from 'react-redux';
 import { browserHistory } from 'react-router';
 import { numberWithCommas } from 'app/utils/StateFunctions';
 import tt from 'counterpart';
-import { detransliterate } from 'app/utils/ParsersAndFormatters';
 
 export default class TagsIndex extends React.Component {
     static propTypes = {
-        tagsAll: React.PropTypes.object.isRequired,
+        tagsAll: PropTypes.object.isRequired,
     };
 
     constructor(props) {
@@ -66,19 +66,13 @@ export default class TagsIndex extends React.Component {
                 return this.compareTags(a, b, order);
             })
             .map(tag => {
-                let name = tag.get('name');
+                const name = tag.get('name');
                 const link = `/trending/${name}`;
-
-                if (/[а-яёґєії]/.test(name)) {
-                    name = 'ru--' + detransliterate(name.toLowerCase(), true)
-                }
-                if (/^(u\w{4}){6,}/.test(name)) return null;
-
                 return (
                     <tr key={name}>
                         <td>
                             <Link to={link} activeClassName="active">
-                                {detransliterate(name)}
+                                {name}
                             </Link>
                         </td>
                         <td>

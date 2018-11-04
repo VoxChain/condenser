@@ -42,8 +42,8 @@ describe('Links', () => {
     it('by domain', () => {
         const locals = [
             'https://localhost/',
-            'http://steemit.com',
-            'http://steemit.com/group',
+            'http://next.vox.community',
+            'http://next.vox.community/group',
         ];
         match(linksRe.local(), locals);
         matchNot(linksRe.remote(), locals);
@@ -51,7 +51,7 @@ describe('Links', () => {
         const remotes = ['https://example.com/', 'http://abc.co'];
         match(linksRe.remote(), remotes);
         matchNot(linksRe.local(), remotes);
-        // match(linksRe({external: false}), largeData + 'https://steemit.com2/next', 'https://steemit.com2/next')
+        // match(linksRe({external: false}), largeData + 'https://next.vox.community2/next', 'https://next.vox.community2/next')
     });
     it('by image', () => {
         match(linksRe.image(), 'https://example.com/a.jpeg');

@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import tt from 'counterpart';
 import * as userActions from 'app/redux/UserReducer';
@@ -7,7 +8,7 @@ import PostSummary from 'app/components/cards/PostSummary';
 import Post from 'app/components/pages/Post';
 import LoadingIndicator from 'app/components/elements/LoadingIndicator';
 import debounce from 'lodash.debounce';
-import CloseButton from 'react-foundation-components/lib/global/close-button';
+import CloseButton from 'app/components/elements/CloseButton';
 import { findParent } from 'app/utils/DomUtils';
 import Icon from 'app/components/elements/Icon';
 import shouldComponentUpdate from 'app/utils/shouldComponentUpdate';
@@ -26,6 +27,7 @@ class PostsList extends React.Component {
         category: PropTypes.string,
         loadMore: PropTypes.func,
         showSpam: PropTypes.bool,
+        showResteem: PropTypes.bool,
         fetchState: PropTypes.func.isRequired,
         pathname: PropTypes.string,
         nsfwPref: PropTypes.string.isRequired,
@@ -112,11 +114,10 @@ class PostsList extends React.Component {
             topPosition(el) + el.offsetHeight - scrollTop - window.innerHeight <
             10
         ) {
-            const { loadMore, posts, category } = this.props;
+            const { loadMore, posts, category, showResteem } = this.props;
             if (loadMore && posts && posts.size)
-                loadMore(posts.last(), category);
+                loadMore(posts.last(), category, showResteem);
         }
-
         // Detect if we're in mobile mode (renders larger preview imgs)
         const mq = window.matchMedia('screen and (max-width: 39.9375em)');
         if (mq.matches) {
@@ -146,6 +147,7 @@ class PostsList extends React.Component {
     render() {
         const {
             posts,
+            showResteem,
             showSpam,
             loading,
             category,
@@ -164,8 +166,10 @@ class PostsList extends React.Component {
             }
             const ignore =
                 ignore_result && ignore_result.has(cont.get('author'));
+            const hideResteem =
+                !showResteem && account && cont.get('author') != account;
             const hide = cont.getIn(['stats', 'hide']);
-            if (!(ignore || hide) || showSpam)
+            if (!hideResteem && (!(ignore || hide) || showSpam))
                 // rephide
                 postsInfo.push({ item, ignore });
         });

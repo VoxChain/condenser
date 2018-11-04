@@ -3,9 +3,11 @@ import tt from 'counterpart';
 import linksRe, { any as linksAny } from 'app/utils/Links';
 import { validate_account_name } from 'app/utils/ChainValidation';
 import proxifyImageUrl from 'app/utils/ProxifyUrl';
-import {detransliterate} from 'app/utils/ParsersAndFormatters'
+import * as Phishing from 'app/utils/Phishing';
 
 export const getPhishingWarningMessage = () => tt('g.phishy_message');
+export const getExternalLinkWarningMessage = () =>
+    tt('g.external_link_message');
 
 const noop = () => {};
 const DOMParser = new xmldom.DOMParser({
@@ -52,7 +54,7 @@ const XMLSerializer = new xmldom.XMLSerializer();
  *    - convert naked URLs to images/links
  *    - convert embeddable URLs to <iframe>s
  *    - basic sanitization?
- *  2. Steemit.com Rendering - add in proprietary Steemit.com functions/links
+ *  2. next.vox.community Rendering - add in proprietary next.vox.community functions/links
  *    - convert <iframe>s to custom objects
  *    - linkify #tags and @mentions
  *    - proxify images
@@ -140,15 +142,19 @@ function link(state, child) {
     if (url) {
         state.links.add(url);
         if (state.mutate) {
-            // If this link is not relative, http, or https -- add https.
-            if (!/^((#)|(\/(?!\/))|((https?:)?\/\/))/.test(url)) {
+            // If this link is not relative, http, https, or steem -- add https.
+            if (!/^((#)|(\/(?!\/))|(((vox|https?):)?\/\/))/.test(url)) {
                 child.setAttribute('href', 'https://' + url);
             }
 
             // Unlink potential phishing attempts
             if (
-                child.textContent.match(/(www\.)?vox\.community/) &&
-                !url.match(/https?:\/\/(.*@)?(www\.)?vox\.community/)
+                (url.indexOf('#') !== 0 && // Allow in-page links
+                    (child.textContent.match(/(www\.)?vox\.community/i) &&
+                        !url.match(
+                            /https?:\/\/(.*@)?(www\.)?vox\.community/i
+                        ))) ||
+                Phishing.looksPhishy(url)
             ) {
                 const phishyDiv = child.ownerDocument.createElement('div');
                 phishyDiv.textContent = `${child.textContent} / ${url}`;
@@ -227,8 +233,8 @@ function linkifyNode(child, state) {
 
         const { mutate } = state;
         if (!child.data) return;
-        if (embedYouTubeNode(child, state.links, state.images)) return;
-        if (embedVimeoNode(child, state.links, state.images)) return;
+        child = embedYouTubeNode(child, state.links, state.images);
+        child = embedVimeoNode(child, state.links, state.images);
 
         const data = XMLSerializer.serializeToString(child);
         const content = linkify(
@@ -256,8 +262,7 @@ function linkify(content, mutate, hashtags, usertags, images, links) {
     content = content.replace(/(^|\s)(#[-a-z\d]+)/gi, tag => {
         if (/#[\d]+$/.test(tag)) return tag; // Don't allow numbers to be tags
         const space = /^\s/.test(tag) ? tag[0] : '';
-        let tag2 = tag.trim().substring(1);
-        if(/^[а-яёґєії]/.test(tag2)) tag2 = 'ru--' + detransliterate(tag2, true);
+        const tag2 = tag.trim().substring(1);
         const tagLower = tag2.toLowerCase();
         if (hashtags) hashtags.add(tagLower);
         if (!mutate) return tag;
@@ -267,7 +272,7 @@ function linkify(content, mutate, hashtags, usertags, images, links) {
     // usertag (mention)
     // Cribbed from https://github.com/twitter/twitter-text/blob/v1.14.7/js/twitter-text.js#L90
     content = content.replace(
-        /(^|[^a-zA-Z0-9_!#$%&*@＠\/]|(^|[^a-zA-Z0-9_+~.-\/]))[@＠]([a-z][-\.a-z\d]+[a-z\d])/gi,
+        /(^|[^a-zA-Z0-9_!#$%&*@＠\/]|(^|[^a-zA-Z0-9_+~.-\/#]))[@＠]([a-z][-\.a-z\d]+[a-z\d])/gi,
         (match, preceeding1, preceeding2, user) => {
             const userLower = user.toLowerCase();
             const valid = validate_account_name(userLower) == null;
@@ -280,7 +285,7 @@ function linkify(content, mutate, hashtags, usertags, images, links) {
 
             return valid
                 ? `${preceedings}<a href="/@${userLower}">@${user}</a>`
-                : '@' + user;
+                : `${preceedings}@${user}`;
         }
     );
 
@@ -293,6 +298,12 @@ function linkify(content, mutate, hashtags, usertags, images, links) {
         // do not linkify .exe or .zip urls
         if (/\.(zip|exe)$/i.test(ln)) return ln;
 
+        // do not linkify phishy links
+        if (Phishing.looksPhishy(ln))
+            return `<div title='${getPhishingWarningMessage()}' class='phishy'>${
+                ln
+            }</div>`;
+
         if (links) links.add(ln);
         return `<a href="${ipfsPrefix(ln)}">${ln}</a>`;
     });
@@ -301,21 +312,18 @@ function linkify(content, mutate, hashtags, usertags, images, links) {
 
 function embedYouTubeNode(child, links, images) {
     try {
-        if (!child.data) return false;
         const data = child.data;
         const yt = youTubeId(data);
-        if (!yt) return false;
+        if (!yt) return child;
 
-        const v = DOMParser.parseFromString(`~~~ embed:${yt.id} youtube ~~~`);
-        child.parentNode.replaceChild(v, child);
+        child.data = data.replace(yt.url, `~~~ embed:${yt.id} youtube ~~~`);
+
         if (links) links.add(yt.url);
-        if (images)
-            images.add('https://img.youtube.com/vi/' + yt.id + '/0.jpg');
-        return true;
+        if (images) images.add(yt.thumbnail);
     } catch (error) {
         console.log(error);
-        return false;
     }
+    return child;
 }
 
 /** @return {id, url} or <b>null</b> */
@@ -330,34 +338,40 @@ function youTubeId(data) {
     const id = m2 && m2.length >= 2 ? m2[1] : null;
     if (!id) return null;
 
-    return { id, url };
+    return {
+        id,
+        url,
+        thumbnail: 'https://img.youtube.com/vi/' + id + '/0.jpg',
+    };
 }
 
 function embedVimeoNode(child, links /*images*/) {
     try {
-        if (!child.data) return false;
         const data = child.data;
+        const vimeo = vimeoId(data);
+        if (!vimeo) return child;
 
-        let id;
-        {
-            const m = data.match(linksRe.vimeoId);
-            id = m && m.length >= 2 ? m[1] : null;
-        }
-        if (!id) return false;
+        child.data = data.replace(vimeo.url, `~~~ embed:${vimeo.id} vimeo ~~~`);
 
-        const url = `https://player.vimeo.com/video/${id}`;
-        const v = DOMParser.parseFromString(`~~~ embed:${id} vimeo ~~~`);
-        child.parentNode.replaceChild(v, child);
-        if (links) links.add(url);
-
-        // Preview image requires a callback.. http://stackoverflow.com/questions/1361149/get-img-thumbnails-from-vimeo
-        // if(images) images.add('https://.../vi/' + id + '/0.jpg')
-
-        return true;
+        if (links) links.add(vimeo.canonical);
+        // if(images) images.add(vimeo.thumbnail) // not available
     } catch (error) {
         console.log(error);
-        return false;
     }
+    return child;
+}
+
+function vimeoId(data) {
+    if (!data) return null;
+    const m = data.match(linksRe.vimeo);
+    if (!m || m.length < 2) return null;
+
+    return {
+        id: m[1],
+        url: m[0],
+        canonical: `https://player.vimeo.com/video/${m[1]}`,
+        // thumbnail: requires a callback - http://stackoverflow.com/questions/1361149/get-img-thumbnails-from-vimeo
+    };
 }
 
 function ipfsPrefix(url) {

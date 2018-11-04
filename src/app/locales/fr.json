@@ -38,11 +38,17 @@
         "insufficient_balance": "Solde insuffisant",
         "invalid_amount": "Montant invalide",
         "joined": "Inscrit en",
+        "links": "Liens",
         "loading": "Chargement en cours",
         "login": "Se connecter",
         "logout": "Déconnexion",
         "memo": "Note",
         "mute": "Ignorer",
+        "my_blog": "Mon blog",
+        "my_comments": "Mes commentaires",
+        "my_feed": "Mon flux",
+        "my_replies": "Réponses à moi",
+        "my_wallet": "Mon portefeuille",
         "new": "nouveau",
         "newer": "Plus récent",
         "next": "Suivant",
@@ -100,7 +106,7 @@
         "submit_a_story": "Poster",
         "tag": "Mot clé",
         "to": "vers",
-        "all_tags": "All tags",
+        "all_tags": "Tous les clés",
         "transfer": "Transférer",
         "trending_topics": "Sujets en vogue",
         "type": "Genre",
@@ -261,12 +267,11 @@
         "learn_more": "En savoir plus",
         "welcome": "Bienvenue",
         "faq": "FAQ",
-        "shop": "The Vox Shop",
-        "chat": "Salons de discussion Vox",
-        "app_center": "Centre d'applications Vox",
-        "api_docs": "Documentation API sur Vox",
-        "whitepaper": "Livre blanc sur le VoxChain",
-        "bluepaper": "VoxChain Bluepaper",
+        "chat": "Salons de discussion Steemit",
+        "app_center": "Centre d'applications Steemit",
+        "api_docs": "Documentation API sur Steemit",
+        "whitepaper": "Livre blanc sur le Steem",
+        "bluepaper": "Steem Bluepaper",
         "smt_whitepaper": "Livre blanc sur le SMT",
         "intro_tagline": "Présentations sur la monnaie",
         "intro_paragraph":
@@ -294,7 +299,7 @@
         "selecting_them": "les sélectionnant",
         "image_upload": "Téléchargement d'image",
         "power_up_100": "Conversion en influence à 100%%",
-        "default_50_50": "Par défaut (50 %%/ 50%%)",
+        "default_50_50": "50 %%/ 50%%",
         "decline_payout": "Refuser les gains",
         "check_this_to_auto_upvote_your_post":
             "Cocher cette case pour auto-voter pour votre article",
@@ -322,6 +327,13 @@
         "must_start_with_a_letter": "Le premier caractère doit être une lettre",
         "must_end_with_a_letter_or_number":
             "Le dernier caractère doit être une lettre ou un chiffre"
+    },
+    "post_advanced_settings_jsx": {
+        "payout_option_header": "Author rewards",
+        "payout_option_description":
+            "What type of tokens do you want as rewards from this post?",
+        "current_default": "Default",
+        "update_default_in_settings": "Update"
     },
     "postfull_jsx": {
         "this_post_is_not_available_due_to_a_copyright_claim":
@@ -488,7 +500,7 @@
         "witness": "Témoin",
         "information": "Information",
         "if_you_want_to_vote_outside_of_top_enter_account_name":
-            "Si vous voulez voter pour un témoin en dehors du top 50, veuille entrer le nom du compte concerné ci-dessous afin de voter pour lui",
+            "Si vous voulez voter pour un témoin en dehors du top 100, veuille entrer le nom du compte concerné ci-dessous afin de voter pour lui",
         "set_witness_proxy":
             "Vous pouvez aussi donner une procuration à quelqu'un qui votera pour les témoins en votre nom. Cela annulera votre choix de témoins actuels.",
         "witness_set":
@@ -597,7 +609,8 @@
             "Si vous vous êtes récemment abonné(e) au fil de nouveaux utilisateurs, votre flux personnel sera automatiquement rempli lorsque du nouveau contenu apparaîtra",
         "empty_feed_3": "Explorer les articles en vogue",
         "empty_feed_4": "Lire le guide de prise en main rapide",
-        "empty_feed_5": "Parcourir la FAQ"
+        "empty_feed_5": "Parcourir la FAQ",
+        "my_feed": "Mon Flux"
     },
     "transferhistoryrow_jsx": {
         "to_savings": "vers l'épargne",
@@ -680,7 +693,7 @@
         "sign_up_get_steem": "Sign up. Get VOX",
         "signup_button": "Sign up now to earn ",
         "signup_button_emphasis": "FREE STEEM!",
-        "returning_users": "Utilisateurs de retour :",
+        "returning_users": "Utilisateurs de retour: ",
         "join_our": "Rejoignez notre"
     },
     "chainvalidation_js": {
@@ -705,8 +718,7 @@
         "location_is_too_long": "Le lieu est trop long",
         "website_url_is_too_long": "L'URL du site web est trop longue",
         "public_profile_settings": "Paramètres du profil public",
-        "private_post_display_settings":
-            "Paramètres de l'affichage des messages privés",
+        "preferences": "Paramètres de l'affichage des messages privés",
         "not_safe_for_work_nsfw_content":
             "Peu approprié pour le travail (NSFW)",
         "always_hide": "Toujours masquer",
@@ -734,7 +746,7 @@
         "balance_subject_to_3_day_withdraw_waiting_period":
             "Le solde dépend de la période de 3 jours d'attente requise pour les retraits",
         "move_funds_to_another_account":
-            "Transférer des fonds vers un autre compte %(APP_NAME)s ",
+            "Transférer des fonds vers un autre compte Steem ",
         "protect_funds_by_requiring_a_3_day_withdraw_waiting_period":
             "Protéger les fonds en imposant une période de latence de 3 jours pour les retraits.",
         "withdraw_funds_after_the_required_3_day_waiting_period":

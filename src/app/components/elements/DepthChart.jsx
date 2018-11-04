@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 //import Highcharts from 'highcharts';
 const ReactHighcharts = require('react-highcharts/dist/ReactHighstock');
 import tt from 'counterpart';
@@ -41,8 +42,8 @@ function ordersEqual(a, b) {
 
 class DepthChart extends React.Component {
     static propTypes = {
-        bids: React.PropTypes.array,
-        asks: React.PropTypes.array,
+        bids: PropTypes.array,
+        asks: PropTypes.array,
     };
 
     shouldComponentUpdate(nextProps) {
@@ -76,7 +77,7 @@ class DepthChart extends React.Component {
 
     render() {
         const { bids, asks } = this.props;
-        if (!bids.length || !asks.length) {
+        if (!bids.length && !asks.length) {
             return null;
         }
         const depth_chart_config = generateDepthChart(bids, asks);

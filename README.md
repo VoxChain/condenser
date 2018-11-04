@@ -4,8 +4,7 @@
 
 Condenser is the react.js web interface to the world's first and best
 blockchain-based social media platform, steemit.com.  It uses
-[VOX](https://github.com/voxchain/vox), a blockchain powered by Graphene
-2.0 technology to store JSON-based content for a plethora of web
+[STEEM](https://github.com/steemit/steem), a blockchain powered by DPoS Governance and ChainBase DB to store JSON-based content for a plethora of web
 applications.   
 
 ## Why would I want to use Condenser (steemit.com front-end)?
@@ -19,7 +18,7 @@ applications.
 
 #### Docker
 
-We highly recommend using docker to run condenser. This is how we run the
+We highly recommend using docker to run condenser in production. This is how we run the
 live steemit.com site and it is the most supported (and fastest) method of
 both building and running condenser. We will always have the latest version
 of condenser (master branch) available on Docker Hub. Configuration settings
@@ -51,6 +50,7 @@ docker run -it -p 8080:8080 myname/condenser:mybranch
 ```
 
 ## Building from source without docker (the 'traditional' way):
+(better if you're planning to do condenser development)
 
 #### Clone the repository and make a tmp folder
 
@@ -113,6 +113,13 @@ If you intend to run a
 full-fledged site relying on your own, we recommend looking into running a
 copy of `voxd` locally instead
 [https://github.com/voxchain/vox](https://github.com/voxchain/vox).
+
+#### Debugging SSR code
+
+`yarn debug` will build a development version of the codebase and then start the
+local server with `--inspect-brk` so that you can connect a debugging client.
+You can use Chromium to connect by finding the remote client at
+`chrome://inspect/#devices`.
 
 #### Configuration
 
@@ -272,6 +279,16 @@ OFFLINE_SSR_TEST=true SDC_DATABASE_URL="mysql://root@127.0.0.1/steemit_dev" NODE
 ```
 
 This will read data from the blobs in `api_mockdata` directory. If you want to use another set of mock data, create a similar directory to that one and add an argument `OFFLINE_SSR_TEST_DATA_DIR` pointing to your new directory.
+
+### Run blackbox tests using nightwatch
+
+To run a Selenium test suite, start the condenser docker image with a name `condenser` (like `docker run --name condenser -itp 8080:8080 steemit/condenser:latest`) and then run the blackboxtest image attached to the condneser image's network:
+
+```
+docker build -t=steemit/condenser-blackboxtest blackboxtest/
+docker run --network container:condenser steemit/condenser-blackboxtest:latest
+
+```
 
 ## Issues
 

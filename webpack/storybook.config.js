@@ -39,7 +39,8 @@ module.exports = (baseConfig, env) => {
     config.resolve = {
         alias: {
             react: path.join(__dirname, '../node_modules', 'react'),
-            assets: path.join(__dirname, '../src/app/assets')
+            assets: path.join(__dirname, '../src/app/assets'),
+            decorators: path.join(__dirname, '../.storybook/decorators')
         },
         extensions: ['.js', '.json', '.jsx'],
         modules: [
@@ -61,10 +62,6 @@ module.exports = (baseConfig, env) => {
             {test: /\.svg$/, use: 'svg-inline-loader'},
             {
                 test: require.resolve("blueimp-file-upload"),
-                use: "imports?define=>false"
-            },
-            {
-                test: require.resolve("medium-editor-insert-plugin"),
                 use: "imports?define=>false"
             },
             {

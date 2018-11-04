@@ -32,7 +32,7 @@ class SignUp extends React.Component {
                         style={{ margin: '20px', padding: '40px' }}
                     >
                         <p>
-                            Membership to Vox.community is now under invitation
+                            Membership to next.vox.community is now under invitation
                             only because of unexpectedly high sign up rate.
                             Submit your email to get on the waiting list.
                         </p>

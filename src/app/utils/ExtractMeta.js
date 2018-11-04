@@ -1,6 +1,7 @@
 import extractContent from 'app/utils/ExtractContent';
 import { objAccessor } from 'app/utils/Accessors';
 import normalizeProfile from 'app/utils/NormalizeProfile';
+import { makeCanonicalLink } from 'app/utils/CanonicalLinker.js';
 
 const site_desc =
     'Vox is a social media platform where everyone gets paid for creating and curating content. It leverages a robust digital points system (Steem) for digital rewards.';
@@ -38,7 +39,8 @@ export default function extractMeta(chain_data, rp) {
         if (content && content.id !== '0.0.0') {
             // API currently returns 'false' data with id 0.0.0 for posts that do not exist
             const d = extractContent(objAccessor, content, false);
-            const url = 'https://vox.community' + d.link;
+            const url = 'https://next.vox.community' + d.link;
+            const canonicalUrl = makeCanonicalLink(d);
             const title = d.title + ' — Vox';
             const desc = d.desc + ' by ' + d.author;
             const image = d.image_link || profile.profile_image;
@@ -46,7 +48,7 @@ export default function extractMeta(chain_data, rp) {
 
             // Standard meta
             metas.push({ title });
-            metas.push({ canonical: url });
+            metas.push({ canonical: canonicalUrl });
             metas.push({ name: 'description', content: desc });
 
             // Open Graph data
@@ -55,7 +57,7 @@ export default function extractMeta(chain_data, rp) {
             metas.push({ name: 'og:url', content: url });
             metas.push({
                 name: 'og:image',
-                content: image || 'https://vox.community/images/vox.png',
+                content: image || 'https://next.vox.community/images/steemit.png',
             });
             metas.push({ name: 'og:description', content: desc });
             metas.push({ name: 'og:site_name', content: 'Vox' });
@@ -76,7 +78,8 @@ export default function extractMeta(chain_data, rp) {
             metas.push({ name: 'twitter:description', content: desc });
             metas.push({
                 name: 'twitter:image',
-                content: image || 'https://vox.community/images/vox.png',
+                content:
+                    image || 'https://next.vox.community/images/steemit-twshare-2.png',
             });
         } else {
             addSiteMeta(metas);
@@ -90,7 +93,7 @@ export default function extractMeta(chain_data, rp) {
             about =
                 'Join thousands on vox who share, post and earn rewards.';
         if (profile_image == null)
-            profile_image = 'https://vox.community/images/vox.png';
+            profile_image = 'https://next.vox.community/images/steemit-twshare-2.png';
         // Set profile tags
         const title = `@${account.name}`;
         const desc = `The latest posts from ${name}. Follow me at @${
