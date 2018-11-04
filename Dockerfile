@@ -25,7 +25,7 @@ COPY . /var/app
 #  npm run build
 
 RUN mkdir tmp && \
-    yarn test && yarn build
+    yarn build
 
 ENV PORT 8080
 ENV NODE_ENV production
